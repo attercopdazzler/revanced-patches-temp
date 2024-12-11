@@ -44,7 +44,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_check_environment_not_near_patch_time_invalid">APK-Erstellungsdatum ist beschädigt</string>
   </patch>
   <patch id="misc.settings.settingsResourcePatch">
-  <string name="revanced_settings_title">ReVanced</string>
   <string name="revanced_settings_confirm_user_dialog_title">Möchtest du fortfahren?</string>
   <string name="revanced_settings_reset">Zurücksetzen</string>
   <string name="revanced_settings_restart_title">Aktualisieren und neu starten</string>
@@ -419,7 +418,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_swipe_lowest_value_enable_auto_brightness_title">Auto-Helligkeit Geste aktivieren</string>
   <string name="revanced_swipe_lowest_value_enable_auto_brightness_summary_on">Wische runter auf den niedrigsten Wert der Helligkeitsgeste, um die automatische Helligkeit zu aktivieren</string>
   <string name="revanced_swipe_lowest_value_enable_auto_brightness_summary_off">Wenn man zum niedrigsten Wert wischt, aktiviert man die automatische Helligkeit nicht</string>
-  <string name="revanced_swipe_lowest_value_enable_auto_brightness_overlay_text">Auto</string>
   <string name="revanced_swipe_overlay_timeout_title">Wischüberlagerungs-Timeout</string>
   <string name="revanced_swipe_overlay_timeout_summary">Die Anzahl der Millisekunden, die das Overlay sichtbar ist</string>
   <string name="revanced_swipe_text_overlay_size_title">Wischüberlagerung Textgröße</string>
@@ -462,7 +460,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_thanks_button_summary_on">Dankeschön-Taste ist ausgeblendet</string>
   <string name="revanced_hide_thanks_button_summary_off">Dankeschön Button wird angezeigt</string>
   <!-- 'Clip' should be translated with the same localized wording that YouTube displays. -->
-  <string name="revanced_hide_clip_button_title">Hide Clip</string>
   <string name="revanced_hide_clip_button_summary_on">Clip-Button ist ausgeblendet</string>
   <string name="revanced_hide_clip_button_summary_off">Clip-Taste wird angezeigt</string>
   <!-- 'Save' should be translated with the same localized wording that YouTube displays. -->
@@ -471,7 +468,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_playlist_button_summary_off">In Wiedergabeliste speichern wird angezeigt</string>
   </patch>
   <patch id="layout.buttons.navigation.navigationButtonsPatch">
-  <string name="revanced_navigation_buttons_screen_title">Navigation buttons</string>
   <string name="revanced_navigation_buttons_screen_summary">Verstecke oder ändere Schaltflächen in der Navigationsleiste</string>
   <!-- 'Home' should be translated using the same localized wording YouTube displays for the tab. -->
   <string name="revanced_hide_home_button_title">Haus ausblenden</string>
@@ -498,7 +494,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_navigation_button_labels_summary_off">Labels werden angezeigt</string>
   </patch>
   <patch id="layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch">
-  <string name="revanced_hide_player_flyout_title">Flyout menu</string>
   <string name="revanced_hide_player_flyout_summary">Verstecke oder zeige Player-Flyout-Menüeinträge</string>
   <!-- 'Captions' should be translated using the same localized wording YouTube displays for the menu item. -->
   <string name="revanced_hide_player_flyout_captions_title">Bildunterschriften ausblenden</string>
@@ -868,7 +863,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_skip_button_intro_beginning">Einleitung überspringen</string>
   <string name="revanced_sb_skip_button_intro_middle">Unterbrechung überspringen</string>
   <string name="revanced_sb_skip_button_intro_end">Unterbrechung überspringen</string>
-  <string name="revanced_sb_skip_button_outro">Skip outro</string>
   <string name="revanced_sb_skip_button_preview_beginning">Vorschau überspringen</string>
   <string name="revanced_sb_skip_button_preview_middle">Vorschau überspringen</string>
   <string name="revanced_sb_skip_button_preview_end">Rückfall überspringen</string>
@@ -985,7 +979,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_change_start_page_entry_history">Verlauf</string>
   <string name="revanced_change_start_page_entry_library">Bibliothek</string>
   <string name="revanced_change_start_page_entry_liked_videos">Videos, die ich mag</string>
-  <string name="revanced_change_start_page_entry_live">Live</string>
   <string name="revanced_change_start_page_entry_movies">Filme</string>
   <string name="revanced_change_start_page_entry_music">Musik</string>
   <string name="revanced_change_start_page_entry_search">Suchen</string>
@@ -1000,7 +993,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_disable_resuming_shorts_player_summary_off">Shorts-Player wird beim Start der App fortgesetzt</string>
   </patch>
   <patch id="layout.shortsautoplay.shortsAutoplayPatch">
-  <string name="revanced_shorts_autoplay_title">Autoplay Shorts</string>
   <string name="revanced_shorts_autoplay_summary_on">Shorts werden autoplay</string>
   <string name="revanced_shorts_autoplay_summary_off">Shorts wiederholen</string>
   <string name="revanced_shorts_autoplay_background_title">Autoplay Shorts Hintergrund spielen</string>
@@ -1014,16 +1006,11 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_tablet_layout_user_dialog_message">Community-Beiträge werden nicht auf Tablet Layouts angezeigt</string>
   </patch>
   <patch id="layout.miniplayer.miniplayerPatch">
-  <string name="revanced_miniplayer_screen_title">Miniplayer</string>
   <string name="revanced_miniplayer_screen_summary">Ändere den Stil des in App minimierten Players</string>
   <string name="revanced_miniplayer_type_title">Minispielertyp</string>
   <string name="revanced_miniplayer_type_entry_0">Deaktiviert</string>
   <string name="revanced_miniplayer_type_entry_1">Standard</string>
-  <string name="revanced_miniplayer_type_entry_2">Minimal</string>
   <string name="revanced_miniplayer_type_entry_3">Tablets</string>
-  <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
-  <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
-  <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
   <string name="revanced_miniplayer_rounded_corners_title">Abgerundete Ecken aktivieren</string>
   <string name="revanced_miniplayer_rounded_corners_summary_on">Ecken sind abgerundet</string>
   <string name="revanced_miniplayer_rounded_corners_summary_off">Ecken sind Quadrat</string>
@@ -1082,7 +1069,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_alt_thumbnail_library_title">Tab</string>
   <string name="revanced_alt_thumbnail_player_title">Playlisten, Empfehlungen</string>
   <string name="revanced_alt_thumbnail_search_title">Suchergebnisse</string>
-  <string name="revanced_alt_thumbnail_options_entry_1">Original thumbnails</string>
   <string name="revanced_alt_thumbnail_options_entry_2">Pfeil &amp; Original-Miniaturansichten</string>
   <string name="revanced_alt_thumbnail_options_entry_3">Pfeil &amp; immer noch erfasst</string>
   <string name="revanced_alt_thumbnail_options_entry_4">Noch Aufnahmen</string>
@@ -1090,7 +1076,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_title">Einen Toast anzeigen, wenn die API nicht verfügbar ist</string>
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_on">Toast wird angezeigt, wenn der Pfeil nicht verfügbar ist</string>
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">Toast wird nicht angezeigt, wenn der Pfeil nicht verfügbar ist</string>
-  <string name="revanced_alt_thumbnail_dearrow_api_url_title">DeArrow API endpoint</string>
   <string name="revanced_alt_thumbnail_dearrow_api_url_summary">Die URL des Cache Endpunkts der DeArrow Thumbnails</string>
   <string name="revanced_alt_thumbnail_stills_about_title">Noch Videoaufnahmen</string>
   <string name="revanced_alt_thumbnail_stills_about_summary">Die Aufnahmen werden immer noch von Anfang an / Mitte / Ende jedes Videos übernommen. Diese Bilder sind in YouTube eingebaut und es wird keine externe API verwendet</string>
@@ -1155,14 +1140,11 @@ This is because Crowdin requires temporarily flattening this file and removing t
   </patch>
   <patch id="video.quality.rememberVideoQualityPatch">
   <!-- Translations should use the same text as revanced_custom_playback_speeds_auto -->
-  <string name="revanced_video_quality_default_entry_1">Auto</string>
   <string name="revanced_remember_video_quality_last_selected_title">Änderungen der Videoqualität merken</string>
   <string name="revanced_remember_video_quality_last_selected_summary_on">Qualitätsänderungen gelten für alle Videos</string>
   <string name="revanced_remember_video_quality_last_selected_summary_off">Qualitätsänderungen gelten nur für das aktuelle Video</string>
   <string name="revanced_video_quality_default_wifi_title">Standard-Videoqualität im Wi-Fi-Netzwerk</string>
   <string name="revanced_video_quality_default_mobile_title">Standard-Videoqualität im Mobilfunknetz</string>
-  <string name="revanced_remember_video_quality_mobile">mobile</string>
-  <string name="revanced_remember_video_quality_wifi">wifi</string>
   <string name="revanced_remember_video_quality_toast">Standard %1$s Qualität geändert zu: %2$s</string>
   </patch>
   <patch id="video.speed.button.playbackSpeedButtonPatch">
@@ -1178,7 +1160,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_custom_playback_speeds_summary">Hinzufügen oder Ändern der benutzerdefinierten Wiedergabegeschwindigkeit</string>
   <string name="revanced_custom_playback_speeds_invalid">Benutzerdefinierte Geschwindigkeiten müssen kleiner als %ssein. Standardwerte werden verwendet.</string>
   <string name="revanced_custom_playback_speeds_parse_exception">Ungültige benutzerdefinierte Wiedergabegeschwindigkeiten. Standardwerte verwenden.</string>
-  <string name="revanced_custom_playback_speeds_auto">Auto</string>
   </patch>
   <patch id="video.speed.remember.rememberPlaybackSpeedPatch">
   <string name="revanced_remember_playback_speed_last_selected_title">Änderungen der Wiedergabegeschwindigkeit merken</string>
@@ -1230,42 +1211,30 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_language_FA">Persisch</string>
   <string name="revanced_spoof_video_streams_language_FI">Finnisch</string>
   <string name="revanced_spoof_video_streams_language_FR">Französisch</string>
-  <string name="revanced_spoof_video_streams_language_GU">Gujarati</string>
   <string name="revanced_spoof_video_streams_language_HI">Hannah</string>
   <string name="revanced_spoof_video_streams_language_HR">Kroatisch</string>
   <string name="revanced_spoof_video_streams_language_HU">Ungarisch</string>
   <string name="revanced_spoof_video_streams_language_ID">Indonesisch</string>
   <string name="revanced_spoof_video_streams_language_IT">Italienisch</string>
   <string name="revanced_spoof_video_streams_language_JA">Japanisch</string>
-  <string name="revanced_spoof_video_streams_language_KK">Kazakh</string>
   <string name="revanced_spoof_video_streams_language_KO">Koreanisch</string>
   <string name="revanced_spoof_video_streams_language_LT">Litauisch</string>
   <string name="revanced_spoof_video_streams_language_LV">Lettisch</string>
   <string name="revanced_spoof_video_streams_language_MK">Makedonisch</string>
   <string name="revanced_spoof_video_streams_language_MN">Mongolisch</string>
-  <string name="revanced_spoof_video_streams_language_MR">Marathi</string>
   <string name="revanced_spoof_video_streams_language_MS">Malaiisch</string>
-  <string name="revanced_spoof_video_streams_language_MY">Burmese</string>
   <string name="revanced_spoof_video_streams_language_NL">Niederländisch</string>
-  <string name="revanced_spoof_video_streams_language_OR">Odia</string>
-  <string name="revanced_spoof_video_streams_language_PA">Punjabi</string>
   <string name="revanced_spoof_video_streams_language_PL">Polnisch</string>
   <string name="revanced_spoof_video_streams_language_PT_BR">Portugiesisch (Brasilien)</string>
   <string name="revanced_spoof_video_streams_language_PT_PT">Portugiesisch (Portugal)</string>
   <string name="revanced_spoof_video_streams_language_RO">Rumänisch</string>
   <string name="revanced_spoof_video_streams_language_RU">Russisch</string>
   <string name="revanced_spoof_video_streams_language_SK">Slowakisch</string>
-  <string name="revanced_spoof_video_streams_language_SL">Slovene</string>
   <string name="revanced_spoof_video_streams_language_SR">Serbisch</string>
   <string name="revanced_spoof_video_streams_language_SV">Schwedisch</string>
-  <string name="revanced_spoof_video_streams_language_SW">Swahili</string>
-  <string name="revanced_spoof_video_streams_language_TA">Tamil</string>
-  <string name="revanced_spoof_video_streams_language_TE">Telugu</string>
   <string name="revanced_spoof_video_streams_language_TH">Thailändisch</string>
   <string name="revanced_spoof_video_streams_language_TR">Türkisch</string>
   <string name="revanced_spoof_video_streams_language_UK">Ukrainische</string>
-  <string name="revanced_spoof_video_streams_language_UR">Urdu</string>
-  <string name="revanced_spoof_video_streams_language_VI">Vietnamese</string>
   <string name="revanced_spoof_video_streams_language_ZH">Chinesisch</string>
   </patch>
   </app>
@@ -1312,7 +1281,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_about_summary">Über ReVanced</string>
   <string name="revanced_ads_screen_title">Werbung</string>
   <string name="revanced_ads_screen_summary">Werbeblocker-Einstellungen</string>
-  <string name="revanced_chat_screen_title">Chat</string>
   <string name="revanced_chat_screen_summary">Chat-Einstellungen</string>
   <string name="revanced_misc_screen_title">Sonstiges</string>
   <string name="revanced_misc_screen_summary">Verschiedene Einstellungen</string>

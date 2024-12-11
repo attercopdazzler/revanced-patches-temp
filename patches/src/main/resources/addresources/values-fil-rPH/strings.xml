@@ -33,6 +33,14 @@ This is because Crowdin requires temporarily flattening this file and removing t
 <resources>
   <app id="shared">
   <patch id="misc.checks.checkEnvironmentPatch">
+  <string name="revanced_check_environment_failed_title">Nabigo ang mga pagsusuri</string>
+  <string name="revanced_check_environment_dialog_open_official_source_button">Buksan ang Opisyal na Website</string>
+  <string name="revanced_check_environment_dialog_ignore_button">Balewalain</string>
+  <string name="revanced_check_environment_not_same_patching_device">Naka-patch sa ibang device</string>
+  <string name="revanced_check_environment_manager_not_expected_installer">Hindi naka-install sa pamamagitan ng ReVanced Manager</string>
+  <string name="revanced_check_environment_not_near_patch_time">Naka-patch mahigit sa 10 minuto ang nakararaan</string>
+  <string name="revanced_check_environment_not_near_patch_time_days">Naka-patch %s araw ang nakalipas</string>
+  <string name="revanced_check_environment_not_near_patch_time_invalid">Ang petsa ng pagbuo ng APK ay sira</string>
   </patch>
   <patch id="misc.settings.settingsResourcePatch">
   <string name="revanced_settings_confirm_user_dialog_title">Gusto mo bang magpatuloy?</string>
@@ -60,7 +68,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="gms_core_dialog_title">Kailangan ng aksyon</string>
   <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">Walang pahintulot ang MicroG GmsCore na tumakbo sa background.\n\nSundin ang gabay na \"Don\"t kill my app\" para sa iyong telepono, at ilapat ang mga tagubilin sa iyong pag-install ng MicroG.\n\nKailangan ito para sa app upang gumana.</string>
   <string name="gms_core_dialog_open_website_text">Buksan ang website</string>
-  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Dapat na hindi pinagana ang mga pag-optimize ng baterya ng MicroG GmsCore upang maiwasan ang mga isyu.\n\nI-tap ang button na magpatuloy at huwag paganahin ang mga pag-optimize ng baterya.</string>
+  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Kailangang huwag paganahin ang mga pag-optimize ng baterya ng MicroG GmsCore upang maiwasan ang mga problema.\n\nAng paghuhugas ng mga pag-optimize ng baterya para sa MicroG ay hindi makakaapekto nang negatibo sa paggamit ng baterya.\n\nI-tap ang pindutan na magpatuloy at payagan ang mga pagbabago sa pag-optimize.</string>
   <string name="gms_core_dialog_continue_text">Magpatuloy</string>
   </patch>
   </app>
@@ -72,12 +80,15 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_settings_screen_03_feed_title">Magpakain</string>
   <string name="revanced_settings_screen_04_player_title">Manlalaro</string>
   <string name="revanced_settings_screen_05_general_title">Pangkalahatang layout</string>
+  <string name="revanced_settings_screen_07_seekbar_title">Seekbar</string>
   <string name="revanced_settings_screen_08_swipe_controls_title">Mga kontrol sa pag-swipe</string>
+  <string name="revanced_settings_screen_11_misc_title">Iba pa</string>
+  <string name="revanced_settings_screen_12_video_title">Video</string>
   </patch>
   <patch id="misc.backgroundplayback.backgroundPlaybackPatch">
   </patch>
   <patch id="misc.debugging.enableDebuggingPatch">
-  <string name="revanced_debug_screen_title">Pag-debug</string>
+  <string name="revanced_debug_screen_title">Pagde-debug</string>
   <string name="revanced_debug_screen_summary">Paganahin o huwag paganahin ang mga opsyon sa pag-debug</string>
   <string name="revanced_debug_title">Pag-log sa pag-debug</string>
   <string name="revanced_debug_summary_on">Ang mga debug log ay pinagana</string>
@@ -510,7 +521,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_player_previous_next_buttons_summary_on">Nakatago ang mga pindutan</string>
   <string name="revanced_hide_player_previous_next_buttons_summary_off">Ang mga pindutan ay ipinapakita</string>
   <string name="revanced_hide_cast_button_title">Itago ang cast button</string>
-  <string name="revanced_hide_cast_button_summary_on">Nakatago ang pindutan sa cast</string>
   <string name="revanced_hide_cast_button_summary_off">Nakikita ang cast button</string>
   <!-- This button does not display any text, but 'captions' should be translated using the same wording used as the translation of 'revanced_hide_player_flyout_captions_title' -->
   <string name="revanced_hide_captions_button_title">Button na itago ang mga caption</string>
@@ -1058,6 +1068,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   </patch>
   <patch id="misc.fix.playback.spoofVideoStreamsPatch">
   <string name="revanced_spoof_video_streams_user_dialog_message">Ang pag-off sa setting na ito ay maaaring magdulot ng mga isyu sa pag-playback ng video.</string>
+  <string name="revanced_spoof_video_streams_language_EN">Ingles</string>
+  <string name="revanced_spoof_video_streams_language_FR">Pranses</string>
   </patch>
   </app>
   <app id="twitch">

@@ -180,7 +180,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <patch id="layout.tablet.enableTabletLayoutPatch">
   </patch>
   <patch id="layout.miniplayer.miniplayerPatch">
-  <string name="revanced_miniplayer_type_entry_0">បានផ្ដាច់</string>
   </patch>
   <patch id="layout.theme.themePatch">
   </patch>
@@ -197,7 +196,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <patch id="misc.announcements.announcementsPatch">
   </patch>
   <patch id="misc.dns.checkWatchHistoryDomainNameResolutionPatch">
-  <string name="revanced_check_watch_history_domain_name_dialog_title">ការព្រមាន</string>
   </patch>
   <patch id="misc.autorepeat.autoRepeatPatch">
   </patch>

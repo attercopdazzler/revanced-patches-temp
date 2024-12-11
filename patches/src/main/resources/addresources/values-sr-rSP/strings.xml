@@ -82,6 +82,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_settings_screen_03_feed_title">Фид</string>
   <string name="revanced_settings_screen_04_player_title">Плејер</string>
   <string name="revanced_settings_screen_05_general_title">Општи изглед</string>
+  <string name="revanced_settings_screen_06_shorts_title">Shorts</string>
   <string name="revanced_settings_screen_07_seekbar_title">Трака за премотавање</string>
   <string name="revanced_settings_screen_08_swipe_controls_title">Контроле превлачења</string>
   <string name="revanced_settings_screen_11_misc_title">Разно</string>
@@ -1086,6 +1087,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_alt_thumbnail_options_entry_2">DeArrow и оригиналне сличице</string>
   <string name="revanced_alt_thumbnail_options_entry_3">DeArrow и захвати кадра</string>
   <string name="revanced_alt_thumbnail_options_entry_4">Захвати кадра</string>
+  <string name="revanced_alt_thumbnail_dearrow_about_title">DeArrow</string>
   <string name="revanced_alt_thumbnail_dearrow_about_summary">DeArrow пружа сличице за YouTube видее прикупљене од заједнице. Ове сличице су често релевантније од оних које пружа YouTube\n\nАко је омогућено, линкови видеа ће бити послати на API сервер и никакви други подаци се неће слати. Ако видео нема DeArrow сличице, тада се приказују оригиналне сличице или сличице захвата кадра\n\nДодирните овде да сазнате више о DeArrow-у</string>
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_title">Прикажи искачуће обавештење ако API није доступан</string>
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_on">Искачуће обавештење је приказано, ако DeArrow није доступан</string>

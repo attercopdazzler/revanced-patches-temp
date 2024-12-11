@@ -69,7 +69,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="gms_core_dialog_title">Tindakan diperlukan</string>
   <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">MicroG GmsCore tidak memiliki izin untuk berjalan di latar belakang.\n\nIkuti panduan \"Don\'t kill my app\" untuk ponsel Anda, dan terapkan petunjuk tersebut pada pemasangan MicroG Anda.\n\nIni diperlukan supaya aplikasi dapat berfungsi.</string>
   <string name="gms_core_dialog_open_website_text">Buka situs</string>
-  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Pengoptimalan baterai MicroG GmsCore harus dinonaktifkan untuk mencegah masalah.\n\nKetuk tombol lanjutkan dan matikan pengoptimalan baterai.</string>
+  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Pengoptimalan baterai MicroG GmsCore harus dinonaktifkan untuk mencegah masalah.\n\nMenonaktifkan pengoptimalan baterai MicroG tidak akan berdampak negatif pada penggunaan baterai.\n\nKetuk tombol lanjutkan dan izinkan perubahan pengoptimalan.</string>
   <string name="gms_core_dialog_continue_text">Lanjutkan</string>
   </patch>
   </app>
@@ -83,7 +83,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_settings_screen_05_general_title">Layout umum</string>
   <string name="revanced_settings_screen_07_seekbar_title">Seekbar</string>
   <string name="revanced_settings_screen_08_swipe_controls_title">Kontrol geser</string>
-  <string name="revanced_settings_screen_11_misc_title">Lainnya</string>
+  <string name="revanced_settings_screen_11_misc_title">Lain-lain</string>
   <string name="revanced_settings_screen_12_video_title">Video</string>
   </patch>
   <patch id="misc.backgroundplayback.backgroundPlaybackPatch">
@@ -95,8 +95,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_debug_screen_title">Debugging</string>
   <string name="revanced_debug_screen_summary">Mengaktifkan atau menonaktifkan pilihan debugging</string>
   <string name="revanced_debug_title">Pencatatan debug</string>
-  <string name="revanced_debug_summary_on">Log debug diaktifkan</string>
-  <string name="revanced_debug_summary_off">Log debug dinonaktifkan</string>
+  <string name="revanced_debug_summary_on">Log awakutu diaktifkan</string>
+  <string name="revanced_debug_summary_off">Log awakutu dinonaktifkan</string>
   <string name="revanced_debug_protobuffer_title">Buffer protokol log</string>
   <string name="revanced_debug_protobuffer_summary_on">Log debug termasuk buffer proto</string>
   <string name="revanced_debug_protobuffer_summary_off">Log debug tidak menyertakan buffer proto</string>
@@ -626,8 +626,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_shorts_super_thanks_button_summary_on">Tombol super thanks disembunyikan</string>
   <string name="revanced_hide_shorts_super_thanks_button_summary_off">Tombol super thanks ditampilkan</string>
   <string name="revanced_hide_shorts_tagged_products_title">Sembunyikan produk yang ditag</string>
-  <string name="revanced_hide_shorts_tagged_products_summary_on">Produk yang ditag disembunyikan</string>
-  <string name="revanced_hide_shorts_tagged_products_summary_off">Produk yang ditag ditampilkan</string>
+  <string name="revanced_hide_shorts_tagged_products_summary_on">Produk yang ditandai disembunyikan</string>
+  <string name="revanced_hide_shorts_tagged_products_summary_off">Produk yang ditandai ditampilkan</string>
   <string name="revanced_hide_shorts_location_label_title">Sembunyikan label lokasi</string>
   <string name="revanced_hide_shorts_location_label_summary_on">Label lokasi disembunyikan</string>
   <string name="revanced_hide_shorts_location_label_summary_off">Label lokasi ditampilkan</string>
@@ -1209,7 +1209,10 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_ios_force_avc_summary_off">Kodek video ditentukan otomatis</string>
   <string name="revanced_spoof_video_streams_ios_force_avc_user_dialog_message">Mengaktifkan ini dapat meningkatkan daya tahan baterai dan memperbaiki pemutaran yang tersendat-sendat.\n\nAVC memiliki resolusi maksimum 1080p, kodek audio Opus tidak tersedia, dan pemutaran video akan menggunakan lebih banyak data internet daripada VP9 atau AV1.</string>
   <string name="revanced_spoof_video_streams_about_ios_title">Efek samping pemalsuan iOS</string>
+  <string name="revanced_spoof_video_streams_about_ios_summary">• Video anak-anak pribadi mungkin tidak dapat diputar\n• Siaran langsung dimulai dari awal\n• Video berakhir 1 detik lebih awal</string>
   <string name="revanced_spoof_video_streams_about_android_vr_title">Efek samping pemalsuan Android VR</string>
+  <string name="revanced_spoof_video_streams_about_android_vr_summary">• Video anak-anak mungkin tidak dapat diputar\n• Siaran langsung dimulai dari awal\n• Video berakhir 1 detik lebih awal</string>
+  <string name="revanced_spoof_video_streams_language_title">Bahasa aliran audio bawaan</string>
   <string name="revanced_spoof_video_streams_language_DEFAULT">Bahasa aplikasi</string>
   <string name="revanced_spoof_video_streams_language_AR">Arab</string>
   <string name="revanced_spoof_video_streams_language_AZ">Azerbaijan</string>

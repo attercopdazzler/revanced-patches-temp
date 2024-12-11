@@ -609,7 +609,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_shorts_shop_button_summary_on">ショップボタンは非表示です</string>
   <string name="revanced_hide_shorts_shop_button_summary_off">ショップボタンが表示されます</string>
   <string name="revanced_hide_shorts_super_thanks_button_title">感謝ボタンを隠す</string>
-  <string name="revanced_hide_shorts_super_thanks_button_summary_on">Super thanks button is hidden</string>
   <string name="revanced_hide_shorts_super_thanks_button_summary_off">Super thanks ボタンが表示されます</string>
   <string name="revanced_hide_shorts_tagged_products_title">タグ付き製品を非表示</string>
   <string name="revanced_hide_shorts_tagged_products_summary_on">タグ付けされた商品は非表示です</string>
@@ -642,7 +641,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_shorts_like_fountain_summary_on">ボタン噴水のアニメーションが非表示になります</string>
   <string name="revanced_hide_shorts_like_fountain_summary_off">ボタン噴水のようなアニメーションが表示されます</string>
   <string name="revanced_hide_shorts_like_button_title">「いいね」ボタンを隠す</string>
-  <string name="revanced_hide_shorts_like_button_summary_on">Like button is hidden</string>
   <string name="revanced_hide_shorts_like_button_summary_off">いいねボタンが表示されます</string>
   <string name="revanced_hide_shorts_dislike_button_title">低評価ボタンを隠す</string>
   <string name="revanced_hide_shorts_dislike_button_summary_on">低評価ボタンは非表示です</string>
@@ -738,7 +736,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_ryd_statistics_getFetchCallResponseTimeMax_title">API応答時間、最大値</string>
   <string name="revanced_ryd_statistics_getFetchCallResponseTimeLast_title">API応答時間、最後の動画</string>
   <string name="revanced_ryd_statistics_getFetchCallResponseTimeLast_rate_limit_summary">低評価数は一時的に利用できません - Client API のレート制限が原因です</string>
-  <string name="revanced_ryd_statistics_getFetchCallCount_title">API fetch votes, number of calls</string>
   <string name="revanced_ryd_statistics_getFetchCallCount_zero_summary">ネットワーク通話がありません</string>
   <string name="revanced_ryd_statistics_getFetchCallCount_non_zero_summary">%d ネットワーク通話</string>
   <string name="revanced_ryd_statistics_getFetchCallNumberOfFailures_title">API fetch votes, number of timeout</string>
@@ -852,7 +849,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_skip_button_intro_beginning">イントロをスキップ</string>
   <string name="revanced_sb_skip_button_intro_middle">間隔をスキップ</string>
   <string name="revanced_sb_skip_button_intro_end">間隔をスキップ</string>
-  <string name="revanced_sb_skip_button_outro">Skip outro</string>
   <string name="revanced_sb_skip_button_preview_beginning">プレビューをスキップ</string>
   <string name="revanced_sb_skip_button_preview_middle">プレビューをスキップ</string>
   <string name="revanced_sb_skip_button_preview_end">要約をスキップ</string>
@@ -993,7 +989,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_tablet_layout_user_dialog_message">タブレットのレイアウトではコミュニティ投稿は表示されません</string>
   </patch>
   <patch id="layout.miniplayer.miniplayerPatch">
-  <string name="revanced_miniplayer_screen_title">ミニプレイヤー</string>
   <string name="revanced_miniplayer_screen_summary">アプリの最小化プレイヤーのスタイルを変更する</string>
   <string name="revanced_miniplayer_type_title">ミニプレーヤータイプ</string>
   <string name="revanced_miniplayer_type_entry_0">無効</string>
@@ -1067,7 +1062,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_title">API が利用できない場合はトーストを表示</string>
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_on">DeArrowが利用できない場合はトーストが表示されます</string>
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">DeArrowが利用できない場合でもトーストは表示されません</string>
-  <string name="revanced_alt_thumbnail_dearrow_api_url_title">DeArrow API endpoint</string>
   <string name="revanced_alt_thumbnail_dearrow_api_url_summary">DeArrowサムネイルキャッシュエンドポイントのURL</string>
   <string name="revanced_alt_thumbnail_stills_about_title">静止画サムネイル</string>
   <string name="revanced_alt_thumbnail_stills_about_summary">静止画は各動画の最初/中間/最後から取得されます。これらの画像はYouTubeに組み込まれており、外部 API は使用されていません。</string>
@@ -1139,7 +1133,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_video_quality_default_wifi_title">Wi-Fiネットワーク上のデフォルトのビデオ品質</string>
   <string name="revanced_video_quality_default_mobile_title">モバイルネットワークの既定のビデオ品質</string>
   <string name="revanced_remember_video_quality_mobile">モバイル</string>
-  <string name="revanced_remember_video_quality_wifi">wifi</string>
   <string name="revanced_remember_video_quality_toast">デフォルトの %1$s 品質を %2$sに変更しました</string>
   </patch>
   <patch id="video.speed.button.playbackSpeedButtonPatch">
@@ -1171,8 +1164,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   </patch>
   <patch id="interaction.seekbar.enableSlideToSeekPatch">
   <string name="revanced_slide_to_seek_title">シークするスライドを有効にする</string>
-  <string name="revanced_slide_to_seek_summary_on">Slide to seek is enabled</string>
-  <string name="revanced_slide_to_seek_summary_off">Slide to seek is not enabled</string>
   </patch>
   <patch id="misc.fix.playback.spoofVideoStreamsPatch">
   <string name="revanced_spoof_video_streams_screen_title">動画ストリームを偽装する</string>
@@ -1205,42 +1196,31 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_language_FA">ペルシャ語</string>
   <string name="revanced_spoof_video_streams_language_FI">フィンランド語</string>
   <string name="revanced_spoof_video_streams_language_FR">Français</string>
-  <string name="revanced_spoof_video_streams_language_GU">Gujarati</string>
   <string name="revanced_spoof_video_streams_language_HI">ヒンディー語</string>
   <string name="revanced_spoof_video_streams_language_HR">クロアチア語</string>
   <string name="revanced_spoof_video_streams_language_HU">ハンガリー語</string>
   <string name="revanced_spoof_video_streams_language_ID">インドネシア語</string>
   <string name="revanced_spoof_video_streams_language_IT">イタリア語</string>
   <string name="revanced_spoof_video_streams_language_JA">日本語</string>
-  <string name="revanced_spoof_video_streams_language_KK">Kazakh</string>
-  <string name="revanced_spoof_video_streams_language_KO">Korean</string>
   <string name="revanced_spoof_video_streams_language_LT">リトアニア語</string>
   <string name="revanced_spoof_video_streams_language_LV">ラトビア語</string>
   <string name="revanced_spoof_video_streams_language_MK">マケドニア語</string>
   <string name="revanced_spoof_video_streams_language_MN">モンゴル語</string>
-  <string name="revanced_spoof_video_streams_language_MR">Marathi</string>
   <string name="revanced_spoof_video_streams_language_MS">マレー語</string>
-  <string name="revanced_spoof_video_streams_language_MY">Burmese</string>
   <string name="revanced_spoof_video_streams_language_NL">オランダ語</string>
-  <string name="revanced_spoof_video_streams_language_OR">Odia</string>
-  <string name="revanced_spoof_video_streams_language_PA">Punjabi</string>
   <string name="revanced_spoof_video_streams_language_PL">ポーランド語</string>
   <string name="revanced_spoof_video_streams_language_PT_BR">ポルトガル語 (ブラジル)</string>
   <string name="revanced_spoof_video_streams_language_PT_PT">ポルトガル語 (ポルトガル)</string>
   <string name="revanced_spoof_video_streams_language_RO">ルーマニア語</string>
   <string name="revanced_spoof_video_streams_language_RU">ロシア語</string>
   <string name="revanced_spoof_video_streams_language_SK">スロバキア語</string>
-  <string name="revanced_spoof_video_streams_language_SL">Slovene</string>
   <string name="revanced_spoof_video_streams_language_SR">セルビア語</string>
   <string name="revanced_spoof_video_streams_language_SV">スウェーデン語</string>
   <string name="revanced_spoof_video_streams_language_SW">スワヒリ語</string>
-  <string name="revanced_spoof_video_streams_language_TA">Tamil</string>
-  <string name="revanced_spoof_video_streams_language_TE">Telugu</string>
   <string name="revanced_spoof_video_streams_language_TH">タイ語</string>
   <string name="revanced_spoof_video_streams_language_TR">トルコ語</string>
   <string name="revanced_spoof_video_streams_language_UK">ウクライナ語</string>
   <string name="revanced_spoof_video_streams_language_UR">ウルドゥー語</string>
-  <string name="revanced_spoof_video_streams_language_VI">Vietnamese</string>
   <string name="revanced_spoof_video_streams_language_ZH">中国語</string>
   </patch>
   </app>

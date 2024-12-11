@@ -44,7 +44,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_check_environment_not_near_patch_time_invalid">APK byggdatum är skadat</string>
   </patch>
   <patch id="misc.settings.settingsResourcePatch">
-  <string name="revanced_settings_title">ReVanced</string>
   <string name="revanced_settings_confirm_user_dialog_title">Vill du fortsätta?</string>
   <string name="revanced_settings_reset">Återställ</string>
   <string name="revanced_settings_restart_title">Uppdatera och starta om</string>
@@ -868,7 +867,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_skip_button_intro_beginning">Hoppa över intro</string>
   <string name="revanced_sb_skip_button_intro_middle">Hoppa över paus</string>
   <string name="revanced_sb_skip_button_intro_end">Hoppa över paus</string>
-  <string name="revanced_sb_skip_button_outro">Skip outro</string>
   <string name="revanced_sb_skip_button_preview_beginning">Hoppa över förhandsgranskning</string>
   <string name="revanced_sb_skip_button_preview_middle">Hoppa över förhandsgranskning</string>
   <string name="revanced_sb_skip_button_preview_end">Hoppa över sammanfattning</string>
@@ -984,7 +982,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_change_start_page_entry_history">Historik</string>
   <string name="revanced_change_start_page_entry_library">Bibliotek</string>
   <string name="revanced_change_start_page_entry_liked_videos">Gillade videor</string>
-  <string name="revanced_change_start_page_entry_live">Live</string>
   <string name="revanced_change_start_page_entry_movies">Filmer</string>
   <string name="revanced_change_start_page_entry_music">Musik</string>
   <string name="revanced_change_start_page_entry_search">Sök</string>
@@ -999,7 +996,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_disable_resuming_shorts_player_summary_off">Shorts spelare kommer att återupptas vid appstart</string>
   </patch>
   <patch id="layout.shortsautoplay.shortsAutoplayPatch">
-  <string name="revanced_shorts_autoplay_title">Autoplay Shorts</string>
   <string name="revanced_shorts_autoplay_summary_on">Shorts kommer automatiskt spela upp</string>
   <string name="revanced_shorts_autoplay_summary_off">Shorts kommer att upprepas</string>
   <string name="revanced_shorts_autoplay_background_title">Autoplay Shorts bakgrund spela</string>
@@ -1018,11 +1014,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_miniplayer_type_title">Miniplayer typ</string>
   <string name="revanced_miniplayer_type_entry_0">Inaktiverad</string>
   <string name="revanced_miniplayer_type_entry_1">Standard</string>
-  <string name="revanced_miniplayer_type_entry_2">Minimal</string>
   <string name="revanced_miniplayer_type_entry_3">Surfplatta</string>
-  <string name="revanced_miniplayer_type_entry_4">Modern 1</string>
-  <string name="revanced_miniplayer_type_entry_5">Modern 2</string>
-  <string name="revanced_miniplayer_type_entry_6">Modern 3</string>
   <string name="revanced_miniplayer_rounded_corners_title">Aktivera rundade hörn</string>
   <string name="revanced_miniplayer_rounded_corners_summary_on">Hörnen är rundade</string>
   <string name="revanced_miniplayer_rounded_corners_summary_off">Hörnen är kvadratiska</string>
@@ -1081,7 +1073,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_alt_thumbnail_library_title">Du flik</string>
   <string name="revanced_alt_thumbnail_player_title">Spelarlistor, rekommendationer</string>
   <string name="revanced_alt_thumbnail_search_title">Sökresultat</string>
-  <string name="revanced_alt_thumbnail_options_entry_1">Original thumbnails</string>
   <string name="revanced_alt_thumbnail_options_entry_2">DeArrow &amp; Original miniatyrer</string>
   <string name="revanced_alt_thumbnail_options_entry_3">DeArrow &amp; fångar fortfarande</string>
   <string name="revanced_alt_thumbnail_options_entry_4">Fortfarande fångar</string>
@@ -1089,7 +1080,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_title">Visa ett meddelande om API inte är tillgängligt</string>
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_on">Visa ett meddelande om DeArrow inte är tillgängligt</string>
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">Visa inte ett meddelande om DeArrow inte är tillgängligt</string>
-  <string name="revanced_alt_thumbnail_dearrow_api_url_title">DeArrow API endpoint</string>
   <string name="revanced_alt_thumbnail_dearrow_api_url_summary">URL till DeArrow miniatyrbilds slutpunkt</string>
   <string name="revanced_alt_thumbnail_stills_about_title">Fortfarande videoinspelningar</string>
   <string name="revanced_alt_thumbnail_stills_about_summary">Fortfarande tas bilder från början/mitten/slutet av varje video. Dessa bilder är inbyggda i YouTube och ingen extern API används</string>
@@ -1161,7 +1151,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_video_quality_default_wifi_title">Standard videokvalitet på Wi-Fi-nätverk</string>
   <string name="revanced_video_quality_default_mobile_title">Standard videokvalitet på mobilt nätverk</string>
   <string name="revanced_remember_video_quality_mobile">mobil</string>
-  <string name="revanced_remember_video_quality_wifi">wifi</string>
   <string name="revanced_remember_video_quality_toast">Ändrade standardkvalitet %1$s till: %2$s</string>
   </patch>
   <patch id="video.speed.button.playbackSpeedButtonPatch">
@@ -1229,42 +1218,29 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_language_FA">Persiska</string>
   <string name="revanced_spoof_video_streams_language_FI">Finska</string>
   <string name="revanced_spoof_video_streams_language_FR">Franska</string>
-  <string name="revanced_spoof_video_streams_language_GU">Gujarati</string>
-  <string name="revanced_spoof_video_streams_language_HI">Hindi</string>
   <string name="revanced_spoof_video_streams_language_HR">Kroatiska</string>
   <string name="revanced_spoof_video_streams_language_HU">Ungerska</string>
   <string name="revanced_spoof_video_streams_language_ID">Indonesiska</string>
   <string name="revanced_spoof_video_streams_language_IT">Italienska</string>
   <string name="revanced_spoof_video_streams_language_JA">Japanska</string>
-  <string name="revanced_spoof_video_streams_language_KK">Kazakh</string>
   <string name="revanced_spoof_video_streams_language_KO">Koreanska</string>
   <string name="revanced_spoof_video_streams_language_LT">Litauiska</string>
   <string name="revanced_spoof_video_streams_language_LV">Lettiska</string>
   <string name="revanced_spoof_video_streams_language_MK">Makedonska</string>
   <string name="revanced_spoof_video_streams_language_MN">Mongoliska</string>
-  <string name="revanced_spoof_video_streams_language_MR">Marathi</string>
   <string name="revanced_spoof_video_streams_language_MS">Malajiska</string>
-  <string name="revanced_spoof_video_streams_language_MY">Burmese</string>
   <string name="revanced_spoof_video_streams_language_NL">Holländska</string>
-  <string name="revanced_spoof_video_streams_language_OR">Odia</string>
-  <string name="revanced_spoof_video_streams_language_PA">Punjabi</string>
   <string name="revanced_spoof_video_streams_language_PL">Polska</string>
   <string name="revanced_spoof_video_streams_language_PT_BR">Portugisiska (Brasilien)</string>
   <string name="revanced_spoof_video_streams_language_PT_PT">Portugisiska (Portugal)</string>
   <string name="revanced_spoof_video_streams_language_RO">Rumänska</string>
   <string name="revanced_spoof_video_streams_language_RU">Ryska</string>
   <string name="revanced_spoof_video_streams_language_SK">Slovakiska</string>
-  <string name="revanced_spoof_video_streams_language_SL">Slovene</string>
   <string name="revanced_spoof_video_streams_language_SR">Serbiska</string>
   <string name="revanced_spoof_video_streams_language_SV">Svenska</string>
-  <string name="revanced_spoof_video_streams_language_SW">Swahili</string>
-  <string name="revanced_spoof_video_streams_language_TA">Tamil</string>
-  <string name="revanced_spoof_video_streams_language_TE">Telugu</string>
   <string name="revanced_spoof_video_streams_language_TH">Thailändska</string>
   <string name="revanced_spoof_video_streams_language_TR">Turkiska</string>
   <string name="revanced_spoof_video_streams_language_UK">Ukrainska</string>
-  <string name="revanced_spoof_video_streams_language_UR">Urdu</string>
-  <string name="revanced_spoof_video_streams_language_VI">Vietnamese</string>
   <string name="revanced_spoof_video_streams_language_ZH">Kinesiska</string>
   </patch>
   </app>
@@ -1280,7 +1256,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_block_embedded_ads_title">Blockera inbäddade videoannonser</string>
   <string name="revanced_block_embedded_ads_entry_1">Inaktiverad</string>
   <string name="revanced_block_embedded_ads_entry_2">Lysande proxy</string>
-  <string name="revanced_block_embedded_ads_entry_3">PurpleAdBlock proxy</string>
   </patch>
   <patch id="ad.video.videoAdsPatch">
   <string name="revanced_block_video_ads_title">Blockera videoannonser</string>

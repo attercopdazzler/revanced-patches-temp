@@ -1019,7 +1019,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_miniplayer_type_entry_0">Desactivado</string>
   <string name="revanced_miniplayer_type_entry_1">Predeterminado</string>
   <string name="revanced_miniplayer_type_entry_2">Mínimo</string>
-  <string name="revanced_miniplayer_type_entry_3">Tablet</string>
   <string name="revanced_miniplayer_type_entry_4">Moderna 1</string>
   <string name="revanced_miniplayer_type_entry_5">Moderna 2</string>
   <string name="revanced_miniplayer_type_entry_6">Moderna 3</string>
@@ -1229,14 +1228,12 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_language_FA">Persa</string>
   <string name="revanced_spoof_video_streams_language_FI">Finlandés</string>
   <string name="revanced_spoof_video_streams_language_FR">Francés</string>
-  <string name="revanced_spoof_video_streams_language_GU">Gujarati</string>
   <string name="revanced_spoof_video_streams_language_HI">Hindú</string>
   <string name="revanced_spoof_video_streams_language_HR">Croata</string>
   <string name="revanced_spoof_video_streams_language_HU">Húngaro</string>
   <string name="revanced_spoof_video_streams_language_ID">Indonesio/a</string>
   <string name="revanced_spoof_video_streams_language_IT">Italiano</string>
   <string name="revanced_spoof_video_streams_language_JA">Japonés</string>
-  <string name="revanced_spoof_video_streams_language_KK">Kazakh</string>
   <string name="revanced_spoof_video_streams_language_KO">Coreano</string>
   <string name="revanced_spoof_video_streams_language_LT">Lituano</string>
   <string name="revanced_spoof_video_streams_language_LV">Letón</string>
@@ -1244,27 +1241,18 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_language_MN">Mongol</string>
   <string name="revanced_spoof_video_streams_language_MR">Maratí</string>
   <string name="revanced_spoof_video_streams_language_MS">Malayo</string>
-  <string name="revanced_spoof_video_streams_language_MY">Burmese</string>
   <string name="revanced_spoof_video_streams_language_NL">Holandés</string>
-  <string name="revanced_spoof_video_streams_language_OR">Odia</string>
-  <string name="revanced_spoof_video_streams_language_PA">Punjabi</string>
   <string name="revanced_spoof_video_streams_language_PL">Polaco</string>
   <string name="revanced_spoof_video_streams_language_PT_BR">Portugués (Brasil)</string>
   <string name="revanced_spoof_video_streams_language_PT_PT">Portugués (R)</string>
   <string name="revanced_spoof_video_streams_language_RO">Rumano</string>
   <string name="revanced_spoof_video_streams_language_RU">Ruso</string>
   <string name="revanced_spoof_video_streams_language_SK">Eslovaco</string>
-  <string name="revanced_spoof_video_streams_language_SL">Slovene</string>
   <string name="revanced_spoof_video_streams_language_SR">Serbio</string>
   <string name="revanced_spoof_video_streams_language_SV">Sueco</string>
-  <string name="revanced_spoof_video_streams_language_SW">Swahili</string>
-  <string name="revanced_spoof_video_streams_language_TA">Tamil</string>
-  <string name="revanced_spoof_video_streams_language_TE">Telugu</string>
   <string name="revanced_spoof_video_streams_language_TH">Tailandés</string>
   <string name="revanced_spoof_video_streams_language_TR">Turco</string>
   <string name="revanced_spoof_video_streams_language_UK">Ucraniano</string>
-  <string name="revanced_spoof_video_streams_language_UR">Urdu</string>
-  <string name="revanced_spoof_video_streams_language_VI">Vietnamese</string>
   <string name="revanced_spoof_video_streams_language_ZH">Chino</string>
   </patch>
   </app>

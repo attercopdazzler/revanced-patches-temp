@@ -69,7 +69,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="gms_core_dialog_title">Потрібна дія</string>
   <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">MicroG GmsCore не має дозволу працювати у фоновому режимі.\n\nДотримуйтеся посібника \"Don\'t kill my app\" для Вашого телефону і слідкуйте інструкціям для вашої установки MicroG.\n\nЦе необхідно для роботи програми.</string>
   <string name="gms_core_dialog_open_website_text">Відкрити вебсайт</string>
-  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Для MicroG GmsCore не встановлено режим \"Без обмежень\" в оптимізації живлення.\n\nНатисніть кнопку \"Продовжити\" та вимкніть оптимізацію живлення.</string>
+  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Оптимізацію батареї для MicroG GmsCore потрібно вимкнути, щоб запобігти проблемам.\n\nВимкнення оптимізації батареї для MicroG не вплине негативно на використання батареї.\n\nНатисніть кнопку \"Продовжити\" та вимкніть оптимізацію.</string>
   <string name="gms_core_dialog_continue_text">Продовжити</string>
   </patch>
   </app>
@@ -1194,7 +1194,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <patch id="interaction.seekbar.enableSlideToSeekPatch">
   <string name="revanced_slide_to_seek_title">Увімкнути перемотку пересуванням</string>
   <string name="revanced_slide_to_seek_summary_on">Перемотку пересуванням увімкнуто\n\nУвімкнуто поведінку старого інтерфейсу \"Проведіть пальцем, щоб перемотати\"</string>
-  <string name="revanced_slide_to_seek_summary_off">Перемотку пересуванням вимкнуто\n\nУвімкнуто поведінку нового інтерфейсу прискорення \"2х >>\" при утриманні на екрані</string>
+  <string name="revanced_slide_to_seek_summary_off">Перемотку пересуванням вимкнуто\n\nУвімкнуто поведінку нового інтерфейсу прискорення \"2х &gt;&gt;\" при утриманні на екрані</string>
   </patch>
   <patch id="misc.fix.playback.spoofVideoStreamsPatch">
   <string name="revanced_spoof_video_streams_screen_title">Підробка відеопотоків</string>
@@ -1209,8 +1209,10 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_ios_force_avc_summary_off">Відеокодек визначається автоматично</string>
   <string name="revanced_spoof_video_streams_ios_force_avc_user_dialog_message">Увімкнення цієї опції може збільшити час роботи від акумулятора та виправити затримки відтворення.\n\nAVC має максимальну роздільну здатність 1080p, відсутній аудіо кодек OPUS, а відтворення відео використовуватиме більше інтернет-даних, ніж на кодеках VP9 або AV1.</string>
   <string name="revanced_spoof_video_streams_about_ios_title">Побічні ефекти підробки iOS:</string>
+  <string name="revanced_spoof_video_streams_about_ios_summary">• Приватні дитячі відео можуть не відтворюватися\n• Прямі трансляції починаються з початку\n• Відео закінчуються на 1 секунду раніше</string>
   <string name="revanced_spoof_video_streams_about_android_vr_title">Побічні ефекти підробки Android VR:</string>
-  <string name="revanced_spoof_video_streams_language_title">Мова аудіо-потоків за замовчуванням</string>
+  <string name="revanced_spoof_video_streams_about_android_vr_summary">• Дитячі відео можуть не відтворюватися\n• Прямі трансляції починаються з початку\n• Відео закінчуються на 1 секунду раніше</string>
+  <string name="revanced_spoof_video_streams_language_title">Стандартна мова аудіопотоку</string>
   <string name="revanced_spoof_video_streams_language_DEFAULT">Мова застосунку</string>
   <string name="revanced_spoof_video_streams_language_AR">Арабська</string>
   <string name="revanced_spoof_video_streams_language_AZ">Азербайджанська</string>

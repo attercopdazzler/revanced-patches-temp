@@ -44,7 +44,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_check_environment_not_near_patch_time_invalid">La date de compilation de l\'APK est corrompue</string>
   </patch>
   <patch id="misc.settings.settingsResourcePatch">
-  <string name="revanced_settings_title">ReVanced</string>
   <string name="revanced_settings_confirm_user_dialog_title">Voulez-vous continuer ?</string>
   <string name="revanced_settings_reset">Réinitialiser</string>
   <string name="revanced_settings_restart_title">Appliquer et redémarrer</string>
@@ -58,7 +57,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_pref_import_export_summary">Importer / Exporter les paramètres ReVanced</string>
   <!-- Settings about dialog. -->
   <string name="revanced_settings_about_links_body">Vous utilisez la version &lt;i&gt;%s&lt;/i&gt; de ReVanced Patches </string>
-  <string name="revanced_settings_about_links_dev_header">Note</string>
   <string name="revanced_settings_about_links_dev_body">Cette version est une pré-version et vous pourriez rencontrer des problèmes inattendus</string>
   <string name="revanced_settings_about_links_header">Liens officiels</string>
   <!-- NOTE: the about strings above are duplicated in the TikTok about screen code,
@@ -868,7 +866,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_skip_button_intro_beginning">Ignorer l\'intro</string>
   <string name="revanced_sb_skip_button_intro_middle">Ignorer l\'intermission</string>
   <string name="revanced_sb_skip_button_intro_end">Ignorer l\'intermission</string>
-  <string name="revanced_sb_skip_button_outro">Skip outro</string>
   <string name="revanced_sb_skip_button_preview_beginning">Ignorer l\'aperçu</string>
   <string name="revanced_sb_skip_button_preview_middle">Ignorer l\'aperçu</string>
   <string name="revanced_sb_skip_button_preview_end">Passer le récapitulatif</string>
@@ -1019,7 +1016,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_miniplayer_type_title">Type de Miniplayer</string>
   <string name="revanced_miniplayer_type_entry_0">Désactivé</string>
   <string name="revanced_miniplayer_type_entry_1">Par défaut</string>
-  <string name="revanced_miniplayer_type_entry_2">Minimal</string>
   <string name="revanced_miniplayer_type_entry_3">Tablette</string>
   <string name="revanced_miniplayer_type_entry_4">Moderne 1</string>
   <string name="revanced_miniplayer_type_entry_5">Moderne 2</string>
@@ -1161,8 +1157,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_remember_video_quality_last_selected_summary_off">Les changements de qualité ne s\'appliquent qu\'à la vidéo actuelle</string>
   <string name="revanced_video_quality_default_wifi_title">Qualité vidéo par défaut sur le réseau Wi-Fi</string>
   <string name="revanced_video_quality_default_mobile_title">Qualité par défaut de la vidéo sur le réseau mobile</string>
-  <string name="revanced_remember_video_quality_mobile">mobile</string>
-  <string name="revanced_remember_video_quality_wifi">wi-fi</string>
   <string name="revanced_remember_video_quality_toast">La qualité %1$s par défaut a été changée en : %2$s</string>
   </patch>
   <patch id="video.speed.button.playbackSpeedButtonPatch">
@@ -1219,7 +1213,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_language_AZ">Azerbaïdjan</string>
   <string name="revanced_spoof_video_streams_language_BG">Bulgare</string>
   <string name="revanced_spoof_video_streams_language_BN">Bengalais</string>
-  <string name="revanced_spoof_video_streams_language_CA">Catalan</string>
   <string name="revanced_spoof_video_streams_language_CS">Tchèque</string>
   <string name="revanced_spoof_video_streams_language_DA">Danois</string>
   <string name="revanced_spoof_video_streams_language_DE">Allemand</string>
@@ -1230,42 +1223,30 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_language_FA">Perse</string>
   <string name="revanced_spoof_video_streams_language_FI">Finlandais</string>
   <string name="revanced_spoof_video_streams_language_FR">Français</string>
-  <string name="revanced_spoof_video_streams_language_GU">Gujarati</string>
-  <string name="revanced_spoof_video_streams_language_HI">Hindi</string>
   <string name="revanced_spoof_video_streams_language_HR">Croate</string>
   <string name="revanced_spoof_video_streams_language_HU">Hongrois</string>
   <string name="revanced_spoof_video_streams_language_ID">Indonésien</string>
   <string name="revanced_spoof_video_streams_language_IT">Italien</string>
   <string name="revanced_spoof_video_streams_language_JA">Japonais</string>
-  <string name="revanced_spoof_video_streams_language_KK">Kazakh</string>
   <string name="revanced_spoof_video_streams_language_KO">Coréen</string>
   <string name="revanced_spoof_video_streams_language_LT">lituanien</string>
   <string name="revanced_spoof_video_streams_language_LV">Lettonie</string>
   <string name="revanced_spoof_video_streams_language_MK">Macédonien</string>
   <string name="revanced_spoof_video_streams_language_MN">Mongol</string>
-  <string name="revanced_spoof_video_streams_language_MR">Marathi</string>
   <string name="revanced_spoof_video_streams_language_MS">Malais</string>
-  <string name="revanced_spoof_video_streams_language_MY">Burmese</string>
   <string name="revanced_spoof_video_streams_language_NL">Néerlandais</string>
-  <string name="revanced_spoof_video_streams_language_OR">Odia</string>
-  <string name="revanced_spoof_video_streams_language_PA">Punjabi</string>
   <string name="revanced_spoof_video_streams_language_PL">Polonais</string>
   <string name="revanced_spoof_video_streams_language_PT_BR">Portugais (Brésil)</string>
   <string name="revanced_spoof_video_streams_language_PT_PT">Portugais (Portugal)</string>
   <string name="revanced_spoof_video_streams_language_RO">Roumain</string>
   <string name="revanced_spoof_video_streams_language_RU">Russe</string>
   <string name="revanced_spoof_video_streams_language_SK">Slovaque</string>
-  <string name="revanced_spoof_video_streams_language_SL">Slovene</string>
   <string name="revanced_spoof_video_streams_language_SR">Serbe</string>
   <string name="revanced_spoof_video_streams_language_SV">Suédois</string>
-  <string name="revanced_spoof_video_streams_language_SW">Swahili</string>
-  <string name="revanced_spoof_video_streams_language_TA">Tamil</string>
-  <string name="revanced_spoof_video_streams_language_TE">Telugu</string>
   <string name="revanced_spoof_video_streams_language_TH">Thaï</string>
   <string name="revanced_spoof_video_streams_language_TR">Turc</string>
   <string name="revanced_spoof_video_streams_language_UK">Ukrainien</string>
   <string name="revanced_spoof_video_streams_language_UR">Ourdou</string>
-  <string name="revanced_spoof_video_streams_language_VI">Vietnamese</string>
   <string name="revanced_spoof_video_streams_language_ZH">Chinois</string>
   </patch>
   </app>

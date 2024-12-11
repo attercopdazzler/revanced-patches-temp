@@ -172,7 +172,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <!-- 'RYD' is 'Return YouTube Dislike' -->
   </patch>
   <patch id="layout.startpage.changeStartPagePatch">
-  <string name="revanced_change_start_page_entry_default">Parasts</string>
   </patch>
   <patch id="layout.startupshortsreset.disableResumingShortsOnStartupPatch">
   </patch>
@@ -181,8 +180,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <patch id="layout.tablet.enableTabletLayoutPatch">
   </patch>
   <patch id="layout.miniplayer.miniplayerPatch">
-  <string name="revanced_miniplayer_type_entry_0">Atspējots</string>
-  <string name="revanced_miniplayer_type_entry_1">Noklusējums</string>
   </patch>
   <patch id="layout.theme.themePatch">
   </patch>
@@ -199,7 +196,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <patch id="misc.announcements.announcementsPatch">
   </patch>
   <patch id="misc.dns.checkWatchHistoryDomainNameResolutionPatch">
-  <string name="revanced_check_watch_history_domain_name_dialog_title">Brīdinājums</string>
   </patch>
   <patch id="misc.autorepeat.autoRepeatPatch">
   </patch>
@@ -246,7 +242,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <!-- Twitch specific internal debug mode, and not the same as 'revanced_debug_title' -->
   </patch>
   <patch id="misc.settings.settingsPatch">
-  <string name="revanced_about_title">Par</string>
   </patch>
   </app>
 </resources>

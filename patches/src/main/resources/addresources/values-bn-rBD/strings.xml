@@ -43,6 +43,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_check_environment_not_near_patch_time_invalid">APK তৈরির তারিখ ত্রুটিপূর্ণ</string>
   </patch>
   <patch id="misc.settings.settingsResourcePatch">
+  <string name="revanced_settings_title">ReVanced</string>
   <string name="revanced_settings_confirm_user_dialog_title">আপনি কি এগিয়ে যেতে ইচ্ছুক?</string>
   <string name="revanced_settings_reset">আবার সেট করুন</string>
   <string name="revanced_settings_restart_title">রিফ্রেশ করুন এবং আবার চালু করুন</string>
@@ -80,12 +81,16 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_settings_screen_03_feed_title">ফিড</string>
   <string name="revanced_settings_screen_04_player_title">প্লেয়ার</string>
   <string name="revanced_settings_screen_05_general_title">সাধারণ লে-আউট</string>
+  <string name="revanced_settings_screen_06_shorts_title">Shorts</string>
   <string name="revanced_settings_screen_07_seekbar_title">সিকবার</string>
   <string name="revanced_settings_screen_08_swipe_controls_title">সোয়াইপ কন্ট্রোল</string>
   <string name="revanced_settings_screen_11_misc_title">বিবিধ</string>
   <string name="revanced_settings_screen_12_video_title">ভিডিও</string>
   </patch>
   <patch id="misc.backgroundplayback.backgroundPlaybackPatch">
+  <string name="revanced_shorts_disable_background_playback_title">Shorts ব্যাকগ্রাউন্ড প্লে অক্ষম করুন</string>
+  <string name="revanced_shorts_disable_background_playback_summary_on">Shorts ব্যাকগ্রাউন্ড প্লে অক্ষম করা হয়েছে</string>
+  <string name="revanced_shorts_disable_background_playback_summary_off">Shorts ব্যাকগ্রাউন্ড প্লে সক্ষম করা হয়েছে</string>
   </patch>
   <patch id="misc.debugging.enableDebuggingPatch">
   <string name="revanced_debug_screen_title">ডিবাগিং</string>
@@ -221,9 +226,16 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_chapters_section_title">চ্যাপ্টার বিভাগ লুকান</string>
   <string name="revanced_hide_chapters_section_summary_on">চ্যাপ্টার বিভাগ লুকিয়ে রয়েছে</string>
   <string name="revanced_hide_chapters_section_summary_off">চ্যাপ্টার বিভাগ প্রদর্শিত হয়েছে</string>
+  <string name="revanced_hide_podcast_section_title">‘পডকাস্ট বিভাগ লুকান’</string>
+  <string name="revanced_hide_podcast_section_summary_on">‘পডকাস্ট বিভাগ’ লুকানো আছে</string>
+  <string name="revanced_hide_podcast_section_summary_off">‘পডকাস্ট বিভাগ’ প্রদর্শিত হয়েছে</string>
   <string name="revanced_hide_info_cards_section_title">তথ্য কার্ড সেকশন লুকান</string>
   <string name="revanced_hide_info_cards_section_summary_on">তথ্য কার্ড সেকশন লুকিয়ে রয়েছে</string>
   <string name="revanced_hide_info_cards_section_summary_off">তথ্য কার্ড সেকশন প্রদর্শিত হয়েছে</string>
+  <string name="revanced_hide_key_concepts_section_title">‘মূল বিষয়বস্তু’ বিভাগ লুকানো আছে</string>
+  <string name="revanced_hide_key_concepts_section_summary_on">‘মূল বিষয়বস্তু’ বিভাগ লুকিয়ে রয়েছে</string>
+  <string name="revanced_hide_key_concepts_section_summary_off">‘मुख्य संकल्पना’ अनुभाग प्रदर्शित होता है</string>
+  <string name="revanced_hide_transcript_section_title">ट्रांसक्रिप्ट अनुभाग छिपाएँ</string>
   <string name="revanced_hide_transcript_section_summary_on">ট্রান্সস্ক্রিপ্ট বিভাগ লুকিয়ে রয়েছে</string>
   <string name="revanced_hide_transcript_section_summary_off">ট্রান্সস্ক্রিপ্ট বিভাগ প্রদর্শিত হয়েছে</string>
   <string name="revanced_hide_description_components_screen_title">ভিডিওর বিবরণ</string>
@@ -260,6 +272,10 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_comments_timestamp_and_emoji_buttons_summary_on">টাইমস্ট্যাম্প ও ইমোজি বোতাম লুকিয়ে রয়েছে</string>
   <string name="revanced_hide_comments_timestamp_and_emoji_buttons_summary_off">টাইমস্ট্যাম্প ও ইমোজি বোতাম প্রদর্শিত হয়েছে</string>
   <!-- https://logos.fandom.com/wiki/YouTube/Yoodles -->
+  <string name="revanced_hide_doodles_title">YouTube Doodles छिपाएँ</string>
+  <string name="revanced_hide_doodles_summary_on">सर्च बार Doodles छिपे हुए हैं</string>
+  <string name="revanced_hide_doodles_summary_off">সার্চ বারে Doodles প্রদর্শিত হয়</string>
+  <string name="revanced_hide_doodles_user_dialog_message">YouTube Doodles কয়েকদিন পরপর দেখা যায়.\n\nযদি আপনার অঞ্চলে বর্তমানে কোনও ডুডল দেখা যায় এবং এই লুকানো সেটিংটি চালু থাকে, তাহলে অনুসন্ধান বারের নীচের ফিল্টার বারটিও লুকানো থাকবে।</string>
   <string name="revanced_custom_filter_screen_title">কাস্টম ফিল্টার</string>
   <string name="revanced_custom_filter_screen_summary">কাস্টম ফিল্টার ব্যবহার করে বিভিন্ন উপাদান লুকান</string>
   <string name="revanced_custom_filter_title">কাস্টম ফিল্টার সক্রিয় করুন</string>
@@ -397,16 +413,32 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_swipe_overlay_background_alpha_title">সোয়াইপ ব্যাকগ্রাউন্ডের দৃশ্যমানতা</string>
   <string name="revanced_swipe_overlay_background_alpha_summary">সোয়াইপ ওভারলে ব্যাকগ্রাউন্ডের দৃশ্যমানতা</string>
   <string name="revanced_swipe_threshold_title">সোয়াইপ থ্রেশহোল্ড এর মাত্রা</string>
+  <string name="revanced_swipe_threshold_summary">The amount of threshold for swipe to occur</string>
   </patch>
   <patch id="layout.autocaptions.autoCaptionsPatch">
   <string name="revanced_auto_captions_title">স্বয়ংক্রিয় ক্যাপশন বন্ধ করুন</string>
+  <string name="revanced_auto_captions_summary_on">Auto captions are disabled</string>
+  <string name="revanced_auto_captions_summary_off">Auto captions are enabled</string>
   </patch>
   <patch id="layout.buttons.action.hideButtonsPatch">
+  <string name="revanced_hide_buttons_screen_summary">Hide or show buttons under videos</string>
+  <string name="revanced_hide_like_dislike_button_title">Hide Like and Dislike</string>
+  <string name="revanced_hide_like_dislike_button_summary_on">Like and Dislike buttons are hidden</string>
+  <string name="revanced_hide_like_dislike_button_summary_off">Like and Dislike buttons are shown</string>
   <!-- 'Share' should be translated with the same localized wording that YouTube displays. -->
+  <string name="revanced_hide_share_button_title">Hide Share</string>
+  <string name="revanced_hide_share_button_summary_on">শেয়ার করুন বোতাম লুকিয়ে রয়েছে</string>
   <!-- 'Report' should be translated with the same localized wording that YouTube displays.
                  This button usually appears only on live streams. -->
+  <string name="revanced_hide_report_button_title">Hide Report</string>
+  <string name="revanced_hide_report_button_summary_on">Report button is hidden</string>
+  <string name="revanced_hide_report_button_summary_off">Report button is shown</string>
   <!-- 'Remix' should be translated with the same localized wording that YouTube displays. -->
+  <string name="revanced_hide_remix_button_title">Hide Remix</string>
+  <string name="revanced_hide_remix_button_summary_on">Remix button is hidden</string>
+  <string name="revanced_hide_remix_button_summary_off">Remix button is shown</string>
   <!-- 'Download' should be translated with the same localized wording that YouTube displays. -->
+  <string name="revanced_hide_download_button_title">Hide Download </string>
   <string name="revanced_hide_download_button_summary_on">ডাউনলোড বোতাম লুকানো আছে</string>
   <string name="revanced_hide_download_button_summary_off">ডাউনলোড বোতাম দেখানো হয়েছে</string>
   <!-- 'Thanks' should be translated with the same localized wording that YouTube displays. -->
@@ -418,6 +450,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_clip_button_summary_on">ক্লিপ বোতাম লুকিয়ে রয়েছে</string>
   <string name="revanced_hide_clip_button_summary_off">ক্লিপ বোতাম প্রদর্শিত হয়েছে</string>
   <!-- 'Save' should be translated with the same localized wording that YouTube displays. -->
+  <string name="revanced_hide_playlist_button_summary_on">Save to playlist button is hidden</string>
+  <string name="revanced_hide_playlist_button_summary_off">Save to playlist button is shown</string>
   </patch>
   <patch id="layout.buttons.navigation.navigationButtonsPatch">
   <string name="revanced_navigation_buttons_screen_title">নেভিগেশন বোতাম</string>
@@ -501,6 +535,12 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_cast_button_summary_on">কাস্ট বাটন লুকিয়ে রয়েছে</string>
   <string name="revanced_hide_cast_button_summary_off">কাস্ট বাটন প্রদর্শিত হয়েছে</string>
   <!-- This button does not display any text, but 'captions' should be translated using the same wording used as the translation of 'revanced_hide_player_flyout_captions_title' -->
+  <string name="revanced_hide_captions_button_title">Hide captions button</string>
+  <string name="revanced_hide_captions_button_summary_on">Captions button is hidden</string>
+  <string name="revanced_hide_captions_button_summary_off">Captions button is shown</string>
+  <string name="revanced_hide_autoplay_button_title">Hide autoplay button</string>
+  <string name="revanced_hide_autoplay_button_summary_on">Autoplay button is hidden</string>
+  <string name="revanced_hide_autoplay_button_summary_off">Autoplay button is shown</string>
   </patch>
   <patch id="layout.hide.endscreencards.hideEndscreenCardsResourcePatch">
   <string name="revanced_hide_endscreen_cards_title">শেষ স্ক্রীন কার্ড লুকান</string>
@@ -1068,6 +1108,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_user_dialog_message">এই সেটিংটি বন্ধ করার ফলে ভিডিও প্লেব্যাক ত্রুটি হতে পারে।</string>
   <string name="revanced_spoof_video_streams_client_title">ডিফল্ট ক্লায়েন্ট</string>
   <string name="revanced_spoof_video_streams_ios_force_avc_title">AVC (H.264) ফোর্স করুন</string>
+  <string name="revanced_spoof_video_streams_language_EN">ইংরেজি</string>
+  <string name="revanced_spoof_video_streams_language_FR">Français</string>
   </patch>
   </app>
   <app id="twitch">

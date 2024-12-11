@@ -33,109 +33,566 @@ This is because Crowdin requires temporarily flattening this file and removing t
 <resources>
   <app id="shared">
   <patch id="misc.checks.checkEnvironmentPatch">
+  <string name="revanced_check_environment_failed_title">Les comprovacions han fallat</string>
+  <string name="revanced_check_environment_dialog_open_official_source_button">Obriu el lloc web oficial</string>
+  <string name="revanced_check_environment_dialog_ignore_button">Ignora</string>
+  <string name="revanced_check_environment_not_same_patching_device">Patchat en un altre dispositiu</string>
+  <string name="revanced_check_environment_manager_not_expected_installer">No s\'ha instal·lat des de ReVanced Manager</string>
+  <string name="revanced_check_environment_not_near_patch_time">S\'ha patchat fa més de 10 minuts</string>
+  <string name="revanced_check_environment_not_near_patch_time_days">S\'ha patchat fa %s dies</string>
+  <string name="revanced_check_environment_not_near_patch_time_invalid">La data de creació de l\'APK està corrupta</string>
   </patch>
   <patch id="misc.settings.settingsResourcePatch">
+  <string name="revanced_settings_confirm_user_dialog_title">Vols continuar?</string>
   <string name="revanced_settings_reset">Restablir</string>
+  <string name="revanced_settings_restart_title">Actualitza i reinicia</string>
+  <string name="revanced_settings_restart">Reinicia</string>
+  <string name="revanced_settings_import">Importa</string>
+  <string name="revanced_settings_import_copy">Copia</string>
+  <string name="revanced_settings_import_reset">La configuració de ReVanced s\'ha restablert als valors predeterminats</string>
+  <string name="revanced_settings_import_success">S\'han importat %d configuracions</string>
+  <string name="revanced_settings_import_failure_parse">No s\'ha pogut importar: %s</string>
+  <string name="revanced_pref_import_export_title">Importa / Exporta</string>
+  <string name="revanced_pref_import_export_summary">Importa / Exporta els ajustos de ReVanced</string>
   <!-- Settings about dialog. -->
+  <string name="revanced_settings_about_links_body">Estàs utilitzant la versió &lt;i&gt;%s&lt;/i&gt; dels pegats de ReVanced</string>
+  <string name="revanced_settings_about_links_dev_header">Nota</string>
+  <string name="revanced_settings_about_links_dev_body">Aquesta versió és prerelease i pot experimentar problemes inesperats</string>
+  <string name="revanced_settings_about_links_header">Enllaços oficials</string>
   <!-- NOTE: the about strings above are duplicated in the TikTok about screen code,
                  and changes made here must also be made there. -->
   </patch>
   <patch id="misc.gms.gmsCoreSupportResourcePatch">
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
+  <string name="gms_core_toast_not_installed_message">MicroG GmsCore no està instal·lat. Instal·la\'l.</string>
+  <string name="gms_core_dialog_title">Cal actuar</string>
+  <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">MicroG GmsCore no té permís per executar-se en segon pla.\n\nSeguiu la guia \"No tanquis la meva aplicació\" del vostre telèfon i apliqueu les instruccions a la vostra instal·lació de MicroG.\n\nAixò és necessari perquè l\'aplicació funcioni.</string>
+  <string name="gms_core_dialog_open_website_text">Obrir el lloc web</string>
+  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Els optimitzadors de bateria de MicroG GmsCore s\'han de desactivar per evitar problemes.\n\nLa desactivació dels optimitzadors de bateria per a MicroG no afectarà negativament l\'ús de la bateria.\n\nToqueu el botó Continua i permeteu els canvis d\'optimització.</string>
+  <string name="gms_core_dialog_continue_text">Continua</string>
   </patch>
   </app>
   <app id="youtube">
   <patch id="misc.settings.settingsPatch">
   <string name="revanced_settings_screen_00_about_title">Quant a</string>
+  <string name="revanced_settings_screen_01_ads_title">Anuncis</string>
+  <string name="revanced_settings_screen_02_alt_thumbnails_title">Miniatures alternatives</string>
+  <string name="revanced_settings_screen_03_feed_title">Canal</string>
+  <string name="revanced_settings_screen_04_player_title">Reproductor</string>
+  <string name="revanced_settings_screen_05_general_title">Disposició general</string>
+  <string name="revanced_settings_screen_07_seekbar_title">Barra de cerca</string>
+  <string name="revanced_settings_screen_08_swipe_controls_title">Controls de gestos</string>
+  <string name="revanced_settings_screen_11_misc_title">Misc</string>
+  <string name="revanced_settings_screen_12_video_title">Vídeo</string>
   </patch>
   <patch id="misc.backgroundplayback.backgroundPlaybackPatch">
+  <string name="revanced_shorts_disable_background_playback_title">Desactivar la reproducció en segon pla de Shorts</string>
+  <string name="revanced_shorts_disable_background_playback_summary_on">La reproducció en segon pla de Shorts està desactivada</string>
+  <string name="revanced_shorts_disable_background_playback_summary_off">La reproducció en segon pla de Shorts està activada</string>
   </patch>
   <patch id="misc.debugging.enableDebuggingPatch">
+  <string name="revanced_debug_screen_title">Depuració</string>
+  <string name="revanced_debug_screen_summary">Activa o desactiva las opciones de depuración</string>
+  <string name="revanced_debug_title">Registro de depuración</string>
+  <string name="revanced_debug_summary_on">El registro de depuración está activado</string>
+  <string name="revanced_debug_summary_off">El registro de depuración está desactivado</string>
+  <string name="revanced_debug_protobuffer_title">Iniciar sesión en el buffer de protocolo</string>
+  <string name="revanced_debug_protobuffer_summary_on">El registro de depuración incluye el búfer de protocolo</string>
+  <string name="revanced_debug_protobuffer_summary_off">Els registres de depuració no inclouen l\'amortiment de proto</string>
+  <string name="revanced_debug_stacktrace_title">Registre dels rastrejos de la pila</string>
+  <string name="revanced_debug_stacktrace_summary_on">Els registres de depuració inclouen el rastreig de la pila</string>
+  <string name="revanced_debug_stacktrace_summary_off">Els registres de depuració no inclouen el rastreig de la pila</string>
+  <string name="revanced_debug_toast_on_error_title">Mostrar una notificació emergent quan hi ha un error de ReVanced</string>
+  <string name="revanced_debug_toast_on_error_summary_on">S\'ha mostrat la notificació si es produeix un error</string>
+  <string name="revanced_debug_toast_on_error_summary_off">No es mostra la notificació si es produeix un error</string>
+  <string name="revanced_debug_toast_on_error_user_dialog_message">Desactivant les avis d’erreur, tots les avis d’error de ReVanced són amagats.\n\nNo se us notificarà de cap esdeveniment inesperat.</string>
   </patch>
   <patch id="layout.hide.general.hideLayoutComponentsPatch">
+  <string name="revanced_disable_like_subscribe_glow_title">Desactiva la resplandor del botó \'m\'agrada\' / \'subscriu-te\'</string>
+  <string name="revanced_disable_like_subscribe_glow_summary_on">El botó \'M\'agrada\' i \'Subscriu-te\' no brillarà quan s\'esmenti</string>
+  <string name="revanced_disable_like_subscribe_glow_summary_off">El botó \'M\'agrada\' i \'Subscriu-te\' brillarà quan s\'esmenti</string>
+  <string name="revanced_hide_album_cards_title">Amagar les targetes d\'àlbums</string>
+  <string name="revanced_hide_album_cards_summary_on">Les targetes d\'àlbums estan amagades</string>
+  <string name="revanced_hide_album_cards_summary_off">Es mostren les targetes d\'àlbum</string>
+  <string name="revanced_hide_crowdfunding_box_title">Amagar la caixa de finançament col·lectiu</string>
+  <string name="revanced_hide_crowdfunding_box_summary_on">La caixa de finançament col·lectiu està amagada</string>
+  <string name="revanced_hide_crowdfunding_box_summary_off">Es mostra la caixa de finançament col·lectiu</string>
+  <string name="revanced_hide_floating_microphone_button_title">Amagar el botó del micròfon flotant</string>
+  <string name="revanced_hide_floating_microphone_button_summary_on">Botó de micròfon amagat</string>
+  <string name="revanced_hide_floating_microphone_button_summary_off">Botó de micròfon mostrat</string>
+  <string name="revanced_hide_channel_watermark_title">Oculta la marca de agua del canal</string>
+  <string name="revanced_hide_channel_watermark_summary_on">La marca de agua está oculta</string>
+  <string name="revanced_hide_channel_watermark_summary_off">La marca de agua está visible</string>
+  <string name="revanced_hide_horizontal_shelves_title">Oculta estantes horizontales</string>
+  <string name="revanced_hide_horizontal_shelves_summary_on">Els prestatges estan ocults, com ara:\n• Notícies d\'actualitat\n• Continua mirant\n• Explora més canals\n• Compres\n• Torna-ho a veure</string>
+  <string name="revanced_hide_horizontal_shelves_summary_off">Els prestatges es mostren</string>
   <!-- 'Join' should be translated using the same localized wording YouTube displays.
                  This appears in the video player for certain videos. -->
+  <string name="revanced_hide_join_membership_button_title">Amaga el botó \"Uneix-te\"</string>
+  <string name="revanced_hide_join_membership_button_summary_on">El botó està amagat</string>
+  <string name="revanced_hide_join_membership_button_summary_off">El botó es mostra</string>
   <!-- 'For you' should be translated using the same localized wording YouTube displays. -->
+  <string name="revanced_hide_for_you_shelf_title">Amaga la prestatgeria \"Per a tu\" a la pàgina del canal</string>
+  <string name="revanced_hide_for_you_shelf_summary_on">La prestatgeria està amagada</string>
+  <string name="revanced_hide_for_you_shelf_summary_off">La prestatgeria es mostra</string>
   <!-- 'Notify me' should be translated using the same localized wording YouTube displays.
                  This item appear in the subscription feed for future livestreams or unreleased videos. -->
+  <string name="revanced_hide_notify_me_button_title">Amaga el botó \"M\'avisa\"</string>
+  <string name="revanced_hide_notify_me_button_summary_on">El botó està amagat</string>
+  <string name="revanced_hide_notify_me_button_summary_off">El botó es mostra</string>
   <!-- 'People also watch' should be translated using the same localized wording YouTube displays. -->
+  <string name="revanced_hide_search_result_recommendations_title">Amaga les recomanacions \'La gent també ha vist\'</string>
+  <string name="revanced_hide_search_result_recommendations_summary_on">Les recomanacions estan amagades</string>
+  <string name="revanced_hide_search_result_recommendations_summary_off">Les recomanacions es mostren</string>
   <!-- 'Show more' should be translated with the same localized wording that YouTube displays.
                   This button usually appears when searching for a YT creator. -->
+  <string name="revanced_hide_show_more_button_title">Amaga el botó \'Mostra més\'</string>
+  <string name="revanced_hide_show_more_button_summary_on">El botó està amagat</string>
+  <string name="revanced_hide_show_more_button_summary_off">El botó es mostra</string>
+  <string name="revanced_hide_timed_reactions_title">Amaga les reaccions temporitzades</string>
+  <string name="revanced_hide_timed_reactions_summary_on">S\'han amagat les reaccions temporitzades</string>
+  <string name="revanced_hide_timed_reactions_summary_off">Es mostren les reaccions temporitzades</string>
+  <string name="revanced_hide_search_result_shelf_header_title">Amaga la capçalera del prestatge de resultats de cerca</string>
+  <string name="revanced_hide_search_result_shelf_header_summary_on">S\'ha amagat la capçalera del prestatge</string>
+  <string name="revanced_hide_search_result_shelf_header_summary_off">Es mostra la capçalera del prestatge</string>
+  <string name="revanced_hide_channel_guidelines_title">Amaga les pautes del canal</string>
+  <string name="revanced_hide_channel_guidelines_summary_on">S\'han amagat les pautes del canal</string>
+  <string name="revanced_hide_channel_guidelines_summary_off">Es mostren les pautes del canal</string>
+  <string name="revanced_hide_chips_shelf_title">Oculta prestatge de xip</string>
+  <string name="revanced_hide_chips_shelf_summary_on">El prestatge de xip està amagat</string>
+  <string name="revanced_hide_chips_shelf_summary_off">El prestatge de xip es mostra</string>
+  <string name="revanced_hide_expandable_chip_title">Amaga l\'estella expandible sota els vídeos</string>
+  <string name="revanced_hide_expandable_chip_summary_on">Les estelles expandibles s\'amaguen</string>
+  <string name="revanced_hide_expandable_chip_summary_off">Les estelles expandibles es mostren</string>
+  <string name="revanced_hide_community_posts_title">Amaga les publicacions de la comunitat</string>
+  <string name="revanced_hide_community_posts_summary_on">Comunitatnya ezkutatzen dira</string>
+  <string name="revanced_hide_community_posts_summary_off">Comunitateak erakusten dira</string>
+  <string name="revanced_hide_compact_banner_title">Esteka laburrak ezkutatu izena</string>
+  <string name="revanced_hide_compact_banner_summary_on">Esteka laburrak ezkutatuak daude</string>
+  <string name="revanced_hide_compact_banner_summary_off">Esteka laburrak erakusten dira</string>
+  <string name="revanced_hide_movies_section_title">Pelikula saila ezkutatu izena</string>
+  <string name="revanced_hide_movies_section_summary_on">Pelikula saila ezkutatuak daude</string>
+  <string name="revanced_hide_movies_section_summary_off">Pelikula saila erakusten dira</string>
+  <string name="revanced_hide_feed_survey_title">Iritziak ezkutatu izena</string>
+  <string name="revanced_hide_feed_survey_summary_on">Els formularis de feed estan amagats</string>
+  <string name="revanced_hide_feed_survey_summary_off">Els formularis de feed es mostren</string>
+  <string name="revanced_hide_community_guidelines_title">Amaga les normes de la comunitat</string>
+  <string name="revanced_hide_community_guidelines_summary_on">Les normes de la comunitat estan amagades</string>
+  <string name="revanced_hide_community_guidelines_summary_off">Les normes de la comunitat es mostren</string>
+  <string name="revanced_hide_subscribers_community_guidelines_title">Amaga les normes de la comunitat per als subscriptors</string>
+  <string name="revanced_hide_subscribers_community_guidelines_summary_on">Les normes de la comunitat dels subscriptors estan amagades</string>
+  <string name="revanced_hide_subscribers_community_guidelines_summary_off">Es mostren les directrius de la comunitat per a subscriptors</string>
+  <string name="revanced_hide_channel_member_shelf_title">Amaga la prestatgeria de membres del canal</string>
+  <string name="revanced_hide_channel_member_shelf_summary_on">La prestatgeria de membres del canal està amagada</string>
+  <string name="revanced_hide_channel_member_shelf_summary_off">La prestatgeria de membres del canal es mostra</string>
+  <string name="revanced_hide_emergency_box_title">Amaga els quadres d\'emergència</string>
+  <string name="revanced_hide_emergency_box_summary_on">Els quadres d\'emergència estan amagats</string>
+  <string name="revanced_hide_emergency_box_summary_off">Els quadres d\'emergència es mostren</string>
+  <string name="revanced_hide_info_panels_title">Amaga els panells d\'informació</string>
+  <string name="revanced_hide_info_panels_summary_on">Els panells d\'informació estan amagats</string>
+  <string name="revanced_hide_info_panels_summary_off">Els panells d\'informació es mostren</string>
+  <string name="revanced_hide_medical_panels_title">Amaga els panells mèdics</string>
+  <string name="revanced_hide_medical_panels_summary_on">Els panells mèdics estan amagats</string>
+  <string name="revanced_hide_medical_panels_summary_off">Els panells mèdics es mostren</string>
+  <string name="revanced_hide_channel_bar_title">Amaga la barra de canal</string>
+  <string name="revanced_hide_channel_bar_summary_on">La barra de canal està amagada</string>
+  <string name="revanced_hide_channel_bar_summary_off">Es mostra la barra de canals</string>
+  <string name="revanced_hide_playables_title">Amagar jugables</string>
+  <string name="revanced_hide_playables_summary_on">Els jugables estan amagats</string>
+  <string name="revanced_hide_playables_summary_off">Els jugables es mostren</string>
+  <string name="revanced_hide_quick_actions_title">Amagar les accions ràpides en pantalla completa</string>
+  <string name="revanced_hide_quick_actions_summary_on">Les accions ràpides estan amagades en pantalla completa</string>
+  <string name="revanced_hide_quick_actions_summary_off">Es mostren les accions ràpides en pantalla completa</string>
+  <string name="revanced_hide_related_videos_title">Amaga els vídeos relacionats a les accions ràpides</string>
+  <string name="revanced_hide_related_videos_summary_on">Els vídeos relacionats estan amagats</string>
+  <string name="revanced_hide_related_videos_summary_off">Els vídeos relacionats es mostren</string>
+  <string name="revanced_hide_image_shelf_title">Amaga la prestatgeria d\'imatges als resultats de cerca</string>
+  <string name="revanced_hide_image_shelf_summary_on">La prestatgeria d\'imatges està amagada</string>
+  <string name="revanced_hide_image_shelf_summary_off">La prestatgeria d\'imatges es mostra</string>
+  <string name="revanced_hide_latest_posts_ads_title">Amaga les darreres publicacions</string>
+  <string name="revanced_hide_latest_posts_ads_summary_on">Les darreres publicacions estan amagades</string>
+  <string name="revanced_hide_latest_posts_ads_summary_off">Les darreres publicacions es mostren</string>
+  <string name="revanced_hide_mix_playlists_title">Amaga llistes de reproducció combinades</string>
+  <string name="revanced_hide_mix_playlists_summary_on">Les llistes de reproducció combinades estan amagades</string>
+  <string name="revanced_hide_mix_playlists_summary_off">Es mostren les llistes de reproducció combinades</string>
+  <string name="revanced_hide_artist_cards_title">Amaga les targetes d\'artista</string>
+  <string name="revanced_hide_artist_cards_summary_on">Les targetes d\'artista estan amagades</string>
+  <string name="revanced_hide_artist_cards_summary_off">Es mostren les targetes d\'artista</string>
+  <string name="revanced_hide_attributes_section_title">Amaga la secció d\'atributs</string>
+  <string name="revanced_hide_attributes_section_summary_on">Les seccions \"Llocs destacats\", Jocs i Música estan amagades</string>
+  <string name="revanced_hide_attributes_section_summary_off">Les seccions \"Llocs destacats\", Jocs i Música es mostren</string>
+  <string name="revanced_hide_chapters_section_title">Amaga la secció de capítols</string>
+  <string name="revanced_hide_chapters_section_summary_on">La secció de capítols està amagada</string>
+  <string name="revanced_hide_chapters_section_summary_off">La secció de capítols es mostra</string>
+  <string name="revanced_hide_podcast_section_title">Amaga la secció \"Explora el podcast\"</string>
+  <string name="revanced_hide_podcast_section_summary_on">\'Explorar el podcast\' section is hidden</string>
+  <string name="revanced_hide_podcast_section_summary_off">\'Explorar el podcast\' section is shown</string>
+  <string name="revanced_hide_info_cards_section_title">Amagar secció de targetes d\'informació</string>
+  <string name="revanced_hide_info_cards_section_summary_on">La secció de targetes d\'informació està amagada</string>
+  <string name="revanced_hide_info_cards_section_summary_off">La secció de targetes d\'informació es mostra</string>
+  <string name="revanced_hide_key_concepts_section_title">Amaga la secció \'Conceptes clau\'</string>
+  <string name="revanced_hide_key_concepts_section_summary_on">La secció \'Conceptes clau\' està oculta</string>
+  <string name="revanced_hide_key_concepts_section_summary_off">La secció \'Conceptes clau\' es mostra</string>
+  <string name="revanced_hide_transcript_section_title">Amaga la secció \'Llegendes\'</string>
+  <string name="revanced_hide_transcript_section_summary_on">La secció \'Llegendes\' està oculta</string>
+  <string name="revanced_hide_transcript_section_summary_off">La secció \'Llegendes\' es mostra</string>
+  <string name="revanced_hide_description_components_screen_title">Descripció del vídeo</string>
+  <string name="revanced_hide_description_components_screen_summary">Amaga o mostra els components de descripció del vídeo</string>
+  <string name="revanced_hide_filter_bar_screen_title">Barra de filtre</string>
+  <string name="revanced_hide_filter_bar_screen_summary">Mostra o amaga la barra de filtre al feed, la cerca i els vídeos relacionats</string>
+  <string name="revanced_hide_filter_bar_feed_in_feed_title">Amaga al feed</string>
+  <string name="revanced_hide_filter_bar_feed_in_feed_summary_on">Amagat al feed</string>
+  <string name="revanced_hide_filter_bar_feed_in_feed_summary_off">Es mostra al feed</string>
+  <string name="revanced_hide_filter_bar_feed_in_search_title">Amaga a la cerca</string>
+  <string name="revanced_hide_filter_bar_feed_in_search_summary_on">Amagat a la cerca</string>
+  <string name="revanced_hide_filter_bar_feed_in_search_summary_off">Mostrat a la cerca</string>
+  <string name="revanced_hide_filter_bar_feed_in_related_videos_title">Amaga els vídeos relacionats</string>
+  <string name="revanced_hide_filter_bar_feed_in_related_videos_summary_on">Amagats als vídeos relacionats</string>
+  <string name="revanced_hide_filter_bar_feed_in_related_videos_summary_off">Es mostren els vídeos relacionats</string>
+  <string name="revanced_comments_screen_title">Comentaris</string>
+  <string name="revanced_comments_screen_summary">Amaga o mostra els comentaris</string>
+  <string name="revanced_hide_comments_by_members_header_title">Amaga el títol \'Comentaris dels membres\'</string>
+  <string name="revanced_hide_comments_by_members_header_summary_on">S\'ha amagat el títol \"Comentaris dels membres\"</string>
+  <string name="revanced_hide_comments_by_members_header_summary_off">Es mostra el títol \"Comentaris dels membres\"</string>
+  <string name="revanced_hide_comments_section_title">Amaga la secció de comentaris</string>
+  <string name="revanced_hide_comments_section_summary_on">La secció de comentaris està amagada</string>
+  <string name="revanced_hide_comments_section_summary_off">Es mostra la secció de comentaris</string>
+  <string name="revanced_hide_comments_create_a_short_button_title">Amaga el botó \"Crear un Short\"</string>
+  <string name="revanced_hide_comments_create_a_short_button_summary_on">S\'ha amagat el botó \"Crear un Short\"</string>
+  <string name="revanced_hide_comments_create_a_short_button_summary_off">Es mostra el botó \"Crear un Short\"</string>
+  <string name="revanced_hide_comments_preview_comment_title">Amaga la vista prèvia del comentari</string>
+  <string name="revanced_hide_comments_preview_comment_summary_on">La vista prèvia del comentari s\'amaga</string>
+  <string name="revanced_hide_comments_preview_comment_summary_off">La vista prèvia del comentari es mostra</string>
+  <string name="revanced_hide_comments_thanks_button_title">Amaga el botó Gràcies</string>
+  <string name="revanced_hide_comments_thanks_button_summary_on">El botó Gràcies s\'amaga</string>
+  <string name="revanced_hide_comments_thanks_button_summary_off">El botó Gràcies es mostra</string>
+  <string name="revanced_hide_comments_timestamp_and_emoji_buttons_title">Amaga els botons d\'emojis i marca de temps</string>
+  <string name="revanced_hide_comments_timestamp_and_emoji_buttons_summary_on">Els botons d\'emojis i marca de temps s\'amaguen</string>
+  <string name="revanced_hide_comments_timestamp_and_emoji_buttons_summary_off">El botó de la marca de temps del comentari i els botons d\'emoji s\'ensenyen</string>
   <!-- https://logos.fandom.com/wiki/YouTube/Yoodles -->
+  <string name="revanced_hide_doodles_title">Amaga els Doodles de YouTube</string>
+  <string name="revanced_hide_doodles_summary_on">Els Doodles de la barra de cerca es queden ocults</string>
+  <string name="revanced_hide_doodles_summary_off">Els Doodles de la barra de cerca es mostren</string>
+  <string name="revanced_hide_doodles_user_dialog_message">Els doodles de YouTube es mostren uns quants dies a l\'any.\n\nSi un doodle es mostra actualment a la teva regió i la configuració d\'ocultar està activada, la barra de filtre que hi ha a sota de la barra de cerca també es quedarà amagada.</string>
+  <string name="revanced_custom_filter_screen_title">Filtre personalitzat</string>
+  <string name="revanced_custom_filter_screen_summary">Amagueu els components mitjançant filtres personalitzats</string>
+  <string name="revanced_custom_filter_title">Habilita el filtre personalitzat</string>
+  <string name="revanced_custom_filter_summary_on">El filtre personalitzat està habilitat</string>
+  <string name="revanced_custom_filter_summary_off">El filtre personalitzat està deshabilitat</string>
+  <string name="revanced_custom_filter_strings_title">Filtre personalitzat</string>
   <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
+  <string name="revanced_custom_filter_strings_summary">Llista de cadenes de construcció de camins de components per filtrar separades per salts de línia</string>
+  <string name="revanced_custom_filter_toast_invalid_syntax">Filtre personalitzat no vàlid: %s</string>
+  <string name="revanced_hide_keyword_content_screen_title">Oculta el contingut de les paraules clau</string>
+  <string name="revanced_hide_keyword_content_screen_summary">Oculta els vídeos de la cerca i del canal mitjançant filtres de paraules clau</string>
+  <string name="revanced_hide_keyword_content_home_title">Oculta vídeos de la pàgina inicial</string>
+  <string name="revanced_hide_keyword_content_home_summary_on">Els vídeos a la pàgina d\'inici es filtren en funció de les paraules clau</string>
+  <string name="revanced_hide_keyword_content_home_summary_off">Els vídeos a la pestanya d\'inici no es filtren per paraules clau</string>
+  <string name="revanced_hide_keyword_content_subscriptions_title">Amaga els vídeos de subscriptor per paraules clau</string>
+  <string name="revanced_hide_keyword_content_subscriptions_summary_on">Els vídeos a la pestanya de subscripcions es filtren per paraules clau</string>
+  <string name="revanced_hide_keyword_content_subscriptions_summary_off">Els vídeos a la pestanya de subscriptors no es filtren per paraules clau</string>
+  <string name="revanced_hide_keyword_content_search_title">Amaga els resultats de la cerca per paraules clau</string>
+  <string name="revanced_hide_keyword_content_search_summary_on">Els resultats de la cerca es filtren per paraules clau</string>
+  <string name="revanced_hide_keyword_content_search_summary_off">Els resultats de la cerca no es filtren per paraules clau</string>
+  <string name="revanced_hide_keyword_content_phrases_title">Paraules clau per amagar</string>
   <!-- For localization it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
                  This is because keywords can be in any language, and showing an example in the localized script helps convey this. -->
+  <string name="revanced_hide_keyword_content_phrases_summary">Paraules clau i frases per amagar, separades per salts de línia&lt;br&gt;&lt;br&gt;Les paraules clau poden ser noms de canals o qualsevol text que es mostra als títols dels vídeos&lt;br&gt;&lt;br&gt;Les paraules amb lletres majúscules al mig s\'han d\'introduir amb la mateixa caixa (p. ex.: iPhone, TikTok, LeBlanc)</string>
+  <string name="revanced_hide_keyword_content_about_title">Quant al filtratge de paraules clau</string>
+  <string name="revanced_hide_keyword_content_about_summary">Pàgina d\'inici/Subscripció/Els resultats de cerca es filtren per amagar el contingut que coincideix amb les frases de paraules clau\n\nLimitacions\n• Els vídeos de Shorts no es poden amagar pel nom del canal\n• És possible que alguns components de la interfície d\'usuari no s\'amaguin\n• La cerca d\'una paraula clau pot no mostrar resultats</string>
+  <string name="revanced_hide_keyword_content_about_whole_words_title">Coincideix amb les paraules senceres</string>
   <!-- Translations _must_ use a localized example.  For languages that do not use spaces between words (Chinese, Japanese, etc) the English AI example should be used since no localized examples exist.  Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
+  <string name="revanced_hide_keyword_toast_invalid_common">No es pot utilitzar la paraula clau: %s</string>
+  <string name="revanced_hide_keyword_toast_invalid_common_whole_word_required">Afegiu cometes per utilitzar la paraula clau: %s</string>
+  <string name="revanced_hide_keyword_toast_invalid_conflicting">La paraula clau té declaracions contradictòries: %s</string>
+  <string name="revanced_hide_keyword_toast_invalid_length">La paraula clau és massa curta i necessita cometes: %s</string>
+  <string name="revanced_hide_keyword_toast_invalid_broad">La paraula clau amagarà tots els vídeos: %s</string>
   </patch>
   <patch id="ad.general.hideAdsResourcePatch">
+  <string name="revanced_hide_general_ads_title">Amaga els anuncis generals</string>
+  <string name="revanced_hide_general_ads_summary_on">Els anuncis generals estan amagats</string>
+  <string name="revanced_hide_general_ads_summary_off">Els anuncis generals es mostren</string>
+  <string name="revanced_hide_fullscreen_ads_title">Amaga els anuncis de pantalla completa</string>
+  <string name="revanced_hide_fullscreen_ads_summary_on">Els anuncis de pantalla completa estan amagats\n\nAquesta funció només està disponible per a dispositius més antics</string>
+  <string name="revanced_hide_fullscreen_ads_summary_off">Els anuncis de pantalla completa es mostren</string>
+  <string name="revanced_hide_buttoned_ads_title">Amaga els anuncis amb botó</string>
+  <string name="revanced_hide_buttoned_ads_summary_on">Els anuncis amb botó estan amagats</string>
+  <string name="revanced_hide_buttoned_ads_summary_off">Els anuncis amb botó es mostren</string>
+  <string name="revanced_hide_paid_promotion_label_title">Amaga l\'etiqueta de promoció de pagament</string>
+  <string name="revanced_hide_paid_promotion_label_summary_on">L\'etiqueta de promoció de pagament està amagada</string>
+  <string name="revanced_hide_paid_promotion_label_summary_off">Es mostra l\'etiqueta de promoció de pagament</string>
+  <string name="revanced_hide_self_sponsor_ads_title">Amaga les targetes d\'auto patrocini</string>
+  <string name="revanced_hide_self_sponsor_ads_summary_on">Les targetes d\'autopatrocini estan magades</string>
+  <string name="revanced_hide_self_sponsor_ads_summary_off">Es mostren les targetes d\'autopatrocini</string>
+  <string name="revanced_hide_products_banner_title">Amaga el bàner per veure productes</string>
+  <string name="revanced_hide_products_banner_summary_on">La pancarta s\'amaga</string>
+  <string name="revanced_hide_products_banner_summary_off">La pancarta es mostra</string>
+  <string name="revanced_hide_player_store_shelf_title">Amaga la prestatgeria de compres del reproductor</string>
+  <string name="revanced_hide_player_store_shelf_summary_on">La prestatgeria de compres s\'amaga</string>
+  <string name="revanced_hide_player_store_shelf_summary_off">La prestatgeria de compres es mostra</string>
+  <string name="revanced_hide_shopping_links_title">Amaga els enllaços de compra a la descripció del vídeo</string>
+  <string name="revanced_hide_shopping_links_summary_on">Els enllaços de compra s\'amaguen</string>
+  <string name="revanced_hide_shopping_links_summary_off">Els enllaços de compra es mostren</string>
   <!-- 'Visit store' should be translated with the same localized wording that YouTube displays. -->
+  <string name="revanced_hide_visit_store_button_title">Amaga l\'opció \"Visita la botiga\" a les pàgines dels canals</string>
+  <string name="revanced_hide_visit_store_button_summary_on">Botó amagat</string>
+  <string name="revanced_hide_visit_store_button_summary_off">Botó mostrat</string>
+  <string name="revanced_hide_web_search_results_title">Amaga els resultats de la cerca al web</string>
+  <string name="revanced_hide_web_search_results_summary_on">Els resultats de la cerca al web estan ocults</string>
+  <string name="revanced_hide_web_search_results_summary_off">Els resultats de la cerca al web estant mostrats</string>
+  <string name="revanced_hide_merchandise_banners_title">Ocultar anuncis en el carrusel de la pestaña \"Inicio\" en YouTube</string>
+  <string name="revanced_hide_merchandise_banners_summary_on">Els bàners de mercaderies estan ocults</string>
+  <string name="revanced_hide_merchandise_banners_summary_off">Els bàners de mercaderies es mostren</string>
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
+  <string name="revanced_hide_fullscreen_ads_feature_not_available_toast">Amaga els anuncis de pantalla completa només funciona amb dispositius més antics</string>
   </patch>
   <patch id="ad.getpremium.hideGetPremiumPatch">
+  <string name="revanced_hide_get_premium_title">Amaga els anuncis de YouTube Premium</string>
+  <string name="revanced_hide_get_premium_summary_on">Els anuncis de YouTube Premium sota el reproductor de vídeo estan ocults</string>
+  <string name="revanced_hide_get_premium_summary_off">Els anuncis de YouTube Premium sota el reproductor de vídeo es mostren</string>
   </patch>
   <patch id="ad.video.videoAdsPatch">
+  <string name="revanced_hide_video_ads_title">Amaga els anuncis de vídeo</string>
+  <string name="revanced_hide_video_ads_summary_on">Els anuncis de vídeo estan amagats</string>
+  <string name="revanced_hide_video_ads_summary_off">Els anuncis de vídeo es mostren</string>
   </patch>
   <patch id="interaction.copyvideourl.copyVideoUrlResourcePatch">
+  <string name="revanced_share_copy_url_success">S\'ha copiat l\'URL al porta-retalls</string>
+  <string name="revanced_share_copy_url_timestamp_success">S\'ha copiat l\'URL amb data i hora</string>
+  <string name="revanced_copy_video_url_title">Mostra el botó de l\'URL</string>
+  <string name="revanced_copy_video_url_summary_on">El botó es mostra. Toca per copiar l\'URL del vídeo. Mantén premut per copiar l\'URL del vídeo amb marca de temps</string>
+  <string name="revanced_copy_video_url_summary_off">El botó no es mostra</string>
+  <string name="revanced_copy_video_url_timestamp_title">Mostra el botó per copiar l\'URL amb marca de temps</string>
+  <string name="revanced_copy_video_url_timestamp_summary_on">Es mostra el botó. Toqueu per copiar l\'URL del vídeo amb segell de temps. Toqueu i manteniu premut per copiar el vídeo sense segell de temps</string>
+  <string name="revanced_copy_video_url_timestamp_summary_off">No es mostra el botó</string>
   </patch>
   <patch id="interaction.dialog.removeViewerDiscretionDialogPatch">
+  <string name="revanced_remove_viewer_discretion_dialog_title">Elimina el diàleg de discreció de l\'espectador</string>
+  <string name="revanced_remove_viewer_discretion_dialog_summary_on">El diàleg s\'eliminarà</string>
+  <string name="revanced_remove_viewer_discretion_dialog_summary_off">El quadre de diàleg es mostrarà</string>
   </patch>
   <patch id="interaction.downloads.downloadsResourcePatch">
+  <string name="revanced_external_downloader_screen_title">Descarregues externes</string>
+  <string name="revanced_external_downloader_screen_summary">Configuració per utilitzar un descarregador extern</string>
+  <string name="revanced_external_downloader_title">Mostra el botó de descàrrega extern</string>
+  <string name="revanced_external_downloader_summary_on">Botó de descàrrega mostrat al reproductor</string>
+  <string name="revanced_external_downloader_summary_off">El botó de descàrrega no es mostra al reproductor</string>
   <!-- 'download action button' should be translated using the same wording as the translation of 'revanced_hide_download_button_title' -->
+  <string name="revanced_external_downloader_action_button_title">Substituir el botó d\'acció de descàrrega</string>
+  <string name="revanced_external_downloader_action_button_summary_on">El botó de descàrrega obre el vostre descarregador extern</string>
+  <string name="revanced_external_downloader_action_button_summary_off">El botó de descàrrega obre el descarregador natiu integrat a l\'aplicació</string>
+  <string name="revanced_external_downloader_name_title">Nom del paquet del descarregador</string>
+  <string name="revanced_external_downloader_name_summary">Nom del paquet de l\'aplicació de descàrrega externa instal·lada, com ara NewPipe o Seal</string>
+  <string name="revanced_external_downloader_not_installed_warning">%s no està instal·lat. Instal·la\'l, si us plau.</string>
   </patch>
   <patch id="interaction.seekbar.disablePreciseSeekingGesturePatch">
+  <string name="revanced_disable_precise_seeking_gesture_title">Desactivar el gest de cerca precisa</string>
+  <string name="revanced_disable_precise_seeking_gesture_summary_on">El gest està desactivat</string>
+  <string name="revanced_disable_precise_seeking_gesture_summary_off">El gest està activat</string>
   </patch>
   <patch id="interaction.seekbar.enableSeekbarTappingPatch">
+  <string name="revanced_seekbar_tapping_title">Habilitar el tapping de la barra de búsqueda</string>
+  <string name="revanced_seekbar_tapping_summary_on">La pulsació de la barra de cerca està habilitada</string>
+  <string name="revanced_seekbar_tapping_summary_off">La pulsació de la barra de cerca està inhabilitada</string>
   </patch>
   <patch id="interaction.swipecontrols.swipeControlsResourcePatch">
+  <string name="revanced_swipe_brightness_title">Habilita el control de brillo por gesto</string>
+  <string name="revanced_swipe_brightness_summary_on">El control lliscant de brillantor està habilitat</string>
+  <string name="revanced_swipe_brightness_summary_off">El control lliscant de brillantor està inhabilitat</string>
+  <string name="revanced_swipe_volume_title">Habilita el control de volumen por gesto</string>
+  <string name="revanced_swipe_volume_summary_on">Actiu el canvi de volum amb gestos</string>
+  <string name="revanced_swipe_volume_summary_off">Desactivat el canvi de volum amb gestos</string>
+  <string name="revanced_swipe_press_to_engage_title">Activa el gest de polsar per lliscar</string>
+  <string name="revanced_swipe_press_to_engage_summary_on">Activat el gest de prémer per lliscar</string>
+  <string name="revanced_swipe_press_to_engage_summary_off">Desactivat el gest de prémer per lliscar</string>
+  <string name="revanced_swipe_haptic_feedback_title">Activa la resposta tàctil</string>
+  <string name="revanced_swipe_haptic_feedback_summary_on">La resposta tàctil està activada</string>
+  <string name="revanced_swipe_haptic_feedback_summary_off">La resposta tàctil està desactivada</string>
+  <string name="revanced_swipe_save_and_restore_brightness_title">Desa i restaura la brillantor</string>
+  <string name="revanced_swipe_save_and_restore_brightness_summary_on">Desa i restaura la brillantor en eixir o entrar al mode pantalla completa</string>
+  <string name="revanced_swipe_save_and_restore_brightness_summary_off">No desa ni restaura la brillantor en eixir o entrar al mode pantalla completa</string>
+  <string name="revanced_swipe_lowest_value_enable_auto_brightness_title">Activa el gest de la brillantor automàtica</string>
+  <string name="revanced_swipe_lowest_value_enable_auto_brightness_summary_on">Deslizar hacia abajo hasta el valor más bajo del gesto de brillo activa el brillo automático</string>
+  <string name="revanced_swipe_lowest_value_enable_auto_brightness_summary_off">Deslizar hacia abajo hasta el valor más bajo no activa el brillo automático</string>
+  <string name="revanced_swipe_lowest_value_enable_auto_brightness_overlay_text">Automàtic</string>
+  <string name="revanced_swipe_overlay_timeout_title">Temps límite de superposició de lliscament</string>
+  <string name="revanced_swipe_overlay_timeout_summary">La quantitat de mil·lisegons que la superposició és visible</string>
+  <string name="revanced_swipe_text_overlay_size_title">Mida del text de la superposició lliscant</string>
+  <string name="revanced_swipe_text_overlay_size_summary">La mida del text per a la superposició lliscant</string>
+  <string name="revanced_swipe_overlay_background_alpha_title">Visibilitat del fons de la superposició lliscant</string>
+  <string name="revanced_swipe_overlay_background_alpha_summary">La visibilitat del fons de la superposició lliscant</string>
+  <string name="revanced_swipe_threshold_title">Llindar de magnitud de lliscament</string>
+  <string name="revanced_swipe_threshold_summary">La quantitat de llindar per a què es produeixi el desplaçament</string>
   </patch>
   <patch id="layout.autocaptions.autoCaptionsPatch">
+  <string name="revanced_auto_captions_title">Desactiva els subtítols automàtics</string>
+  <string name="revanced_auto_captions_summary_on">Els subtítols automàtics estan desactivats</string>
+  <string name="revanced_auto_captions_summary_off">Els subtítols automàtics estan activats</string>
   </patch>
   <patch id="layout.buttons.action.hideButtonsPatch">
+  <string name="revanced_hide_buttons_screen_title">Botons d\'acció</string>
+  <string name="revanced_hide_buttons_screen_summary">Amaga o mostra botons sota els vídeos</string>
+  <string name="revanced_hide_like_dislike_button_title">Amaga M\'agrada i No m\'agrada</string>
+  <string name="revanced_hide_like_dislike_button_summary_on">Els botons M\'agrada i No m\'agrada estan ocults</string>
+  <string name="revanced_hide_like_dislike_button_summary_off">Els botons M\'agrada i No m\'agrada es mostren</string>
   <!-- 'Share' should be translated with the same localized wording that YouTube displays. -->
+  <string name="revanced_hide_share_button_title">Amaga Compartir</string>
+  <string name="revanced_hide_share_button_summary_on">El botó Compartir està ocult</string>
+  <string name="revanced_hide_share_button_summary_off">El botó Compartir es mostra</string>
   <!-- 'Report' should be translated with the same localized wording that YouTube displays.
                  This button usually appears only on live streams. -->
+  <string name="revanced_hide_report_button_title">Amaga Denunciar</string>
+  <string name="revanced_hide_report_button_summary_on">El botó Denunciar està ocult</string>
+  <string name="revanced_hide_report_button_summary_off">Report button is shown</string>
   <!-- 'Remix' should be translated with the same localized wording that YouTube displays. -->
+  <string name="revanced_hide_remix_button_title">Amaga Remix</string>
+  <string name="revanced_hide_remix_button_summary_on">El botó de Remix està amagat</string>
+  <string name="revanced_hide_remix_button_summary_off">El botó de Remix es mostra</string>
   <!-- 'Download' should be translated with the same localized wording that YouTube displays. -->
+  <string name="revanced_hide_download_button_title">Amaga Descarrega</string>
+  <string name="revanced_hide_download_button_summary_on">El botó de descàrrega està amagat</string>
+  <string name="revanced_hide_download_button_summary_off">Es mostra el botó de descàrrega</string>
   <!-- 'Thanks' should be translated with the same localized wording that YouTube displays. -->
+  <string name="revanced_hide_thanks_button_title">Amaga Gràcies</string>
+  <string name="revanced_hide_thanks_button_summary_on">S\'ha amagat el botó de gràcies</string>
+  <string name="revanced_hide_thanks_button_summary_off">El botó Gràcies es mostra</string>
   <!-- 'Clip' should be translated with the same localized wording that YouTube displays. -->
+  <string name="revanced_hide_clip_button_title">Amaga Clip</string>
+  <string name="revanced_hide_clip_button_summary_on">El botó Clip s\'amaga</string>
+  <string name="revanced_hide_clip_button_summary_off">El botó Clip es mostra</string>
   <!-- 'Save' should be translated with the same localized wording that YouTube displays. -->
+  <string name="revanced_hide_playlist_button_title">Amaga Desa a la llista de reproducció</string>
+  <string name="revanced_hide_playlist_button_summary_on">El botó Desa a la llista de reproducció s\'amaga</string>
+  <string name="revanced_hide_playlist_button_summary_off">El botó Desa a la llista de reproducció es mostra</string>
   </patch>
   <patch id="layout.buttons.navigation.navigationButtonsPatch">
+  <string name="revanced_navigation_buttons_screen_title">Botons de navegació</string>
+  <string name="revanced_navigation_buttons_screen_summary">Amaga o canvia els botons de la barra de navegació</string>
   <!-- 'Home' should be translated using the same localized wording YouTube displays for the tab. -->
+  <string name="revanced_hide_home_button_title">Amaga la pàgina inicial</string>
+  <string name="revanced_hide_home_button_summary_on">El botón de la pàgina inicial està amagat</string>
+  <string name="revanced_hide_home_button_summary_off">El botón de la pàgina inicial es mostra</string>
   <!-- 'Shorts' should be translated using the same localized wording YouTube displays the tab. -->
+  <string name="revanced_hide_shorts_button_title">Amaga Shorts</string>
+  <string name="revanced_hide_shorts_button_summary_on">El botón Shorts està amagat</string>
+  <string name="revanced_hide_shorts_button_summary_off">El botón Shorts es mostra</string>
   <!-- The Create button has no display name. Translate normally. -->
+  <string name="revanced_hide_create_button_title">Amaga Crea</string>
+  <string name="revanced_hide_create_button_summary_on">El botó Crea està ocult</string>
+  <string name="revanced_hide_create_button_summary_off">El botó Crea es mostra</string>
   <!-- 'Subscriptions' should be translated using the same localized wording YouTube displays the tab. -->
+  <string name="revanced_hide_subscriptions_button_title">Amaga les subscripcions</string>
+  <string name="revanced_hide_subscriptions_button_summary_on">El botó de subscripcions està ocult</string>
+  <string name="revanced_hide_subscriptions_button_summary_off">El botó de subscripcions es mostra</string>
   <!-- 'Notifications' should be translated using the same localized wording YouTube displays the tab. -->
+  <string name="revanced_switch_create_with_notifications_button_title">Canvia Crea amb notificacions</string>
+  <string name="revanced_switch_create_with_notifications_button_summary_on">El botó Crear s\'intercanvia amb el botó Notificacions\n\nNota: Si s\'activa això, també s\'amagaran els anuncis de vídeo</string>
+  <string name="revanced_switch_create_with_notifications_button_summary_off">El botó Crear no s\'intercanvia amb el botó Notificacions</string>
+  <string name="revanced_hide_navigation_button_labels_title">Amagueu les etiquetes dels botons de navegació</string>
+  <string name="revanced_hide_navigation_button_labels_summary_on">Les etiquetes estan amagades</string>
+  <string name="revanced_hide_navigation_button_labels_summary_off">Les etiquetes es mostren</string>
   </patch>
   <patch id="layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch">
+  <string name="revanced_hide_player_flyout_title">Menú desplegable</string>
+  <string name="revanced_hide_player_flyout_summary">Amagar o mostrar elementos del menú desplegable del reproductor</string>
   <!-- 'Captions' should be translated using the same localized wording YouTube displays for the menu item. -->
+  <string name="revanced_hide_player_flyout_captions_title">Amagar Subtítulos</string>
+  <string name="revanced_hide_player_flyout_captions_summary_on">El menú de subtítulos está oculto</string>
+  <string name="revanced_hide_player_flyout_captions_summary_off">El menú de subtítulos está mostrado</string>
   <!-- 'Additional settings' should be translated using the same localized wording YouTube displays for the menu item. -->
+  <string name="revanced_hide_player_flyout_additional_settings_title">Amagar configuración adicional</string>
+  <string name="revanced_hide_player_flyout_additional_settings_summary_on">El menú de configuración adicional está oculto</string>
+  <string name="revanced_hide_player_flyout_additional_settings_summary_off">Es mostra el menú de configuració addicional</string>
   <!-- 'Sleep timer' should be translated using the same localized wording YouTube displays for the menu item. -->
+  <string name="revanced_hide_player_flyout_sleep_timer_title">Amaga el temporitzador de repòs</string>
+  <string name="revanced_hide_player_flyout_sleep_timer_summary_on">S\'ha amagat el menú del temporitzador de repòs</string>
+  <string name="revanced_hide_player_flyout_sleep_timer_summary_off">Es mostra el menú del temporitzador de repòs</string>
   <!-- 'Loop video' should be translated using the same localized wording YouTube displays for the menu item. -->
+  <string name="revanced_hide_player_flyout_loop_video_title">Amaga el bucle de vídeo</string>
+  <string name="revanced_hide_player_flyout_loop_video_summary_on">S\'ha amagat el menú de bucle de vídeo</string>
+  <string name="revanced_hide_player_flyout_loop_video_summary_off">Es mostra el menú de bucle de vídeo</string>
   <!-- 'Ambient mode' should be translated using the same localized wording YouTube displays for the menu item. -->
+  <string name="revanced_hide_player_flyout_ambient_mode_title">Amaga el mode Ambient</string>
+  <string name="revanced_hide_player_flyout_ambient_mode_summary_on">El menú de l\'ambient està amagat</string>
+  <string name="revanced_hide_player_flyout_ambient_mode_summary_off">El menú del modo ambient es mostra</string>
+  <string name="revanced_hide_player_flyout_stable_volume_title">Amaga el volum estable</string>
+  <string name="revanced_hide_player_flyout_stable_volume_summary_off">El menú del volum estable es mostra</string>
+  <string name="revanced_hide_player_flyout_stable_volume_summary_on">El menú del volum estable està amagat</string>
   <!-- 'Help & feedback' should be translated using the same localized wording YouTube displays for the menu item. -->
+  <string name="revanced_hide_player_flyout_help_title">Amagar Ajuda &amp; comentaris</string>
+  <string name="revanced_hide_player_flyout_help_summary_on">El menú Ajuda i comentaris està amagat</string>
+  <string name="revanced_hide_player_flyout_help_summary_off">El menú Ajuda i comentaris es mostra</string>
   <!-- 'Playback speed' should be translated using the same localized wording YouTube displays for the menu item. -->
+  <string name="revanced_hide_player_flyout_speed_title">Amaga Amagar velocitat de reproducció</string>
+  <string name="revanced_hide_player_flyout_speed_summary_on">El menú de velocitat de reproducció està amagat</string>
+  <string name="revanced_hide_player_flyout_speed_summary_off">El menú de velocitat de reproducció es mostra</string>
   <!-- 'More info' should be translated using the same localized wording YouTube displays for the menu item.
                  This menu only appears for some videos. Translate the name normally if the menu cannot be found. -->
+  <string name="revanced_hide_player_flyout_more_info_title">Amaga Més informació</string>
+  <string name="revanced_hide_player_flyout_more_info_summary_on">El menú Més informació està amagat</string>
+  <string name="revanced_hide_player_flyout_more_info_summary_off">El menú Més informació es mostra</string>
   <!-- 'Lock screen' should be translated using the same localized wording YouTube displays for the menu item. -->
+  <string name="revanced_hide_player_flyout_lock_screen_title">Amaga Bloqueig de pantalla</string>
+  <string name="revanced_hide_player_flyout_lock_screen_summary_on">El menú de la pantalla de bloqueig s\'amaga</string>
+  <string name="revanced_hide_player_flyout_lock_screen_summary_off">Es mostra el menú de la pantalla de bloqueig</string>
   <!-- 'Audio track' should be translated using the same localized wording YouTube displays for the menu item. -->
+  <string name="revanced_hide_player_flyout_audio_track_title">Amaga la pista d\'àudio</string>
+  <string name="revanced_hide_player_flyout_audio_track_summary_on">El menú de la pista d\'àudio s\'amaga</string>
+  <string name="revanced_hide_player_flyout_audio_track_summary_off">Es mostra el menú de la pista d\'àudio</string>
   <!-- 'Watch in VR' should be translated using the same localized wording YouTube displays for the menu item. -->
+  <string name="revanced_hide_player_flyout_watch_in_vr_title">Amaga Mira en VR</string>
+  <string name="revanced_hide_player_flyout_watch_in_vr_summary_on">El menú Mira en VR s\'amaga</string>
+  <string name="revanced_hide_player_flyout_watch_in_vr_summary_off">Es mostra el menú Mira en VR</string>
+  <string name="revanced_hide_player_flyout_video_quality_footer_title">Amaga la part inferior del menú de qualitat del vídeo</string>
+  <string name="revanced_hide_player_flyout_video_quality_footer_summary_on">La part inferior del menú de qualitat del vídeo està amagada</string>
+  <string name="revanced_hide_player_flyout_video_quality_footer_summary_off">La part inferior del menú de qualitat del vídeo es mostra</string>
   </patch>
   <patch id="layout.buttons.overlay.hidePlayerOverlayButtonsPatch">
+  <string name="revanced_hide_player_previous_next_buttons_title">Amaga els botons de vídeo anteriors i següents</string>
+  <string name="revanced_hide_player_previous_next_buttons_summary_on">Els botons estan amagats</string>
+  <string name="revanced_hide_player_previous_next_buttons_summary_off">Els botons es mostren</string>
+  <string name="revanced_hide_cast_button_title">Amaga el botó de transmissió</string>
+  <string name="revanced_hide_cast_button_summary_on">El botó Cast està ocult.</string>
+  <string name="revanced_hide_cast_button_summary_off">El botó Cast es mostra.</string>
   <!-- This button does not display any text, but 'captions' should be translated using the same wording used as the translation of 'revanced_hide_player_flyout_captions_title' -->
+  <string name="revanced_hide_captions_button_title">Amaga el botó de subtítols</string>
+  <string name="revanced_hide_captions_button_summary_on">El botó de subtítols està ocult.</string>
+  <string name="revanced_hide_captions_button_summary_off">El botó de subtítols es mostra.</string>
+  <string name="revanced_hide_autoplay_button_title">Amaga el botó de reproducció automàtica</string>
+  <string name="revanced_hide_autoplay_button_summary_on">El botó de reproducció automàtica està ocult.</string>
+  <string name="revanced_hide_autoplay_button_summary_off">El botón de reproducción automática se muestra</string>
   </patch>
   <patch id="layout.hide.endscreencards.hideEndscreenCardsResourcePatch">
+  <string name="revanced_hide_endscreen_cards_title">Ocultar tarjetas de pantalla final</string>
+  <string name="revanced_hide_endscreen_cards_summary_on">Las tarjetas de pantalla final están ocultas</string>
+  <string name="revanced_hide_endscreen_cards_summary_off">Las tarjetas de pantalla final se muestran</string>
   </patch>
   <patch id="layout.hide.fullscreenambientmode.disableFullscreenAmbientModePatch">
+  <string name="revanced_disable_fullscreen_ambient_mode_title">Deshabilitar el modo ambiente en pantalla completa</string>
+  <string name="revanced_disable_fullscreen_ambient_mode_summary_on">Modo ambiente desactivado</string>
+  <string name="revanced_disable_fullscreen_ambient_mode_summary_off">Modo ambiente activado</string>
   </patch>
   <patch id="layout.hide.infocards.hideInfocardsResourcePatch">
+  <string name="revanced_hide_info_cards_title">Amaga les targetes d\'informació</string>
+  <string name="revanced_hide_info_cards_summary_on">Les targetes d\'informació estan amagades</string>
+  <string name="revanced_hide_info_cards_summary_off">Les targetes d\'informació es mostren</string>
   </patch>
   <patch id="layout.hide.rollingnumber.disableRollingNumberAnimationPatch">
+  <string name="revanced_disable_rolling_number_animations_title">Desactiva les animacions de nombre de desplaçament</string>
+  <string name="revanced_disable_rolling_number_animations_summary_on">Els nombres de desplaçament no estan animats</string>
+  <string name="revanced_disable_rolling_number_animations_summary_off">Els nombres de desplaçament estan animats</string>
   </patch>
   <patch id="layout.hide.seekbar.hideSeekbarPatch">
+  <string name="revanced_hide_seekbar_title">Amagueu la barra de cerca del reproductor de vídeo</string>
+  <string name="revanced_hide_seekbar_summary_on">La barra de cerca del reproductor de vídeo está oculta</string>
+  <string name="revanced_hide_seekbar_summary_off">La barra de cerca del reproductor de vídeo se muestra</string>
+  <string name="revanced_hide_seekbar_thumbnail_title">Amagueu la barra de cerca a les miniatures de vídeo</string>
+  <string name="revanced_hide_seekbar_thumbnail_summary_on">La barra de cerca de la miniatura está oculta</string>
+  <string name="revanced_hide_seekbar_thumbnail_summary_off">La barra de cerca de la miniatura se muestra</string>
   </patch>
   <patch id="layout.hide.shorts.hideShortsComponentsResourcePatch">
+  <string name="revanced_shorts_player_screen_title">Reproductor de Shorts</string>
   <!-- 'home' should be translated using the same localized wording YouTube displays for the home tab. -->
   <!-- 'subscription' should be translated using the same localized wording YouTube displays for the subscription tab. -->
   <!-- 'join' should be translated using the same localized wording YouTube displays for the button. -->
@@ -179,6 +636,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <!-- 'RYD' is 'Return YouTube Dislike' -->
   </patch>
   <patch id="layout.startpage.changeStartPagePatch">
+  <string name="revanced_change_start_page_entry_default">Per defecte</string>
   </patch>
   <patch id="layout.startupshortsreset.disableResumingShortsOnStartupPatch">
   </patch>
@@ -188,6 +646,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   </patch>
   <patch id="layout.miniplayer.miniplayerPatch">
   <string name="revanced_miniplayer_type_entry_0">Desactivat</string>
+  <string name="revanced_miniplayer_type_entry_1">Per defecte</string>
   </patch>
   <patch id="layout.theme.themePatch">
   </patch>
@@ -202,6 +661,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
   </patch>
   <patch id="misc.announcements.announcementsPatch">
+  <string name="revanced_announcements_dialog_dismiss">Descarta</string>
   </patch>
   <patch id="misc.dns.checkWatchHistoryDomainNameResolutionPatch">
   <string name="revanced_check_watch_history_domain_name_dialog_title">Advertència</string>
@@ -234,6 +694,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <patch id="interaction.seekbar.enableSlideToSeekPatch">
   </patch>
   <patch id="misc.fix.playback.spoofVideoStreamsPatch">
+  <string name="revanced_spoof_video_streams_language_EN">Anglès</string>
+  <string name="revanced_spoof_video_streams_language_FR">Francès</string>
   </patch>
   </app>
   <app id="twitch">

@@ -44,6 +44,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_check_environment_not_near_patch_time_invalid">APK quruluş tarixi pozulub</string>
   </patch>
   <patch id="misc.settings.settingsResourcePatch">
+  <string name="revanced_settings_title">ReVanced</string>
   <string name="revanced_settings_confirm_user_dialog_title">Davam etmək istəyirsiniz?</string>
   <string name="revanced_settings_reset">Sıfırla</string>
   <string name="revanced_settings_restart_title">Yenilə və yenidən başlat</string>
@@ -81,6 +82,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_settings_screen_03_feed_title">Axın</string>
   <string name="revanced_settings_screen_04_player_title">Oynadıcı</string>
   <string name="revanced_settings_screen_05_general_title">Ümumi tərtibat</string>
+  <string name="revanced_settings_screen_06_shorts_title">Shorts</string>
   <string name="revanced_settings_screen_07_seekbar_title">Axtarış çubuğu</string>
   <string name="revanced_settings_screen_08_swipe_controls_title">Sürüşdürmə nəzarətçiləri</string>
   <string name="revanced_settings_screen_11_misc_title">Müxtəlif</string>
@@ -958,6 +960,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_reset_color">Rəngi sıfırla</string>
   <string name="revanced_sb_reset">Sıfırlayın</string>
   <string name="revanced_sb_about">Haqqında</string>
+  <string name="revanced_sb_about_api">sponsor.ajay.app</string>
   <string name="revanced_sb_about_api_sum">Məlumat SponsorBlock API tərəfindən təqdim edilir. Daha ətraflı öyrənmək və digər platformalar üzrə yükləmələrə baxmaq üçün bura toxunun</string>
   </patch>
   <patch id="layout.spoofappversion.spoofAppVersionPatch">

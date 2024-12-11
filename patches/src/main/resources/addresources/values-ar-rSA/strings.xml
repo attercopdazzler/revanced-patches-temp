@@ -58,16 +58,16 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <!-- Settings about dialog. -->
   <string name="revanced_settings_about_links_body">أنت تستخدم إصدار ReVanced Patches &lt;i&gt;%s&lt;/i&gt;</string>
   <string name="revanced_settings_about_links_dev_header">ملاحظة</string>
-  <string name="revanced_settings_about_links_dev_body">هذا الإصدار هو إصدار مسبق، وقد تواجه مشاكل غير متوقعة</string>
+  <string name="revanced_settings_about_links_dev_body">هذه النسخة هي إصدار مسبق وقد تواجه مشكلات غير متوقعة</string>
   <string name="revanced_settings_about_links_header">الروابط الرسمية</string>
   <!-- NOTE: the about strings above are duplicated in the TikTok about screen code,
                  and changes made here must also be made there. -->
   </patch>
   <patch id="misc.gms.gmsCoreSupportResourcePatch">
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
-  <string name="gms_core_toast_not_installed_message">لم يتم تثبيت MicroG GmsCore . قم بتثبيته.</string>
+  <string name="gms_core_toast_not_installed_message">لم يتم تثبيت MicroG GmsCore. قم بتثبيته.</string>
   <string name="gms_core_dialog_title">الإجراء مطلوب</string>
-  <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">لا يملك MicroG GmsCore الصلاحية للتشغيل في الخلفية.\n\nاتبع دليل \"لا تقتل تطبيقي\" للهاتف الخاص بك، وقم بتطبيق الإرشادات على تثبيت المايكروج.\n\nهذا مطلوب لكي يعمل التطبيق.</string>
+  <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">لا يملك MicroG GmsCore الصلاحية للتشغيل في الخلفية.\n\nاتبع دليل \"لا تقتل تطبيقي\" للهاتف الخاص بك، وقم بتطبيق الإرشادات على تثبيت MicroG.\n\nهذا مطلوب لكي يعمل التطبيق.</string>
   <string name="gms_core_dialog_open_website_text">فتح الموقع</string>
   <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">يجب تعطيل تحسينات بطارية MicroG GmsCore لمنع حدوث مشكلات.\n\nاضغط على زر المتابعة وقم بتعطيل تحسينات البطارية.</string>
   <string name="gms_core_dialog_continue_text">متابعة</string>
@@ -274,7 +274,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_doodles_title">إخفاء رسومات YouTube</string>
   <string name="revanced_hide_doodles_summary_on">تم إخفاء رسومات شريط البحث</string>
   <string name="revanced_hide_doodles_summary_off">يتم عرض رسومات شريط البحث</string>
-  <string name="revanced_hide_doodles_user_dialog_message">تظهر رسومات  YouTube Doodles لعدة أيام كل عام.\n\nإذا كانت الرسومات تظهر حاليًا في منطقتك وإعداد الإخفاء هذا قيد التشغيل، سيتم أيضًا إخفاء شريط الفلتر أسفل شريط البحث.</string>
+  <string name="revanced_hide_doodles_user_dialog_message">تظهر رسومات YouTube Doodles لعدة أيام كل عام.\n\nإذا كانت الرسومات تظهر حاليًا في منطقتك وإعداد الإخفاء هذا قيد التشغيل، سيتم أيضًا إخفاء شريط الفلتر أسفل شريط البحث.</string>
   <string name="revanced_custom_filter_screen_title">فلتر مخصص</string>
   <string name="revanced_custom_filter_screen_summary">إخفاء المكونات باستخدام فلاتر مخصصة</string>
   <string name="revanced_custom_filter_title">تمكين الفلتر المخصص</string>

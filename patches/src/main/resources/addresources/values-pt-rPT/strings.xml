@@ -470,7 +470,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_playlist_button_summary_off">Botão de salvar lista de reprodução é visível</string>
   </patch>
   <patch id="layout.buttons.navigation.navigationButtonsPatch">
-  <string name="revanced_navigation_buttons_screen_title">Navigation buttons</string>
   <string name="revanced_navigation_buttons_screen_summary">Esconder ou alterar botões na barra de navegação</string>
   <!-- 'Home' should be translated using the same localized wording YouTube displays for the tab. -->
   <string name="revanced_hide_home_button_title">Esconder Página Inicial</string>
@@ -827,7 +826,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_general_uuid_invalid">ID do usuário privado deve ter pelo menos 30 caracteres</string>
   <string name="revanced_sb_general_api_url">Alterar URL da API</string>
   <string name="revanced_sb_general_api_url_sum">O Patrocinador usa o endereço para fazer chamadas ao servidor</string>
-  <string name="revanced_sb_api_url_reset">API URL reset</string>
   <string name="revanced_sb_api_url_invalid">URL da API inválida</string>
   <string name="revanced_sb_api_url_changed">URL da API alterada</string>
   <string name="revanced_sb_settings_ie">Importar/Exportar Configurações</string>
@@ -867,7 +865,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_skip_button_intro_beginning">Pular introdução</string>
   <string name="revanced_sb_skip_button_intro_middle">Pular intermissão</string>
   <string name="revanced_sb_skip_button_intro_end">Pular intermissão</string>
-  <string name="revanced_sb_skip_button_outro">Skip outro</string>
   <string name="revanced_sb_skip_button_preview_beginning">Pular visualização</string>
   <string name="revanced_sb_skip_button_preview_middle">Pular visualização</string>
   <string name="revanced_sb_skip_button_preview_end">Ignorar recapitulação</string>
@@ -908,7 +905,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_vote_failed_timeout">Não foi possível votar para segmento (API esgotou)</string>
   <string name="revanced_sb_vote_failed_unknown_error">Não é possível votar para (%1$d %2$s)</string>
   <string name="revanced_sb_vote_failed_forbidden">Não foi possível votar: %s</string>
-  <string name="revanced_sb_vote_upvote">Upvote</string>
   <string name="revanced_sb_vote_downvote">Desaprovar</string>
   <string name="revanced_sb_vote_category">Alterar categoria</string>
   <string name="revanced_sb_vote_no_segments">Não há segmentos para votar em</string>
@@ -1013,7 +1009,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_tablet_layout_user_dialog_message">Postagens da comunidade não aparecem nos layouts do tablet</string>
   </patch>
   <patch id="layout.miniplayer.miniplayerPatch">
-  <string name="revanced_miniplayer_screen_title">Minijogador</string>
   <string name="revanced_miniplayer_screen_summary">Alterar o estilo do player minimizado no aplicativo</string>
   <string name="revanced_miniplayer_type_title">Tipo de minijogador</string>
   <string name="revanced_miniplayer_type_entry_0">Desativado</string>
@@ -1081,7 +1076,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_alt_thumbnail_library_title">Aba você</string>
   <string name="revanced_alt_thumbnail_player_title">Playlists de jogadores, recomendações</string>
   <string name="revanced_alt_thumbnail_search_title">Resultados da pesquisa</string>
-  <string name="revanced_alt_thumbnail_options_entry_1">Original thumbnails</string>
   <string name="revanced_alt_thumbnail_options_entry_2">DeArrow &amp; Miniaturas originais</string>
   <string name="revanced_alt_thumbnail_options_entry_3">DeArrow &amp; Ainda captura</string>
   <string name="revanced_alt_thumbnail_options_entry_4">Ainda captura</string>
@@ -1089,7 +1083,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_title">Mostrar uma notificação flutuante se a API não estiver disponível</string>
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_on">Toast é visível se o Derow não está disponível</string>
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">Toast não é visível se o DeArrow não está disponível</string>
-  <string name="revanced_alt_thumbnail_dearrow_api_url_title">DeArrow API endpoint</string>
   <string name="revanced_alt_thumbnail_dearrow_api_url_summary">A URL do ponto de extremidade do cache de miniaturas Derow</string>
   <string name="revanced_alt_thumbnail_stills_about_title">Capturas em vídeo ainda</string>
   <string name="revanced_alt_thumbnail_stills_about_summary">Ainda as capturas são tiradas do começo/meio/fim de cada vídeo. Estas imagens são construídas no YouTube e nenhuma API externa é usada</string>
@@ -1161,7 +1154,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_video_quality_default_wifi_title">Qualidade de vídeo padrão na rede Wi-Fi</string>
   <string name="revanced_video_quality_default_mobile_title">Qualidade de vídeo padrão na rede móvel</string>
   <string name="revanced_remember_video_quality_mobile">Celular</string>
-  <string name="revanced_remember_video_quality_wifi">wi-fi</string>
   <string name="revanced_remember_video_quality_toast">Qualidade padrão %1$s alterada para: %2$s</string>
   </patch>
   <patch id="video.speed.button.playbackSpeedButtonPatch">
@@ -1229,14 +1221,12 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_language_FA">persa</string>
   <string name="revanced_spoof_video_streams_language_FI">Finlandês</string>
   <string name="revanced_spoof_video_streams_language_FR">Francês</string>
-  <string name="revanced_spoof_video_streams_language_GU">Gujarati</string>
   <string name="revanced_spoof_video_streams_language_HI">hindi</string>
   <string name="revanced_spoof_video_streams_language_HR">croata</string>
   <string name="revanced_spoof_video_streams_language_HU">Húngaro</string>
   <string name="revanced_spoof_video_streams_language_ID">indonésio</string>
   <string name="revanced_spoof_video_streams_language_IT">italiano</string>
   <string name="revanced_spoof_video_streams_language_JA">japonês</string>
-  <string name="revanced_spoof_video_streams_language_KK">Kazakh</string>
   <string name="revanced_spoof_video_streams_language_KO">coreano</string>
   <string name="revanced_spoof_video_streams_language_LT">lituano</string>
   <string name="revanced_spoof_video_streams_language_LV">Letã</string>
@@ -1244,27 +1234,20 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_language_MN">Mongol</string>
   <string name="revanced_spoof_video_streams_language_MR">marata</string>
   <string name="revanced_spoof_video_streams_language_MS">malaio</string>
-  <string name="revanced_spoof_video_streams_language_MY">Burmese</string>
   <string name="revanced_spoof_video_streams_language_NL">Neerlandês</string>
-  <string name="revanced_spoof_video_streams_language_OR">Odia</string>
-  <string name="revanced_spoof_video_streams_language_PA">Punjabi</string>
   <string name="revanced_spoof_video_streams_language_PL">Polonês</string>
   <string name="revanced_spoof_video_streams_language_PT_BR">Português (Brasil)</string>
   <string name="revanced_spoof_video_streams_language_PT_PT">Português (Portugal)</string>
   <string name="revanced_spoof_video_streams_language_RO">romeno</string>
   <string name="revanced_spoof_video_streams_language_RU">Russo</string>
   <string name="revanced_spoof_video_streams_language_SK">Eslovaco</string>
-  <string name="revanced_spoof_video_streams_language_SL">Slovene</string>
   <string name="revanced_spoof_video_streams_language_SR">Sérvio</string>
   <string name="revanced_spoof_video_streams_language_SV">sueco</string>
   <string name="revanced_spoof_video_streams_language_SW">Suaíli</string>
-  <string name="revanced_spoof_video_streams_language_TA">Tamil</string>
-  <string name="revanced_spoof_video_streams_language_TE">Telugu</string>
   <string name="revanced_spoof_video_streams_language_TH">Tailandês</string>
   <string name="revanced_spoof_video_streams_language_TR">Turco</string>
   <string name="revanced_spoof_video_streams_language_UK">ucraniano</string>
   <string name="revanced_spoof_video_streams_language_UR">urdu</string>
-  <string name="revanced_spoof_video_streams_language_VI">Vietnamese</string>
   <string name="revanced_spoof_video_streams_language_ZH">chinês</string>
   </patch>
   </app>

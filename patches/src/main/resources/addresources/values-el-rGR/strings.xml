@@ -69,7 +69,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="gms_core_dialog_title">Απαιτείται ενέργεια</string>
   <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">Το MicroG GmsCore δεν έχει άδεια να τρέξει στο παρασκήνιο.\n\nΑκολουθήστε τον οδηγό \"Don\'t kill my app\" για το τηλέφωνό σας και εφαρμόστε τις οδηγίες στο MicroG.\n\nΑυτό απαιτείται για να λειτουργήσει η εφαρμογή.</string>
   <string name="gms_core_dialog_open_website_text">Άνοιγμα ιστοσελίδας</string>
-  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Οι βελτιστοποιήσεις μπαταρίας στο MicroG GmsCore πρέπει να απενεργοποιηθούν για την αποφυγή προβλημάτων.\n\nΠατήστε το κουμπί «Συνέχεια» και απενεργοποιήστε τις βελτιστοποιήσεις μπαταρίας για το MicroG.</string>
+  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Οι βελτιστοποιήσεις μπαταρίας πρέπει να απενεργοποιηθούν για το MicroG GmsCore ώστε να αποφευχθούν προβλήματα.\n\nΗ απενεργοποίησή τους δε θα αυξήσει τη χρήση ενέργειας.\n\nΠατήστε το κουμπί «Συνέχεια» και επιτρέψτε την αλλαγή βελτιστοποιήσεων.</string>
   <string name="gms_core_dialog_continue_text">Συνέχεια</string>
   </patch>
   </app>
@@ -202,7 +202,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_playables_summary_on">Κρυμμένα</string>
   <string name="revanced_hide_playables_summary_off">Εμφανίζονται</string>
   <string name="revanced_hide_quick_actions_title">Γρήγορες ενέργειες σε πλήρη οθόνη</string>
-  <string name="revanced_hide_quick_actions_summary_on">Κρυμμένες</string>
+  <string name="revanced_hide_quick_actions_summary_on">Εμφανίζονται</string>
   <string name="revanced_hide_quick_actions_summary_off">Εμφανίζονται</string>
   <string name="revanced_hide_related_videos_title">Σχετικά βίντεο στις γρήγορες ενέργειες</string>
   <string name="revanced_hide_related_videos_summary_on">Κρυμμένα</string>
@@ -976,7 +976,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_app_version_target_legacy_entry_4">17.33.42 - Επαναφορά ενότητας λίστας αναπαραγωγής παλιού στυλ</string>
   </patch>
   <patch id="layout.startpage.changeStartPagePatch">
-  <string name="revanced_change_start_page_title">Ορισμός αρχικής σελίδας</string>
+  <string name="revanced_change_start_page_title">Αλλαγή της αρχικής σελίδας</string>
   <string name="revanced_change_start_page_entry_default">Προεπιλογή</string>
   <string name="revanced_change_start_page_entry_browse">Περιήγηση καναλιών</string>
   <string name="revanced_change_start_page_entry_explore">Εξερεύνηση</string>
@@ -1209,9 +1209,9 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_ios_force_avc_summary_off">Ο κωδικοποιητής βίντεο ορίζεται αυτόματα</string>
   <string name="revanced_spoof_video_streams_ios_force_avc_user_dialog_message">Η ενεργοποίηση αυτού μπορεί να βελτιώσει τη διάρκεια ζωής της μπαταρίας και να διορθώσει κολλήματα αναπαραγωγής.\n\nΟ AVC έχει μέγιστη ανάλυση 1080p, ο κωδικοποιητής ήχου Opus δεν είναι διαθέσιμος και η αναπαραγωγή βίντεο θα καταναλώνει περισσότερα δεδομένα internet από τον VP9 ή τον AV1.</string>
   <string name="revanced_spoof_video_streams_about_ios_title">Παρενέργειες παραποίησης σε iOS</string>
-  <string name="revanced_spoof_video_streams_about_ios_summary">• Τα ιδιωτικά βίντεο για παιδιά μπορεί να μην παίζουν\n• Τα βίντεο περιορισμένης ηλικίας μπορεί να μην παίζουν\n• Livestreams ξεκινούν από την αρχή\n• Τα βίντεο λήγουν 1 δευτερόλεπτο νωρίς</string>
+  <string name="revanced_spoof_video_streams_about_ios_summary">• Τα ιδιωτικά βίντεο για παιδιά ενδεχομένως να μην αναπαράγονται\n• Οι ζωντανές μεταδόσεις ξεκινούν από την αρχή\n• Τα βίντεο ενδέχεται να λήγουν 1 δευτερόλεπτο νωρίτερα</string>
   <string name="revanced_spoof_video_streams_about_android_vr_title">Παρενέργειες παραποίησης σε Android VR</string>
-  <string name="revanced_spoof_video_streams_about_android_vr_summary">• Τα βίντεο για παιδιά μπορεί να μην παίζουν\n• Τα βίντεο με περιορισμένη ηλικία δεν μπορούν να παίξουν\n• Livestreams ξεκινούν από την αρχή\n• Τα βίντεο λήγουν 1 δευτερόλεπτο νωρίς</string>
+  <string name="revanced_spoof_video_streams_about_android_vr_summary">• Τα βίντεο για παιδιά ενδεχομένως να μην αναπαράγονται\n• Οι ζωντανές μεταδόσεις ξεκινούν από την αρχή\n• Τα βίντεο ενδέχεται να λήγουν 1 δευτερόλεπτο νωρίτερα</string>
   <string name="revanced_spoof_video_streams_language_title">Προεπιλεγμένη γλώσσα ροής ήχου</string>
   <string name="revanced_spoof_video_streams_language_DEFAULT">Γλώσσα εφαρμογής</string>
   <string name="revanced_spoof_video_streams_language_AR">Αραβικά</string>

@@ -33,8 +33,14 @@ This is because Crowdin requires temporarily flattening this file and removing t
 <resources>
   <app id="shared">
   <patch id="misc.checks.checkEnvironmentPatch">
+  <string name="revanced_check_environment_dialog_ignore_button">ละเว้น</string>
+  <string name="revanced_check_environment_manager_not_expected_installer">ไม่ได้ติดตั้งโดย ReVanced Manager</string>
+  <string name="revanced_check_environment_not_near_patch_time_invalid">วันที่สร้าง APK เสียหาย</string>
   </patch>
   <patch id="misc.settings.settingsResourcePatch">
+  <string name="revanced_settings_confirm_user_dialog_title">คุณต้องการดำเนินการต่อหรือไม่?</string>
+  <string name="revanced_settings_reset">รีเซ็ต</string>
+  <string name="revanced_settings_restart">เริ่มต้นใหม่</string>
   <!-- Settings about dialog. -->
   <!-- NOTE: the about strings above are duplicated in the TikTok about screen code,
                  and changes made here must also be made there. -->
@@ -45,10 +51,13 @@ This is because Crowdin requires temporarily flattening this file and removing t
   </app>
   <app id="youtube">
   <patch id="misc.settings.settingsPatch">
+  <string name="revanced_settings_screen_00_about_title">เกี่ยวกับ</string>
+  <string name="revanced_settings_screen_08_swipe_controls_title">ปัดเพื่อควบคุม</string>
   </patch>
   <patch id="misc.backgroundplayback.backgroundPlaybackPatch">
   </patch>
   <patch id="misc.debugging.enableDebuggingPatch">
+  <string name="revanced_debug_screen_title">Debugging</string>
   </patch>
   <patch id="layout.hide.general.hideLayoutComponentsPatch">
   <!-- 'Join' should be translated using the same localized wording YouTube displays.
@@ -59,6 +68,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <!-- 'People also watch' should be translated using the same localized wording YouTube displays. -->
   <!-- 'Show more' should be translated with the same localized wording that YouTube displays.
                   This button usually appears when searching for a YT creator. -->
+  <string name="revanced_hide_compact_banner_summary_off">Compact banners are shown</string>
+  <string name="revanced_hide_chapters_section_summary_off">Chapters section is shown</string>
   <!-- https://logos.fandom.com/wiki/YouTube/Yoodles -->
   <!-- 'Component path builder strings' is the technical name for identifying the Litho UI layout items to hide. This is an advanced feature and most users will never use this. -->
   <!-- For localization it is preferred, but not required, if 'LeBlanc' is replaced with a localized name or a familiar word that has upper case letters in the middle of the word.
@@ -102,6 +113,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <patch id="layout.buttons.navigation.navigationButtonsPatch">
   <!-- 'Home' should be translated using the same localized wording YouTube displays for the tab. -->
   <!-- 'Shorts' should be translated using the same localized wording YouTube displays the tab. -->
+  <string name="revanced_hide_shorts_button_summary_on">ปุ่ม Shorts ถูกซ่อนอยู่</string>
+  <string name="revanced_hide_shorts_button_summary_off">ปุ่ม Shorts แสดงอยู่</string>
   <!-- The Create button has no display name. Translate normally. -->
   <!-- 'Subscriptions' should be translated using the same localized wording YouTube displays the tab. -->
   <!-- 'Notifications' should be translated using the same localized wording YouTube displays the tab. -->
@@ -121,6 +134,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <!-- 'Watch in VR' should be translated using the same localized wording YouTube displays for the menu item. -->
   </patch>
   <patch id="layout.buttons.overlay.hidePlayerOverlayButtonsPatch">
+  <string name="revanced_hide_cast_button_summary_off">ปุ่มแคสต์แสดงอยู่</string>
   <!-- This button does not display any text, but 'captions' should be translated using the same wording used as the translation of 'revanced_hide_player_flyout_captions_title' -->
   </patch>
   <patch id="layout.hide.endscreencards.hideEndscreenCardsResourcePatch">
@@ -128,6 +142,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <patch id="layout.hide.fullscreenambientmode.disableFullscreenAmbientModePatch">
   </patch>
   <patch id="layout.hide.infocards.hideInfocardsResourcePatch">
+  <string name="revanced_hide_info_cards_summary_on">บัตรข้อมูลซ่อนอยู่</string>
+  <string name="revanced_hide_info_cards_summary_off">บัตรข้อมูลแสดงแล้ว</string>
   </patch>
   <patch id="layout.hide.rollingnumber.disableRollingNumberAnimationPatch">
   </patch>
@@ -155,6 +171,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <!-- Toast shown if network connection times out. Translations of this should not be longer than the original English or the text can be clipped and not entirely shown. -->
   <!-- Toast shown if the user enables RYD while a video is opened, and then tries to vote for the video. -->
   <!-- Translations should use language similar to 'revanced_sb_enable_compact_skip_button' -->
+  <string name="revanced_ryd_toast_on_connection_error_title">แสดงคำอวยพรถ้า API ไม่พร้อมใช้งาน</string>
+  <string name="revanced_ryd_about">เกี่ยวกับ</string>
   <!-- Statistic strings are shown in the settings only when ReVanced debug mode is enabled. Typical users will never see these. -->
   </patch>
   <patch id="layout.searchbar.wideSearchbarPatch">
@@ -236,6 +254,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_color_changed">เปลื่ยนสีแล้ว</string>
   <string name="revanced_sb_color_reset">สีเปลื่ยนเป็นค่าเริ่มต้นแล้ว</string>
   <string name="revanced_sb_reset">รีเซ็ต</string>
+  <string name="revanced_sb_about">เกี่ยวกับ</string>
   </patch>
   <patch id="layout.spoofappversion.spoofAppVersionPatch">
   <!-- It is ideal, but not required, if the text here appears is alphabetically after the text used for 'revanced_spoof_app_version_title'.
@@ -265,11 +284,14 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <!-- 'Home' should be translated using the same localized wording YouTube displays for the home tab. -->
   <!-- 'Subscription' should be translated using the same localized wording YouTube displays for the subscription tab. -->
   <!-- 'You' should be translated using the same localized wording YouTube displays for the You (library) tab. -->
+  <string name="revanced_alt_thumbnail_dearrow_connection_toast_title">แสดงคำอวยพรถ้า API ไม่พร้อมใช้งาน</string>
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
   </patch>
   <patch id="misc.announcements.announcementsPatch">
+  <string name="revanced_announcements_dialog_dismiss">ปิด</string>
   </patch>
   <patch id="misc.dns.checkWatchHistoryDomainNameResolutionPatch">
+  <string name="revanced_check_watch_history_domain_name_dialog_title">คำเตือน</string>
   </patch>
   <patch id="misc.autorepeat.autoRepeatPatch">
   </patch>
@@ -299,12 +321,15 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <patch id="interaction.seekbar.enableSlideToSeekPatch">
   </patch>
   <patch id="misc.fix.playback.spoofVideoStreamsPatch">
+  <string name="revanced_spoof_video_streams_language_EN">อังกฤษ</string>
+  <string name="revanced_spoof_video_streams_language_FR">ฝรั่งเศส</string>
   </patch>
   </app>
   <app id="twitch">
   <patch id="ad.audio.audioAdsPatch">
   </patch>
   <patch id="ad.embedded.embeddedAdsPatch">
+  <string name="revanced_block_embedded_ads_entry_1">ปิดการใช้งานอยู่</string>
   </patch>
   <patch id="ad.video.videoAdsPatch">
   </patch>

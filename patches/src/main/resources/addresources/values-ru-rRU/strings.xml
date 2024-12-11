@@ -44,7 +44,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_check_environment_not_near_patch_time_invalid">Дата сборки APK повреждена</string>
   </patch>
   <patch id="misc.settings.settingsResourcePatch">
-  <string name="revanced_settings_title">ReVanced</string>
   <string name="revanced_settings_confirm_user_dialog_title">Вы хотите продолжить?</string>
   <string name="revanced_settings_reset">Сбросить</string>
   <string name="revanced_settings_restart_title">Перезапустить для применения?</string>
@@ -70,7 +69,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="gms_core_dialog_title">Требуется действие</string>
   <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">MicroG GmsCore не имеет разрешения на работу в фоновом режиме.\n\nНастройте MicroG согласно инструкции \"Don\'t kill my app\" для Вашего телефона.\n\nЭто необходимо для работы приложения.</string>
   <string name="gms_core_dialog_open_website_text">Открыть сайт</string>
-  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Во избежание проблем необходимо отключить оптимизацию батареи для MicroG GmsCore.\n\nНажмите кнопку \"Продолжить\" и отключите оптимизацию батареи.</string>
+  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Для избежания проблем оптимизация батареи для MicroG GmsCore должна быть отключена.\n\nОтключение оптимизации батареи для MicroG не окажет отрицательного влияния на использование батареи.\n\nНажмите кнопку \"Продолжить\" и разрешите изменения оптимизации.</string>
   <string name="gms_core_dialog_continue_text">Продолжить</string>
   </patch>
   </app>
@@ -1210,7 +1209,9 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_ios_force_avc_summary_off">Видео кодек определяется автоматически</string>
   <string name="revanced_spoof_video_streams_ios_force_avc_user_dialog_message">Активация данной опции может улучшить время работы батареи и исправить задержки воспроизведения.\n\nAVC имеет максимальное разрешение 1080p, аудио кодек Opus недоступен, и воспроизведение видео будет использовать больше интернет данных в сравнении с VP9 или AV1.</string>
   <string name="revanced_spoof_video_streams_about_ios_title">Побочные эффекты подмены на iOS</string>
+  <string name="revanced_spoof_video_streams_about_ios_summary">• Частные детские видео могут не воспроизводиться\n• Прямые трансляции начинаются с самого начала\n• Видео заканчиваются на 1 секунду раньше</string>
   <string name="revanced_spoof_video_streams_about_android_vr_title">Побочные эффекты подмены на Android VR</string>
+  <string name="revanced_spoof_video_streams_about_android_vr_summary">• Детские видео могут не воспроизводиться\n• Прямые трансляции начинаются с самого начала\n• Видео заканчиваются на 1 секунду раньше</string>
   <string name="revanced_spoof_video_streams_language_title">Язык аудио потока по умолчанию</string>
   <string name="revanced_spoof_video_streams_language_DEFAULT">Язык приложения</string>
   <string name="revanced_spoof_video_streams_language_AR">Арабский</string>

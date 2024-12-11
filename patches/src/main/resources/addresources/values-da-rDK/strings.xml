@@ -44,7 +44,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_check_environment_not_near_patch_time_invalid">APK byggedato er ødelagt</string>
   </patch>
   <patch id="misc.settings.settingsResourcePatch">
-  <string name="revanced_settings_title">ReVanced</string>
   <string name="revanced_settings_confirm_user_dialog_title">Ønsker du at fortsætte?</string>
   <string name="revanced_settings_reset">Nulstil</string>
   <string name="revanced_settings_restart_title">Opdater og genstart</string>
@@ -79,13 +78,11 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_settings_screen_00_about_title">Om</string>
   <string name="revanced_settings_screen_01_ads_title">Annoncer</string>
   <string name="revanced_settings_screen_02_alt_thumbnails_title">Alternative miniaturer</string>
-  <string name="revanced_settings_screen_03_feed_title">Feed</string>
   <string name="revanced_settings_screen_04_player_title">Spiller</string>
   <string name="revanced_settings_screen_05_general_title">Generelt layout</string>
   <string name="revanced_settings_screen_07_seekbar_title">Søgebjælke</string>
   <string name="revanced_settings_screen_08_swipe_controls_title">Stryg kontrolelementer</string>
   <string name="revanced_settings_screen_11_misc_title">Diverse</string>
-  <string name="revanced_settings_screen_12_video_title">Video</string>
   </patch>
   <patch id="misc.backgroundplayback.backgroundPlaybackPatch">
   </patch>
@@ -462,7 +459,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_playlist_button_summary_off">Gem i afspilningslisteknappen vises</string>
   </patch>
   <patch id="layout.buttons.navigation.navigationButtonsPatch">
-  <string name="revanced_navigation_buttons_screen_title">Navigation buttons</string>
   <string name="revanced_navigation_buttons_screen_summary">Skjul eller skift knapper i navigationsbjælken</string>
   <!-- 'Home' should be translated using the same localized wording YouTube displays for the tab. -->
   <string name="revanced_hide_home_button_title">Skjul Hjem</string>
@@ -489,7 +485,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_navigation_button_labels_summary_off">Etiketter er vist</string>
   </patch>
   <patch id="layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch">
-  <string name="revanced_hide_player_flyout_title">Flyout menu</string>
   <string name="revanced_hide_player_flyout_summary">Skjul eller vis spiller flyout menupunkter</string>
   <!-- 'Captions' should be translated using the same localized wording YouTube displays for the menu item. -->
   <string name="revanced_hide_player_flyout_captions_title">Skjul Billedtekster</string>
@@ -560,7 +555,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   </patch>
   <patch id="layout.hide.endscreencards.hideEndscreenCardsResourcePatch">
   <string name="revanced_hide_endscreen_cards_title">Skjul slutskærmkort</string>
-  <string name="revanced_hide_endscreen_cards_summary_on">End screen cards are hidden</string>
   <string name="revanced_hide_endscreen_cards_summary_off">Kort til slutskærm vises</string>
   </patch>
   <patch id="layout.hide.fullscreenambientmode.disableFullscreenAmbientModePatch">
@@ -817,7 +811,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_general_uuid_invalid">Privat bruger-id skal være mindst 30 tegn langt</string>
   <string name="revanced_sb_general_api_url">Skift API-URL</string>
   <string name="revanced_sb_general_api_url_sum">Adressen SponsorBlock bruger til at foretage opkald til serveren</string>
-  <string name="revanced_sb_api_url_reset">API URL reset</string>
   <string name="revanced_sb_api_url_invalid">API URL er ugyldig</string>
   <string name="revanced_sb_api_url_changed">API URL ændret</string>
   <string name="revanced_sb_settings_ie">Importér/eksport indstillinger</string>
@@ -830,7 +823,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_settings_revanced_export_user_id_warning">Dine indstillinger indeholder et privat SponsorBloker bruger-id.\n\nDit bruger-id er som en adgangskode, og det bør aldrig deles.\n</string>
   <string name="revanced_sb_settings_revanced_export_user_id_warning_dismiss">Vis ikke igen</string>
   <string name="revanced_sb_diff_segments">Ændr segmentadfærd</string>
-  <string name="revanced_sb_segments_sponsor">Sponsor</string>
   <string name="revanced_sb_segments_sponsor_sum">Betalt kampagne, betalte henvisninger og direkte reklamer. Ikke for selvpromoverende eller gratis råb til årsager/skabere/websteder/produkter, de kan lide</string>
   <string name="revanced_sb_segments_selfpromo">Ubetalt/Self Promotion</string>
   <string name="revanced_sb_segments_selfpromo_sum">Svarende til \'Sponsor\' bortset fra ubetalt eller self promotion. Inkluderer sektioner om merchandise, donationer, eller oplysninger om, hvem de har samarbejdet med</string>
@@ -838,13 +830,11 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_segments_interaction_sum">En kort påmindelse om at lide, abonnere eller følge dem midt i indholdet. Hvis den er lang eller om noget specifik, bør den i stedet være under selvforfremmelse</string>
   <string name="revanced_sb_segments_highlight">Fremhæv</string>
   <string name="revanced_sb_segments_highlight_sum">Den del af videoen, som de fleste mennesker er på udkig efter</string>
-  <string name="revanced_sb_segments_intro">Intermission/Intro Animation</string>
   <string name="revanced_sb_segments_intro_sum">Et interval uden reelt indhold. Kunne være en pause, statisk ramme eller gentagelse af animation. Omfatter ikke overgange indeholdende information</string>
   <string name="revanced_sb_segments_outro">Slutkort/Kredit</string>
   <string name="revanced_sb_segments_outro_sum">Medvirkende eller når YouTube-endcards vises. Ikke for konklusioner med information</string>
   <string name="revanced_sb_segments_preview">Forhåndsvisning/Genoptag/Krog</string>
   <string name="revanced_sb_segments_preview_sum">Indsamling af klip, der viser, hvad der kommer op, eller hvad der skete i videoen eller i andre videoer af en serie, hvor alle oplysninger gentages andetsteds</string>
-  <string name="revanced_sb_segments_filler">Filler Tangent/Jokes</string>
   <string name="revanced_sb_segments_filler_sum">Tangential scener tilføjet kun for fyldstof eller humor, der ikke er forpligtet til at forstå hovedindholdet af videoen. Omfatter ikke segmenter, der giver kontekst- eller baggrundsoplysninger</string>
   <string name="revanced_sb_segments_nomusic">Musik: Ikke-Musik Sektion</string>
   <string name="revanced_sb_segments_nomusic_sum">Kun til brug i musikvideoer. Sektioner af musikvideoer uden musik, der ikke allerede er dækket af en anden kategori</string>
@@ -857,7 +847,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_skip_button_intro_beginning">Spring intro over</string>
   <string name="revanced_sb_skip_button_intro_middle">Spring intermission over</string>
   <string name="revanced_sb_skip_button_intro_end">Spring intermission over</string>
-  <string name="revanced_sb_skip_button_outro">Skip outro</string>
   <string name="revanced_sb_skip_button_preview_beginning">Spring forhåndsvisning over</string>
   <string name="revanced_sb_skip_button_preview_middle">Spring forhåndsvisning over</string>
   <string name="revanced_sb_skip_button_preview_end">Spring resumé over</string>
@@ -898,15 +887,12 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_vote_failed_timeout">Kan ikke stemme på segment (API-timede ud)</string>
   <string name="revanced_sb_vote_failed_unknown_error">Kan ikke stemme på segment (status: %1$d %2$s)</string>
   <string name="revanced_sb_vote_failed_forbidden">Ikke i stand til at stemme på segmentet: %s</string>
-  <string name="revanced_sb_vote_upvote">Upvote</string>
-  <string name="revanced_sb_vote_downvote">Downvote</string>
   <string name="revanced_sb_vote_category">Skift kategori</string>
   <string name="revanced_sb_vote_no_segments">Der er ingen segmenter at stemme for</string>
   <string name="revanced_sb_new_segment_choose_category">Vælg segmentkategori</string>
   <string name="revanced_sb_new_segment_disabled_category">Kategori er deaktiveret i indstillinger. Aktivér kategori for at indsende.</string>
   <string name="revanced_sb_new_segment_title">Nyt SponsorBlock segment</string>
   <string name="revanced_sb_new_segment_mark_time_as_question">Sæt %s som start eller afslutning af et nyt segment?</string>
-  <string name="revanced_sb_new_segment_mark_start">start</string>
   <string name="revanced_sb_new_segment_mark_end">slut</string>
   <string name="revanced_sb_new_segment_now">nu</string>
   <string name="revanced_sb_new_segment_time_start">Tidspunkt for segmentet begynder på</string>
@@ -951,8 +937,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_about_api_sum">Data leveres af SponsorBlock API. Tryk her for at få flere oplysninger og se downloads til andre platforme</string>
   </patch>
   <patch id="layout.spoofappversion.spoofAppVersionPatch">
-  <string name="revanced_spoof_app_version_title">Spoof app version</string>
-  <string name="revanced_spoof_app_version_summary_on">Version spoofed</string>
   <string name="revanced_spoof_app_version_summary_off">Version ikke spoofed</string>
   <string name="revanced_spoof_app_version_user_dialog_message">App version vil blive spoofed til en ældre version af YouTube.\n\nDette vil ændre udseendet og funktionerne i appen, men der kan forekomme ukendte bivirkninger.\n\nHvis senere slået fra, anbefales det at rydde app-data for at forhindre UI-fejl.</string>
   <!-- It is ideal, but not required, if the text here appears is alphabetically after the text used for 'revanced_spoof_app_version_title'.
@@ -996,13 +980,10 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_tablet_layout_user_dialog_message">Fællesskabsindlæg vises ikke på tabletlayouts</string>
   </patch>
   <patch id="layout.miniplayer.miniplayerPatch">
-  <string name="revanced_miniplayer_screen_title">Miniplayer</string>
   <string name="revanced_miniplayer_screen_summary">Ændre stilen for den i app minimeret afspiller</string>
   <string name="revanced_miniplayer_type_title">Type af miniplayer</string>
   <string name="revanced_miniplayer_type_entry_0">Deaktiveret</string>
   <string name="revanced_miniplayer_type_entry_1">Standard</string>
-  <string name="revanced_miniplayer_type_entry_2">Minimal</string>
-  <string name="revanced_miniplayer_type_entry_3">Tablet</string>
   <string name="revanced_miniplayer_type_entry_4">Moderne 1</string>
   <string name="revanced_miniplayer_type_entry_5">Moderne 2</string>
   <string name="revanced_miniplayer_type_entry_6">Moderne 3</string>
@@ -1064,7 +1045,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_alt_thumbnail_library_title">Dig fane</string>
   <string name="revanced_alt_thumbnail_player_title">Afspiller afspilningslister, anbefalinger</string>
   <string name="revanced_alt_thumbnail_search_title">Søgeresultater</string>
-  <string name="revanced_alt_thumbnail_options_entry_1">Original thumbnails</string>
   <string name="revanced_alt_thumbnail_options_entry_2">DeArrow &amp; Originale miniaturer</string>
   <string name="revanced_alt_thumbnail_options_entry_3">DeArrow &amp; stadig fanger</string>
   <string name="revanced_alt_thumbnail_options_entry_4">Fangster stadig</string>
@@ -1072,7 +1052,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_title">Vis en toast hvis API ikke er tilgængelig</string>
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_on">Toast vises hvis DeArrow ikke er tilgængelig</string>
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_off">Toast er ikke vist hvis DeArrow ikke er tilgængelig</string>
-  <string name="revanced_alt_thumbnail_dearrow_api_url_title">DeArrow API endpoint</string>
   <string name="revanced_alt_thumbnail_dearrow_api_url_summary">Webadressen på DeArrow thumbnail cache endpoint</string>
   <string name="revanced_alt_thumbnail_stills_about_title">Stadig video indfanger</string>
   <string name="revanced_alt_thumbnail_stills_about_summary">Stadig optagelser er taget fra begyndelsen / midten / slutningen af hver video. Disse billeder er indbygget i YouTube og ingen ekstern API bruges</string>
@@ -1144,7 +1123,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_video_quality_default_wifi_title">Standard videokvalitet på Wi-Fi-netværk</string>
   <string name="revanced_video_quality_default_mobile_title">Standard videokvalitet på mobilnetværk</string>
   <string name="revanced_remember_video_quality_mobile">mobil</string>
-  <string name="revanced_remember_video_quality_wifi">wifi</string>
   <string name="revanced_remember_video_quality_toast">Ændrede standard %1$s kvalitet til: %2$s</string>
   </patch>
   <patch id="video.speed.button.playbackSpeedButtonPatch">
@@ -1180,9 +1158,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_slide_to_seek_summary_off">Dias til søgning er ikke aktiveret</string>
   </patch>
   <patch id="misc.fix.playback.spoofVideoStreamsPatch">
-  <string name="revanced_spoof_video_streams_screen_title">Spoof video streams</string>
   <string name="revanced_spoof_video_streams_screen_summary">Spoof klienten video streams for at forhindre afspilning problemer</string>
-  <string name="revanced_spoof_video_streams_title">Spoof video streams</string>
   <string name="revanced_spoof_video_streams_summary_on">Video streams er spoofed</string>
   <string name="revanced_spoof_video_streams_summary_off">Videostreams er ikke forfalskede\n\nVideoafspilning fungerer muligvis ikke</string>
   <string name="revanced_spoof_video_streams_user_dialog_message">At slå denne indstilling fra kan forårsage problemer med videoafspilning.</string>
@@ -1212,42 +1188,29 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_language_FA">Persisk</string>
   <string name="revanced_spoof_video_streams_language_FI">Finsk</string>
   <string name="revanced_spoof_video_streams_language_FR">Fransk</string>
-  <string name="revanced_spoof_video_streams_language_GU">Gujarati</string>
-  <string name="revanced_spoof_video_streams_language_HI">Hindi</string>
   <string name="revanced_spoof_video_streams_language_HR">Kroatisk</string>
   <string name="revanced_spoof_video_streams_language_HU">Ungarsk</string>
   <string name="revanced_spoof_video_streams_language_ID">Indonesisk</string>
   <string name="revanced_spoof_video_streams_language_IT">Italiensk</string>
   <string name="revanced_spoof_video_streams_language_JA">Japansk</string>
-  <string name="revanced_spoof_video_streams_language_KK">Kazakh</string>
   <string name="revanced_spoof_video_streams_language_KO">Koreansk</string>
   <string name="revanced_spoof_video_streams_language_LT">Litauisk</string>
   <string name="revanced_spoof_video_streams_language_LV">Lettisk</string>
   <string name="revanced_spoof_video_streams_language_MK">Makedonsk</string>
   <string name="revanced_spoof_video_streams_language_MN">Mongolsk</string>
-  <string name="revanced_spoof_video_streams_language_MR">Marathi</string>
   <string name="revanced_spoof_video_streams_language_MS">Malaysisk</string>
-  <string name="revanced_spoof_video_streams_language_MY">Burmese</string>
   <string name="revanced_spoof_video_streams_language_NL">Hollandsk</string>
-  <string name="revanced_spoof_video_streams_language_OR">Odia</string>
-  <string name="revanced_spoof_video_streams_language_PA">Punjabi</string>
   <string name="revanced_spoof_video_streams_language_PL">Polsk</string>
   <string name="revanced_spoof_video_streams_language_PT_BR">Portugisisk (Brasilien)</string>
   <string name="revanced_spoof_video_streams_language_PT_PT">Portugisisk (Portugal)</string>
   <string name="revanced_spoof_video_streams_language_RO">Rumænsk</string>
   <string name="revanced_spoof_video_streams_language_RU">Russisk</string>
   <string name="revanced_spoof_video_streams_language_SK">Slovakisk</string>
-  <string name="revanced_spoof_video_streams_language_SL">Slovene</string>
   <string name="revanced_spoof_video_streams_language_SR">Serbisk</string>
   <string name="revanced_spoof_video_streams_language_SV">Svensk</string>
-  <string name="revanced_spoof_video_streams_language_SW">Swahili</string>
-  <string name="revanced_spoof_video_streams_language_TA">Tamil</string>
-  <string name="revanced_spoof_video_streams_language_TE">Telugu</string>
   <string name="revanced_spoof_video_streams_language_TH">Thailandsk</string>
   <string name="revanced_spoof_video_streams_language_TR">Tyrkisk</string>
   <string name="revanced_spoof_video_streams_language_UK">Ukrainsk</string>
-  <string name="revanced_spoof_video_streams_language_UR">Urdu</string>
-  <string name="revanced_spoof_video_streams_language_VI">Vietnamese</string>
   <string name="revanced_spoof_video_streams_language_ZH">Kinesisk</string>
   </patch>
   </app>
@@ -1263,7 +1226,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_block_embedded_ads_title">Bloker indlejrede videoannoncer</string>
   <string name="revanced_block_embedded_ads_entry_1">Deaktiveret</string>
   <string name="revanced_block_embedded_ads_entry_2">Lysende proxy</string>
-  <string name="revanced_block_embedded_ads_entry_3">PurpleAdBlock proxy</string>
   </patch>
   <patch id="ad.video.videoAdsPatch">
   <string name="revanced_block_video_ads_title">Blokér videoannoncer</string>
@@ -1294,7 +1256,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_about_summary">Om ReVanced</string>
   <string name="revanced_ads_screen_title">Annoncer</string>
   <string name="revanced_ads_screen_summary">Reklame blokeringsindstillinger</string>
-  <string name="revanced_chat_screen_title">Chat</string>
   <string name="revanced_chat_screen_summary">Chat indstillinger</string>
   <string name="revanced_misc_screen_title">Diverse</string>
   <string name="revanced_misc_screen_summary">Diverse indstillinger</string>

@@ -69,7 +69,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="gms_core_dialog_title">Gníomhaíocht a theast</string>
   <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">Níl cead ag MicroG GMScore reáchtáil sa chúlra. \n\ n Lean an treoir “Ná maraigh mo aip” do do ghuthán, agus cuir na treoracha i bhfeidhm ar do shuiteáil MicroG. \n\ n Tá sé seo ag teastáil chun go n-oibreoidh an aip.</string>
   <string name="gms_core_dialog_open_website_text">Suíomh Gréasáin oscailte</string>
-  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Ní mór barrfheabhsú ceallraí microG GMScore a dhíchumasú chun saincheisteanna a chosc. \n\ n Tapáil ar an gcnaipe leanúint agus déan barrfheabhsú ceallraí a dhíchumasú.</string>
   <string name="gms_core_dialog_continue_text">Lean ar aghaidh</string>
   </patch>
   </app>

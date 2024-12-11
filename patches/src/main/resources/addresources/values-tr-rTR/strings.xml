@@ -69,7 +69,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="gms_core_dialog_title">Eylem gerekiyor</string>
   <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">MicroG GmsCore\'nin arka planda çalışma izni yok.\n\nCihazınız için \"Don\'t kill my app\" kılavuzunu takip edin, ve yönergeleri MicroG GmsCore için uygulayın.\n\nBu, uygulamanın çalışması için gereklidir.</string>
   <string name="gms_core_dialog_open_website_text">Websitesini aç</string>
-  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Sorunları önlemek için MicroG GmsCore pil optimizasyonları devre dışı bırakılmalıdır.\n\n\"Devam et\" tuşuna tıklayın ve pil optimizasyonlarını devre dışı bırakın.</string>
+  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Sorunları önlemek için MicroG GmsCore\'nin batarya optimizasyonları devre dışı bırakılmalıdır.\n\nMicroG\'nin batarya optimizasyonlarını devre dışı bırakmak batarya kullanımını olumsuz etkilemeyecektir.\n\nDevam et düğmesine dokunun ve optimizasyon değişikliklerine izin verin.</string>
   <string name="gms_core_dialog_continue_text">Devam et</string>
   </patch>
   </app>
@@ -154,25 +154,25 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_timed_reactions_summary_on">Süreli tepkiler gizleniyor</string>
   <string name="revanced_hide_timed_reactions_summary_off">Süreli tepkiler gösteriliyor </string>
   <string name="revanced_hide_search_result_shelf_header_title">Arama sonuçları raf başlığını gizle</string>
-  <string name="revanced_hide_search_result_shelf_header_summary_on">Raf başlığı gizleniyor</string>
-  <string name="revanced_hide_search_result_shelf_header_summary_off">Raf başlığı gösteriliyor</string>
+  <string name="revanced_hide_search_result_shelf_header_summary_on">Raf başlığı gizli</string>
+  <string name="revanced_hide_search_result_shelf_header_summary_off">Raf başlığı görünür</string>
   <string name="revanced_hide_channel_guidelines_title">Kanal yönergelerini gizle</string>
-  <string name="revanced_hide_channel_guidelines_summary_on">Kanal yönergeleri gizleniyor </string>
-  <string name="revanced_hide_channel_guidelines_summary_off">Kanal yönergeleri gösteriliyor</string>
+  <string name="revanced_hide_channel_guidelines_summary_on">Kanal yönergeleri gizli</string>
+  <string name="revanced_hide_channel_guidelines_summary_off">Kanal yönergeleri görünür</string>
   <string name="revanced_hide_chips_shelf_title">Çip rafını gizle</string>
-  <string name="revanced_hide_chips_shelf_summary_on">Çip rafı gizlendi</string>
-  <string name="revanced_hide_chips_shelf_summary_off">Çip rafı gösteriliyor</string>
-  <string name="revanced_hide_expandable_chip_title">Videoların altındaki genişletilebilir çentiği gizle</string>
-  <string name="revanced_hide_expandable_chip_summary_on">Genişletilebilir çentikler gizleniyor</string>
-  <string name="revanced_hide_expandable_chip_summary_off">Genişletilebilir çentikler gösteriliyor</string>
+  <string name="revanced_hide_chips_shelf_summary_on">Çip rafı gizli</string>
+  <string name="revanced_hide_chips_shelf_summary_off">Çip rafı görünür</string>
+  <string name="revanced_hide_expandable_chip_title">Videoların altındaki genişletilebilir çipi gizle</string>
+  <string name="revanced_hide_expandable_chip_summary_on">Genişletilebilir çipler gizli</string>
+  <string name="revanced_hide_expandable_chip_summary_off">Genişletilebilir çipler görünür</string>
   <string name="revanced_hide_community_posts_title">Topluluk gönderilerini gizle</string>
-  <string name="revanced_hide_community_posts_summary_on">Topluluk gönderileri gizleniyor </string>
-  <string name="revanced_hide_community_posts_summary_off">Topluluk gönderileri gösteriliyor</string>
+  <string name="revanced_hide_community_posts_summary_on">Topluluk gönderileri gizli</string>
+  <string name="revanced_hide_community_posts_summary_off">Topluluk gönderileri görünür</string>
   <string name="revanced_hide_compact_banner_title">Kompakt afişleri gizle</string>
-  <string name="revanced_hide_compact_banner_summary_on">Kompakt afişler gizleniyor </string>
-  <string name="revanced_hide_compact_banner_summary_off">Kompakt afişler gösteriliyor</string>
+  <string name="revanced_hide_compact_banner_summary_on">Kompakt afişler gizli</string>
+  <string name="revanced_hide_compact_banner_summary_off">Kompakt afişler görünür</string>
   <string name="revanced_hide_movies_section_title">Filmler kısmını gizle</string>
-  <string name="revanced_hide_movies_section_summary_on">Filmler kısmı gizleniyor </string>
+  <string name="revanced_hide_movies_section_summary_on">Filmler kısmı gizli</string>
   <string name="revanced_hide_movies_section_summary_off">Filmler kısmı gösteriliyor</string>
   <string name="revanced_hide_feed_survey_title">Akış anketlerini gizle</string>
   <string name="revanced_hide_feed_survey_summary_on">Akış anketleri gizleniyor</string>
@@ -181,7 +181,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_community_guidelines_summary_on">Topluluk yönergeleri gizleniyor </string>
   <string name="revanced_hide_community_guidelines_summary_off">Topluluk yönergeleri gösteriliyor</string>
   <string name="revanced_hide_subscribers_community_guidelines_title">Abone topluluk yönergelerini gizle</string>
-  <string name="revanced_hide_subscribers_community_guidelines_summary_on">Abone topluluk yönergeleri gizlendi</string>
+  <string name="revanced_hide_subscribers_community_guidelines_summary_on">Aboneler topluluk kuralları gizli</string>
   <string name="revanced_hide_subscribers_community_guidelines_summary_off">Abone topluluk yönergeleri gösteriliyor</string>
   <string name="revanced_hide_channel_member_shelf_title">Kanal üyeleri rafını gizle</string>
   <string name="revanced_hide_channel_member_shelf_summary_on">Kanal üyeleri rafı gizleniyor </string>
@@ -191,25 +191,25 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_emergency_box_summary_off">Acil durum kutuları gösteriliyor</string>
   <string name="revanced_hide_info_panels_title">Bilgi panellerini gizle</string>
   <string name="revanced_hide_info_panels_summary_on">Bilgi panelleri gizleniyor </string>
-  <string name="revanced_hide_info_panels_summary_off">Bilgi panelleri gösteriliyor</string>
+  <string name="revanced_hide_info_panels_summary_off">Bilgi panelleri görünür</string>
   <string name="revanced_hide_medical_panels_title">Tıbbi bilgi panellerini gizle</string>
   <string name="revanced_hide_medical_panels_summary_on">Tıbbi bilgi panelleri gizleniyor </string>
   <string name="revanced_hide_medical_panels_summary_off">Tıbbi bilgi panelleri gösteriliyor</string>
   <string name="revanced_hide_channel_bar_title">Kanal çubuğunu gizle</string>
-  <string name="revanced_hide_channel_bar_summary_on">Kanal çubuğu gizlendi</string>
+  <string name="revanced_hide_channel_bar_summary_on">Kanal çubuğu gizleniyor</string>
   <string name="revanced_hide_channel_bar_summary_off">Kanal çubuğu gösteriliyor</string>
   <string name="revanced_hide_playables_title">Hazır Oyunlar\'ı gizle</string>
   <string name="revanced_hide_playables_summary_on">Hazır Oyunlar gizleniyor </string>
   <string name="revanced_hide_playables_summary_off">Hazır Oyunlar gösteriliyor </string>
   <string name="revanced_hide_quick_actions_title">Tam ekrandaki hızlı eylemleri gizle</string>
-  <string name="revanced_hide_quick_actions_summary_on">Hızlı eylemler gizleniyor</string>
+  <string name="revanced_hide_quick_actions_summary_on">Hızlı eylemler gizli</string>
   <string name="revanced_hide_quick_actions_summary_off">Hızlı eylemler gösteriliyor</string>
   <string name="revanced_hide_related_videos_title">Hızlı eylemlerdeki alakalı videoları gizle</string>
   <string name="revanced_hide_related_videos_summary_on">Alâkalı videolar gizleniyor</string>
-  <string name="revanced_hide_related_videos_summary_off">Alakalı videolar gösteriliyor</string>
+  <string name="revanced_hide_related_videos_summary_off">Alâkalı videolar görünür</string>
   <string name="revanced_hide_image_shelf_title">Arama sonuçlarındaki resim rafını gizle</string>
   <string name="revanced_hide_image_shelf_summary_on">Resim rafı gizleniyor</string>
-  <string name="revanced_hide_image_shelf_summary_off">Resim rafı gösteriliyor</string>
+  <string name="revanced_hide_image_shelf_summary_off">Resim rafı görünür</string>
   <string name="revanced_hide_latest_posts_ads_title">Son gönderileri gizle</string>
   <string name="revanced_hide_latest_posts_ads_summary_on">Son gönderiler gizleniyor</string>
   <string name="revanced_hide_latest_posts_ads_summary_off">Son gönderiler gösteriliyor</string>
@@ -218,7 +218,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_mix_playlists_summary_off">Mix oynatma listeleri gösteriliyor</string>
   <string name="revanced_hide_artist_cards_title">Sanatçı kartlarını gizle</string>
   <string name="revanced_hide_artist_cards_summary_on">Sanatçı kartları gizlendi</string>
-  <string name="revanced_hide_artist_cards_summary_off">Sanatçı kartları gösteriliyor</string>
+  <string name="revanced_hide_artist_cards_summary_off">Sanatçı kartları görünür</string>
   <string name="revanced_hide_attributes_section_title">Nitelikler bölümünü gizle</string>
   <string name="revanced_hide_attributes_section_summary_on">Öne çıkan yerler, Oyunlar ve Müzik bölümleri gizli</string>
   <string name="revanced_hide_attributes_section_summary_off">Öne çıkan yerler, Oyunlar ve Müzik bölümleri görünüyor</string>
@@ -253,7 +253,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_comments_screen_title">Yorumlar</string>
   <string name="revanced_comments_screen_summary">Yorumlar kısmındaki öğeleri gizle veya göster</string>
   <string name="revanced_hide_comments_by_members_header_title">\'Üyeler tarafından yapılan yorumlar\' başlığını gizle</string>
-  <string name="revanced_hide_comments_by_members_header_summary_on">\'Üyeler tarafından yapılan yorumlar\' başlığı gizli</string>
+  <string name="revanced_hide_comments_by_members_header_summary_on">\'Üyelerin yorumları\' başlığı gizli</string>
   <string name="revanced_hide_comments_by_members_header_summary_off">\'Üyeler tarafından yapılan yorumlar\' başlığı görünüyor</string>
   <string name="revanced_hide_comments_section_title">Yorumlar kısmını gizle</string>
   <string name="revanced_hide_comments_section_summary_on">Yorumlar bölümü gizli</string>
@@ -265,11 +265,11 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_comments_preview_comment_summary_on">Önizlenen yorum gizleniyor</string>
   <string name="revanced_hide_comments_preview_comment_summary_off">Önizlenen yorum gösteriliyor </string>
   <string name="revanced_hide_comments_thanks_button_title">Teşekkürler butonunu gizle</string>
-  <string name="revanced_hide_comments_thanks_button_summary_on">\"Teşekkürler\" butonu gizleniyor</string>
-  <string name="revanced_hide_comments_thanks_button_summary_off">\"Teşekkürler\" butonu gösteriliyor</string>
+  <string name="revanced_hide_comments_thanks_button_summary_on">Teşekkürler düğmesi gizli</string>
+  <string name="revanced_hide_comments_thanks_button_summary_off">Teşekkürler düğmesi görünür</string>
   <string name="revanced_hide_comments_timestamp_and_emoji_buttons_title">Zaman damgasını ve emoji butonlarını gizle</string>
-  <string name="revanced_hide_comments_timestamp_and_emoji_buttons_summary_on">Zaman damgası ve emoji düğmeleri gizli</string>
-  <string name="revanced_hide_comments_timestamp_and_emoji_buttons_summary_off">Zaman damgası ve emoji düğmeleri görünür</string>
+  <string name="revanced_hide_comments_timestamp_and_emoji_buttons_summary_on">Zaman ve emoji düğmeleri gizli</string>
+  <string name="revanced_hide_comments_timestamp_and_emoji_buttons_summary_off">Zaman ve emoji düğmeleri görünür</string>
   <!-- https://logos.fandom.com/wiki/YouTube/Yoodles -->
   <string name="revanced_hide_doodles_title">YouTube Doodle\'larını gizle</string>
   <string name="revanced_hide_doodles_summary_on">Arama çubuğu Doodle\'ları gizli</string>
@@ -322,8 +322,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_buttoned_ads_summary_on">Butonlu reklamlar gizleniyor </string>
   <string name="revanced_hide_buttoned_ads_summary_off">Butonlu reklamlar gösteriliyor </string>
   <string name="revanced_hide_paid_promotion_label_title">Ücretli tanıtım yazısını gizle</string>
-  <string name="revanced_hide_paid_promotion_label_summary_on">Ücretli tanıtım yazısı gizleniyor</string>
-  <string name="revanced_hide_paid_promotion_label_summary_off">Ücretli tanıtım yazısı gösteriliyor </string>
+  <string name="revanced_hide_paid_promotion_label_summary_on">Ücretli tanıtım etiketi gizli</string>
+  <string name="revanced_hide_paid_promotion_label_summary_off">Ücretli tanıtım etiketi görünür</string>
   <string name="revanced_hide_self_sponsor_ads_title">Kendine sponsor kartları gizle</string>
   <string name="revanced_hide_self_sponsor_ads_summary_on">Kendine sponsor kartlar gizleniyor</string>
   <string name="revanced_hide_self_sponsor_ads_summary_off">Kendine sponsor kartlar gösteriliyor </string>
@@ -647,8 +647,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_shorts_hashtag_button_summary_on">Hashtag düğmesi gizli</string>
   <string name="revanced_hide_shorts_hashtag_button_summary_off">Hashtag düğmesi görünür</string>
   <string name="revanced_hide_shorts_search_suggestions_title">Arama önerilerini gizle</string>
-  <string name="revanced_hide_shorts_search_suggestions_summary_on">Arama önerileri gizleniyor </string>
-  <string name="revanced_hide_shorts_search_suggestions_summary_off">Arama önerileri gösteriliyor </string>
+  <string name="revanced_hide_shorts_search_suggestions_summary_on">Arama önerileri gizli</string>
+  <string name="revanced_hide_shorts_search_suggestions_summary_off">Arama önerileri görünür</string>
   <string name="revanced_hide_shorts_stickers_title">Çıkartmaları gizle</string>
   <string name="revanced_hide_shorts_stickers_summary_on">Çıkartmalar gizli</string>
   <string name="revanced_hide_shorts_stickers_summary_off">Çıkartmalar görünür</string>
@@ -671,7 +671,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <!-- 'share' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="revanced_hide_shorts_share_button_title">\"Paylaş\" butonunu gizle</string>
   <string name="revanced_hide_shorts_share_button_summary_on">\"Paylaş\" butonu gizleniyor</string>
-  <string name="revanced_hide_shorts_share_button_summary_off">\"Paylaş\" butonu gösteriliyor</string>
+  <string name="revanced_hide_shorts_share_button_summary_off">Paylaş düğmesi gösteriliyor</string>
   <string name="revanced_hide_shorts_info_panel_title">Bilgi panelini gizle</string>
   <string name="revanced_hide_shorts_info_panel_summary_on">Bilgi paneli gizleniyor</string>
   <string name="revanced_hide_shorts_info_panel_summary_off">Bilgi paneli gösteriliyor</string>
@@ -682,11 +682,11 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_shorts_video_title_summary_on">Video başlığı gizleniyor</string>
   <string name="revanced_hide_shorts_video_title_summary_off">Video başlığı gösteriliyor</string>
   <string name="revanced_hide_shorts_sound_metadata_label_title">Ses bilgisi etiketini gizle</string>
-  <string name="revanced_hide_shorts_sound_metadata_label_summary_on">Bilgi etiketi gizlendi</string>
-  <string name="revanced_hide_shorts_sound_metadata_label_summary_off">Bilgi etiketi gösteriliyor</string>
+  <string name="revanced_hide_shorts_sound_metadata_label_summary_on">Bilgi etiketi gizli</string>
+  <string name="revanced_hide_shorts_sound_metadata_label_summary_off">Bilgi etiketi görünür</string>
   <string name="revanced_hide_shorts_full_video_link_label_title">Tam video bağlantısı etiketini gizle</string>
-  <string name="revanced_hide_shorts_full_video_link_label_summary_on">Video bağlantı etiketi gizlendi</string>
-  <string name="revanced_hide_shorts_full_video_link_label_summary_off">Video bağlantı etiketi gösteriliyor</string>
+  <string name="revanced_hide_shorts_full_video_link_label_summary_on">Video bağlantısı etiketi gizli</string>
+  <string name="revanced_hide_shorts_full_video_link_label_summary_off">Video bağlantısı etiketi görünür</string>
   <string name="revanced_hide_shorts_sound_button_title">Ses düğmesini gizle</string>
   <string name="revanced_hide_shorts_sound_button_summary_on">Ses düğmesi gizlendi</string>
   <string name="revanced_hide_shorts_sound_button_summary_off">Ses düğmesi gösteriliyor</string>
@@ -740,7 +740,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_ryd_compact_layout_title">Kompakt beğen düğmesi</string>
   <string name="revanced_ryd_compact_layout_summary_on">En az genişlik için tasarlanmış beğen düğmesi</string>
   <string name="revanced_ryd_compact_layout_summary_off">En iyi görünüm için tasarlanmış beğen düğmesi</string>
-  <string name="revanced_ryd_toast_on_connection_error_title">API kullanılamadığında tost bildirimi göster</string>
+  <string name="revanced_ryd_toast_on_connection_error_title">API kullanılamadığında bir tost bildirimi göster</string>
   <string name="revanced_ryd_toast_on_connection_error_summary_on">Return YouTube Dislike kullanılamadığında tost bildirimi gösteriliyor</string>
   <string name="revanced_ryd_toast_on_connection_error_summary_off">Return YouTube Dislike kullanılamadığında tost bildirimi gösterilmiyor</string>
   <string name="revanced_ryd_about">Hakkında</string>
@@ -784,8 +784,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_enable_sb_sum">SponsorBlock, YouTube videolarındaki sıkıcı bölümleri atlamaya yarayan kitle kaynaklı bir sistemdir</string>
   <string name="revanced_sb_appearance_category">Görünüm</string>
   <string name="revanced_sb_enable_voting">Oylama düğmesini göster</string>
-  <string name="revanced_sb_enable_voting_sum_on">Bölüm oylama düğmesi gösteriliyor</string>
-  <string name="revanced_sb_enable_voting_sum_off">Bölüm oylama düğmesi gösterilmiyor</string>
+  <string name="revanced_sb_enable_voting_sum_on">Kısım oylama düğmesi gösteriliyor</string>
+  <string name="revanced_sb_enable_voting_sum_off">Kısım oylama düğmesi gösterilmiyor</string>
   <!-- Translations should use language similar to 'revanced_ryd_compact_layout_title' -->
   <string name="revanced_sb_enable_compact_skip_button">Ufak atlama düğmesi kullan</string>
   <string name="revanced_sb_enable_compact_skip_button_sum_on">En az genişlik için tasarlanmış atlama düğmesi</string>
@@ -842,7 +842,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_diff_segments">Bölüm davranışını değiştir</string>
   <string name="revanced_sb_segments_sponsor">Sponsor</string>
   <string name="revanced_sb_segments_sponsor_sum">Ücretli tanıtım, ücretli yönlendirmeler ve doğrudan reklamlar. Kendi reklamı veya beğendiği amaçlara/üreticilere/sitelere/ürünlere atıfta bulunmalar için değil</string>
-  <string name="revanced_sb_segments_selfpromo">Karşılıksız/Kendi reklamı</string>
+  <string name="revanced_sb_segments_selfpromo">Karşılıksız/Kendi Reklamı</string>
   <string name="revanced_sb_segments_selfpromo_sum">Karşılıksız veya kendi reklamı olması dışında \'Sponsor\' gibidir. Kendi ürünleri, bağışlar, veya iş birliği yaptıkları kişiler hakkında bilgiler içeren kısımları içerir</string>
   <string name="revanced_sb_segments_interaction">Etkileşim Hatırlatıcısı (Abone Ol)</string>
   <string name="revanced_sb_segments_interaction_sum">İçeriğin ortasında beğenme, abone olma veya takip etme için hatırlatmalar. Eğer uzunsa veya belirli birşey hakkındaysa kendi reklamı kategorisinde olmalıdır</string>
@@ -1045,8 +1045,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_miniplayer_hide_subtext_summary_on">Alt metinler gizli</string>
   <string name="revanced_miniplayer_hide_subtext_summary_off">Alt metinler görünür</string>
   <string name="revanced_miniplayer_hide_rewind_forward_title">İleri/geri atlama düğmelerini gizle</string>
-  <string name="revanced_miniplayer_hide_rewind_forward_summary_on">İleri/geri atlama düğmeleri gizli</string>
-  <string name="revanced_miniplayer_hide_rewind_forward_summary_off">İleri/geri atlama düğmeleri görünür</string>
+  <string name="revanced_miniplayer_hide_rewind_forward_summary_on">İleri ve geri atlama düğmeleri gizli</string>
+  <string name="revanced_miniplayer_hide_rewind_forward_summary_off">İleri ve geri atlama düğmeleri görünür</string>
   <string name="revanced_miniplayer_width_dip_title">Başlangıç boyutu</string>
   <string name="revanced_miniplayer_width_dip_summary">Başlangıçtaki boyut, piksel cinsinden</string>
   <string name="revanced_miniplayer_width_dip_invalid_toast">Piksel boyutu %1$s ve %2$s arasında olmalıdır</string>
@@ -1157,7 +1157,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_video_quality_default_entry_1">Oto</string>
   <string name="revanced_remember_video_quality_last_selected_title">Video kalitesi değişikliklerini hatırla</string>
   <string name="revanced_remember_video_quality_last_selected_summary_on">Kalite değişiklikleri tüm videolara uygulanacak</string>
-  <string name="revanced_remember_video_quality_last_selected_summary_off">Kalite değişiklikleri yalnızca mevcut videoya uygulanacak</string>
+  <string name="revanced_remember_video_quality_last_selected_summary_off">Kalite değişimleri sadece oynatılan videoya uygulanıyor</string>
   <string name="revanced_video_quality_default_wifi_title">Wi-Fi ağındaki varsayılan video kalitesi</string>
   <string name="revanced_video_quality_default_mobile_title">Mobil ağdaki varsayılan video kalitesi</string>
   <string name="revanced_remember_video_quality_mobile">mobil ağ</string>
@@ -1166,8 +1166,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   </patch>
   <patch id="video.speed.button.playbackSpeedButtonPatch">
   <string name="revanced_playback_speed_dialog_button_title">Hız diyaloğu düğmesini göster</string>
-  <string name="revanced_playback_speed_dialog_button_summary_on">Düğme gösteriliyor</string>
-  <string name="revanced_playback_speed_dialog_button_summary_off">Buton gösterilmiyor</string>
+  <string name="revanced_playback_speed_dialog_button_summary_on">Buton gösteriliyor</string>
+  <string name="revanced_playback_speed_dialog_button_summary_off">Düğme gizli</string>
   </patch>
   <patch id="video.speed.custom.customPlaybackSpeedPatch">
   <string name="revanced_custom_speed_menu_title">Özel oynatma hızı menüsü</string>
@@ -1209,7 +1209,10 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_ios_force_avc_summary_off">Video kodeği otomatik olarak ayarlanır</string>
   <string name="revanced_spoof_video_streams_ios_force_avc_user_dialog_message">Bunu etkinleştirmek batarya ömrünü iyileştirebilir ve oynatma takılmalarını düzeltebilir.\n\nAVC\'de maksimum 1080p çözünürlük vardır, Opus ses kodeği kullanılamaz ve video oynatma VP9 veya AV1\'e göre daha fazla internet verisi kullanır.</string>
   <string name="revanced_spoof_video_streams_about_ios_title">iOS taklidi yan etkileri</string>
+  <string name="revanced_spoof_video_streams_about_ios_summary">• Çocuklara özel gizli videolar oynatılamayabilir\n• Canlı yayınlar en baştan başlar\n• Videolar 1 saniye erken biter</string>
   <string name="revanced_spoof_video_streams_about_android_vr_title">Android VR taklidi yan etkileri</string>
+  <string name="revanced_spoof_video_streams_about_android_vr_summary">• Çocuklara özel gizli videolar oynatılamayabilir\n• Canlı yayınlar en baştan başlar\n• Videolar 1 saniye erken biter</string>
+  <string name="revanced_spoof_video_streams_language_title">Varsayılan ses akışı dili</string>
   <string name="revanced_spoof_video_streams_language_DEFAULT">Uygulama dili</string>
   <string name="revanced_spoof_video_streams_language_AR">Arapça</string>
   <string name="revanced_spoof_video_streams_language_AZ">Azerbaycanca</string>

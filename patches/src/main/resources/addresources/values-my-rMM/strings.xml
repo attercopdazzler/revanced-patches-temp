@@ -180,7 +180,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <patch id="layout.tablet.enableTabletLayoutPatch">
   </patch>
   <patch id="layout.miniplayer.miniplayerPatch">
-  <string name="revanced_miniplayer_type_entry_0">ခွင့်မပြုထားပါ / အသုံးမပြုထားပါ</string>
   </patch>
   <patch id="layout.theme.themePatch">
   </patch>

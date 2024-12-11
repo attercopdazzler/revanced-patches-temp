@@ -33,6 +33,9 @@ This is because Crowdin requires temporarily flattening this file and removing t
 <resources>
   <app id="shared">
   <patch id="misc.checks.checkEnvironmentPatch">
+  <string name="revanced_check_environment_dialog_ignore_button">Prezri</string>
+  <string name="revanced_check_environment_manager_not_expected_installer">Nije instalirano pomoću ReVanced Manager-a</string>
+  <string name="revanced_check_environment_not_near_patch_time_invalid">Datum gradnje APK je poškodovan</string>
   </patch>
   <patch id="misc.settings.settingsResourcePatch">
   <string name="revanced_settings_confirm_user_dialog_title">Ali želite nadaljevati?</string>
@@ -56,7 +59,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="gms_core_dialog_title">Ukrepanje je potrebno</string>
   <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">MicroG GmsCore nima dovoljenj za poganjanje v ozadju.\n\nSledite navodilom \"Don\'t kill my app\" za vaš telefon in jih opravite za vašo MicroG namestitev.\n\nTo je zahtevano za večino aplikacij, da lahko delujejo.</string>
   <string name="gms_core_dialog_open_website_text">Odprite spletno stran</string>
-  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Optimizacije baterije za MicroG GmsCore morajo biti izklopljene, da se prepreči težave.\n\nKliknite na gumb za nadaljevanje in izklopite optimizacije baterije.</string>
   <string name="gms_core_dialog_continue_text">Naprej</string>
   </patch>
   </app>
@@ -273,6 +275,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <patch id="interaction.seekbar.enableSlideToSeekPatch">
   </patch>
   <patch id="misc.fix.playback.spoofVideoStreamsPatch">
+  <string name="revanced_spoof_video_streams_language_EN">Angleščina</string>
+  <string name="revanced_spoof_video_streams_language_FR">Francoščina</string>
   </patch>
   </app>
   <app id="twitch">
@@ -292,6 +296,11 @@ This is because Crowdin requires temporarily flattening this file and removing t
   </patch>
   <patch id="misc.settings.settingsPatch">
   <string name="revanced_about_title">O programu</string>
+  <string name="revanced_ads_screen_title">Oglasi</string>
+  <string name="revanced_misc_screen_title">Razno</string>
+  <string name="revanced_twitch_debug_title">Razhroščevalno beleženje</string>
+  <string name="revanced_twitch_debug_summary_on">Razhroščevalno beleženje je vključeno</string>
+  <string name="revanced_twitch_debug_summary_off">Razhroščevalno beleženje je izključeno</string>
   </patch>
   </app>
 </resources>

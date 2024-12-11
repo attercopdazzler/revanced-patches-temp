@@ -69,7 +69,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="gms_core_dialog_title">Művelet szükséges</string>
   <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">A MicroG GmsCore nem rendelkezik engedéllyel, hogy a háttérben futhasson.\n\nKövesse a \"Don\'t kill my app\" útmutatót a telefonjához és alkalmazza a leírtakat a MicroG telepítésre.\n\nEz szükséges az alkalmazás működéséhez.</string>
   <string name="gms_core_dialog_open_website_text">Webhely megnyitása</string>
-  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">A hibák megelőzése érdekében a MicroG GmsCore akkuoptimalizálását ki kell kapcsolni.\n\nKoppintson a folytatás gombra és kapcsolja ki az akkuoptimalizálást.</string>
   <string name="gms_core_dialog_continue_text">Folytatás</string>
   </patch>
   </app>
@@ -155,24 +154,14 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_timed_reactions_summary_off">Az időzített reakciók megjelenítve</string>
   <string name="revanced_hide_search_result_shelf_header_title">Keresési eredmények polcfejlécének elrejtése</string>
   <string name="revanced_hide_search_result_shelf_header_summary_on">A polcfejléc el van rejtve</string>
-  <string name="revanced_hide_search_result_shelf_header_summary_off">A polcfejléc megjelenik</string>
   <string name="revanced_hide_channel_guidelines_title">Csatornák irányelveinek elrejtése</string>
-  <string name="revanced_hide_channel_guidelines_summary_on">A csatorna irányelvei elrejtve</string>
-  <string name="revanced_hide_channel_guidelines_summary_off">A csatorna irányelvei megjelenítve</string>
   <string name="revanced_hide_chips_shelf_title">Vágások polc elrejtése</string>
   <string name="revanced_hide_chips_shelf_summary_on">A vágások polc el van rejtve</string>
   <string name="revanced_hide_chips_shelf_summary_off">A részletek polc meg van jelenítve</string>
   <string name="revanced_hide_expandable_chip_title">Kiterjeszthető részletek elrejtése a videók alatt</string>
-  <string name="revanced_hide_expandable_chip_summary_on">A kiterjeszthető vágások el vannak rejtve</string>
-  <string name="revanced_hide_expandable_chip_summary_off">A kiterjeszthető vágások megjelennek</string>
   <string name="revanced_hide_community_posts_title">Közösségi posztok elrejtése</string>
-  <string name="revanced_hide_community_posts_summary_on">A közösségi posztok el vannak rejtve</string>
-  <string name="revanced_hide_community_posts_summary_off">A közösségi posztok meg fognak jelenni</string>
   <string name="revanced_hide_compact_banner_title">Kompakt szalagképek elrejtése</string>
-  <string name="revanced_hide_compact_banner_summary_on">A kompakt szalagképek el vannak rejtve</string>
-  <string name="revanced_hide_compact_banner_summary_off">A kompakt szalagképek láthatók</string>
   <string name="revanced_hide_movies_section_title">Filmek szakasz elrejtése</string>
-  <string name="revanced_hide_movies_section_summary_on">A filmek szakasz el van rejtve</string>
   <string name="revanced_hide_movies_section_summary_off">A filmek szakasz látható</string>
   <string name="revanced_hide_feed_survey_title">Feed felmérések elrejtése</string>
   <string name="revanced_hide_feed_survey_summary_on">A feed felmérések rejtve vannak</string>
@@ -191,7 +180,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_emergency_box_summary_off">A vészhelyzeti dobozok láthatóak</string>
   <string name="revanced_hide_info_panels_title">Információs panelek elrejtése</string>
   <string name="revanced_hide_info_panels_summary_on">Az információs panelek el vannak rejtve</string>
-  <string name="revanced_hide_info_panels_summary_off">Az információs panelek meg fognak jelenni</string>
   <string name="revanced_hide_medical_panels_title">Egészségügyi panel elrejtése</string>
   <string name="revanced_hide_medical_panels_summary_on">Az egészségügyi panelek el vannak rejtve</string>
   <string name="revanced_hide_medical_panels_summary_off">Az egészségügyi panelek láthatóak</string>
@@ -202,14 +190,11 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_playables_summary_on">A játékszoba rejtett</string>
   <string name="revanced_hide_playables_summary_off">A játékszoba megjelenik</string>
   <string name="revanced_hide_quick_actions_title">Gyorsműveletek elrejtése teljes képernyős módban</string>
-  <string name="revanced_hide_quick_actions_summary_on">A gyorsműveletek el vannak rejtve</string>
   <string name="revanced_hide_quick_actions_summary_off">A gyorsműveletek megjelennek</string>
   <string name="revanced_hide_related_videos_title">Kapcsolódó videók elrejtése a gyorsműveletekben</string>
   <string name="revanced_hide_related_videos_summary_on">A kapcsolódó videók el vannak rejtve</string>
-  <string name="revanced_hide_related_videos_summary_off">A kapcsolódó videók láthatóak</string>
   <string name="revanced_hide_image_shelf_title">Képek elrejtése a keresési eredményekben</string>
   <string name="revanced_hide_image_shelf_summary_on">A képek el vannak rejtve</string>
-  <string name="revanced_hide_image_shelf_summary_off">A képek megjelennek</string>
   <string name="revanced_hide_latest_posts_ads_title">Legutóbbi bejegyzések elrejtése</string>
   <string name="revanced_hide_latest_posts_ads_summary_on">A legutóbbi bejegyzések rejtve vannak</string>
   <string name="revanced_hide_latest_posts_ads_summary_off">A legutóbbi bejegyzések láthatóak</string>
@@ -223,11 +208,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_attributes_section_summary_on">A „Kiemelt helyek”, a Játékok és a Zene szakaszok el vannak rejtve</string>
   <string name="revanced_hide_attributes_section_summary_off">Megjelennek a „Kiemelt helyek”, a Játékok és a Zene szakaszok</string>
   <string name="revanced_hide_chapters_section_title">Fejezetek elrejtése</string>
-  <string name="revanced_hide_chapters_section_summary_on">A fejezetek szakasz el van rejtve</string>
-  <string name="revanced_hide_chapters_section_summary_off">Megjelenik a Fejezetek rész</string>
   <string name="revanced_hide_podcast_section_title">A „Podcast felfedezése” szakasz elrejtése</string>
-  <string name="revanced_hide_podcast_section_summary_on">A „Podcast felfedezése” rész el van rejtve</string>
-  <string name="revanced_hide_podcast_section_summary_off">Megjelenik az „Explore the podcast” rész</string>
   <string name="revanced_hide_info_cards_section_title">Infó kártyák rész elrejtése</string>
   <string name="revanced_hide_info_cards_section_summary_on">Az infó kártyák rész el van rejtve</string>
   <string name="revanced_hide_info_cards_section_summary_off">Az infó kártyák rész látható</string>
@@ -253,8 +234,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_comments_screen_title">Megjegyzések</string>
   <string name="revanced_comments_screen_summary">Megjegyzések rész elrejtése vagy megjelenítése</string>
   <string name="revanced_hide_comments_by_members_header_title">A „Tagok megjegyzései” fejléc elrejtése</string>
-  <string name="revanced_hide_comments_by_members_header_summary_on">A „tagok megjegyzései” fejléc el van rejtve</string>
-  <string name="revanced_hide_comments_by_members_header_summary_off">Megjelenik a „Tagok megjegyzései” fejléc</string>
   <string name="revanced_hide_comments_section_title">A megjegyzések szekció elrejtése</string>
   <string name="revanced_hide_comments_section_summary_on">A komment szekció el van rejtve</string>
   <string name="revanced_hide_comments_section_summary_off">A megjegyzések szekció megjelenik</string>
@@ -268,8 +247,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_comments_thanks_button_summary_on">A köszönet gomb el van rejtve</string>
   <string name="revanced_hide_comments_thanks_button_summary_off">A köszönet gomb látható</string>
   <string name="revanced_hide_comments_timestamp_and_emoji_buttons_title">Időbélyeg és az emoji gombok elrejtése</string>
-  <string name="revanced_hide_comments_timestamp_and_emoji_buttons_summary_on">Az időbélyeg és az emoji gombok el vannak rejtve</string>
-  <string name="revanced_hide_comments_timestamp_and_emoji_buttons_summary_off">Megjelennek az időbélyeg és az emoji gombok</string>
   <!-- https://logos.fandom.com/wiki/YouTube/Yoodles -->
   <string name="revanced_hide_doodles_title">YouTube Doodles elrejtése</string>
   <string name="revanced_hide_doodles_summary_on">A Doodles Keresősáv el van rejtve</string>
@@ -322,8 +299,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_buttoned_ads_summary_on">A gomb hirdetések el vannak rejtve</string>
   <string name="revanced_hide_buttoned_ads_summary_off">A gomb hirdetések láthatók</string>
   <string name="revanced_hide_paid_promotion_label_title">Fizetett promóció címke elrejtése</string>
-  <string name="revanced_hide_paid_promotion_label_summary_on">A fizetett promóció címke rejtve van</string>
-  <string name="revanced_hide_paid_promotion_label_summary_off">A fizetett promóció címke látható</string>
   <string name="revanced_hide_self_sponsor_ads_title">Önpromóciós kártyák elrejtése</string>
   <string name="revanced_hide_self_sponsor_ads_summary_on">Az önpromóciós kártyák rejtve vannak</string>
   <string name="revanced_hide_self_sponsor_ads_summary_off">Az önpromóciós kártyák megjelennek</string>
@@ -493,8 +468,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_switch_create_with_notifications_button_summary_on">A Létrehozás gomb megcserélése az Értesítések gombbal\n\nMegjegyzés: Engedélyezés esetén a videó hirdetéseket is elrejti</string>
   <string name="revanced_switch_create_with_notifications_button_summary_off">A létrehozás gomb nincs felcserélve az értesítések gombbal</string>
   <string name="revanced_hide_navigation_button_labels_title">A navigációs gombok címkéinek elrejtése</string>
-  <string name="revanced_hide_navigation_button_labels_summary_on">A címkék el vannak rejtve</string>
-  <string name="revanced_hide_navigation_button_labels_summary_off">A címkék megjelennek</string>
   </patch>
   <patch id="layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch">
   <string name="revanced_hide_player_flyout_title">Előugró menü</string>
@@ -626,11 +599,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_shorts_super_thanks_button_summary_on">A szuper köszönöm gomb el van rejtve</string>
   <string name="revanced_hide_shorts_super_thanks_button_summary_off">A szuper köszönöm gomb megjelenik</string>
   <string name="revanced_hide_shorts_tagged_products_title">Címkézett termékek elrejtése</string>
-  <string name="revanced_hide_shorts_tagged_products_summary_on">A címkézett termékek el vannak rejtve</string>
-  <string name="revanced_hide_shorts_tagged_products_summary_off">A címkézett termékek megjelennek</string>
   <string name="revanced_hide_shorts_location_label_title">Helycímke elrejtése</string>
-  <string name="revanced_hide_shorts_location_label_summary_on">A helycímke el van rejtve</string>
-  <string name="revanced_hide_shorts_location_label_summary_off">A helycímke megjelenik</string>
   <string name="revanced_hide_shorts_save_sound_button_title">Zene mentés gomb elrejtése</string>
   <string name="revanced_hide_shorts_save_sound_button_summary_on">A zene mentés gomb el van rejtve</string>
   <string name="revanced_hide_shorts_save_sound_button_summary_off">A zene mentés gomb látható</string>
@@ -647,8 +616,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_shorts_hashtag_button_summary_on">A Hashtag gomb el van rejtve</string>
   <string name="revanced_hide_shorts_hashtag_button_summary_off">A Hashtag gomb látható</string>
   <string name="revanced_hide_shorts_search_suggestions_title">Keresési javaslatok elrejtése</string>
-  <string name="revanced_hide_shorts_search_suggestions_summary_on">A keresési javaslatok el vannak rejtve</string>
-  <string name="revanced_hide_shorts_search_suggestions_summary_off">A keresési javaslatok megjelennek</string>
   <string name="revanced_hide_shorts_stickers_title">Matricák elrejtése</string>
   <string name="revanced_hide_shorts_stickers_summary_on">A matricák el vannak rejtve</string>
   <string name="revanced_hide_shorts_stickers_summary_off">A matricák láthatóak</string>
@@ -1042,11 +1009,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">A gombok el vannak rejtve\n\nCsúsztassa ujját a kibontáshoz vagy bezáráshoz</string>
   <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">A Kibontás és Bezárás gombok láthatók</string>
   <string name="revanced_miniplayer_hide_subtext_title">Alszövegek elrejtése</string>
-  <string name="revanced_miniplayer_hide_subtext_summary_on">Az alszövegek el vannak rejtve</string>
-  <string name="revanced_miniplayer_hide_subtext_summary_off">Alszövegek megjelennek</string>
   <string name="revanced_miniplayer_hide_rewind_forward_title">Az előre és vissza ugrás gombok elrejtése</string>
-  <string name="revanced_miniplayer_hide_rewind_forward_summary_on">Az előre és hátra ugrás rejtve van</string>
-  <string name="revanced_miniplayer_hide_rewind_forward_summary_off">Az előre és hátra ugrás látható</string>
   <string name="revanced_miniplayer_width_dip_title">Kezdeti méret</string>
   <string name="revanced_miniplayer_width_dip_summary">Kezdeti méret a képernyőn, pixelben</string>
   <string name="revanced_miniplayer_width_dip_invalid_toast">A képpont méretének %1$s és %2$s között kell lennie</string>

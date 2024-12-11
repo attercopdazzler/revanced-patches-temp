@@ -69,7 +69,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="gms_core_dialog_title">Hành động cần thiết</string>
   <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">MicroG GmsCore không có quyền chạy nền.\n\nLàm theo hướng dẫn \"Đừng giết ứng dụng của tôi\" cho điện thoại của bạn, áp dụng các chỉ dẫn vào việc cài đặt MicroG.\n\nĐiều này là cần thiết để ứng dụng hoạt động.</string>
   <string name="gms_core_dialog_open_website_text">Mở trang web</string>
-  <string name="gms_core_dialog_not_whitelisted_using_battery_optimizations_message">Tối ưu hóa pin MicroG GmsCore cần phải tắt để ngăn chặn các phát sinh.\n\nNhấn vào nút tiếp tục và tắt tối ưu hóa pin.</string>
   <string name="gms_core_dialog_continue_text">Tiếp tục</string>
   </patch>
   </app>
@@ -1204,6 +1203,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_ios_force_avc_title">AVC (H.264) ép buộc</string>
   <string name="revanced_spoof_video_streams_about_ios_title">Tác dụng phụ của giả mạo iOS</string>
   <string name="revanced_spoof_video_streams_about_android_vr_title">Tác dụng phụ của giả mạo Android VR</string>
+  <string name="revanced_spoof_video_streams_language_EN">Tiếng Anh</string>
+  <string name="revanced_spoof_video_streams_language_FR">Tiếng Pháp</string>
   </patch>
   </app>
   <app id="twitch">

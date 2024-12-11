@@ -41,7 +41,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_check_environment_manager_not_expected_installer">Non installato da ReVanced Manager</string>
   <string name="revanced_check_environment_not_near_patch_time">Patchato da più di 10 minuti fa</string>
   <string name="revanced_check_environment_not_near_patch_time_days">Patchato %s giorni fa</string>
-  <string name="revanced_check_environment_not_near_patch_time_invalid">La data di compilazione APK è corrotta</string>
+  <string name="revanced_check_environment_not_near_patch_time_invalid">La data di compilazione dell\'APK è corrotta</string>
   </patch>
   <patch id="misc.settings.settingsResourcePatch">
   <string name="revanced_settings_confirm_user_dialog_title">Sei sicuro di voler continuare?</string>
@@ -50,7 +50,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_settings_restart">Riavvia</string>
   <string name="revanced_settings_import">Importa</string>
   <string name="revanced_settings_import_copy">Copia</string>
-  <string name="revanced_settings_import_reset">Reimposta le impostazioni di ReVanced quelle predefinite</string>
+  <string name="revanced_settings_import_reset">Reimposta le impostazioni di ReVanced a quelle predefinite</string>
   <string name="revanced_settings_import_success">Importate %d impostazioni</string>
   <string name="revanced_settings_import_failure_parse">Importazione non riuscita: %s</string>
   <string name="revanced_pref_import_export_title">Importa / Esporta</string>
@@ -112,13 +112,13 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_disable_like_subscribe_glow_title">Disabilita il bagliore del pulsante mi piace / iscriviti</string>
   <string name="revanced_disable_like_subscribe_glow_summary_on">Mi piace ed il pulsante Iscriviti non si illuminerà quando menzionato</string>
   <string name="revanced_disable_like_subscribe_glow_summary_off">Mi piace ed il pulsante Iscriviti si illuminerà quando menzionato</string>
-  <string name="revanced_hide_album_cards_title">Nascondi schede album</string>
+  <string name="revanced_hide_album_cards_title">Nascondi le schede degli album</string>
   <string name="revanced_hide_album_cards_summary_on">Le schede album sono nascoste</string>
   <string name="revanced_hide_album_cards_summary_off">Le schede degli album sono visibili</string>
   <string name="revanced_hide_crowdfunding_box_title">Nascondi il riquadro Raccolta fondi</string>
   <string name="revanced_hide_crowdfunding_box_summary_on">Il riquadro Raccolta fondii è nascosto</string>
   <string name="revanced_hide_crowdfunding_box_summary_off">Il riquadro Raccolta fondi è visibile</string>
-  <string name="revanced_hide_floating_microphone_button_title">Nascondi il pulsante del microfono fluttuante</string>
+  <string name="revanced_hide_floating_microphone_button_title">Nascondi il pulsante flottante del microfono</string>
   <string name="revanced_hide_floating_microphone_button_summary_on">Pulsante microfono nascosto</string>
   <string name="revanced_hide_floating_microphone_button_summary_off">Pulsante microfono visibile</string>
   <string name="revanced_hide_channel_watermark_title">Nascondi la filigrana del canale</string>
@@ -206,7 +206,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_quick_actions_summary_off">Le azioni rapide sono visibili</string>
   <string name="revanced_hide_related_videos_title">Nascondi video correlati nelle azioni rapide</string>
   <string name="revanced_hide_related_videos_summary_on">I video correlati sono nascosti</string>
-  <string name="revanced_hide_related_videos_summary_off">Video correlati visibili</string>
+  <string name="revanced_hide_related_videos_summary_off">I video correlati sono visibili</string>
   <string name="revanced_hide_image_shelf_title">Nascondi pubblicità con immagini nei risultati di ricerca</string>
   <string name="revanced_hide_image_shelf_summary_on">Le pubblicità con immagini sono nascoste </string>
   <string name="revanced_hide_image_shelf_summary_off">Le pubblicità con immagini sono visibili </string>
@@ -321,7 +321,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_buttoned_ads_title">Nascondi le pubblicità a pulsante</string>
   <string name="revanced_hide_buttoned_ads_summary_on">Le pubblicità a pulsante sono nascoste</string>
   <string name="revanced_hide_buttoned_ads_summary_off">Le pubblicità a pulsante sono visibili</string>
-  <string name="revanced_hide_paid_promotion_label_title">Nascondi etichetta promozione a pagamento</string>
+  <string name="revanced_hide_paid_promotion_label_title">Nascondi l\'etichetta della promozione a pagamento</string>
   <string name="revanced_hide_paid_promotion_label_summary_on">L\'etichetta della promozione a pagamento è nascosta</string>
   <string name="revanced_hide_paid_promotion_label_summary_off">L\'etichetta della promozione a pagamento è visibile</string>
   <string name="revanced_hide_self_sponsor_ads_title">Nascondi le schede autopromozionali</string>
@@ -334,15 +334,15 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_player_store_shelf_summary_on">Lo scaffale è nascosto</string>
   <string name="revanced_hide_player_store_shelf_summary_off">La sezione negozio è visibile</string>
   <string name="revanced_hide_shopping_links_title">Nascondi link agli acquisti nella descrizione del video</string>
-  <string name="revanced_hide_shopping_links_summary_on">I link commerciali sono nascosti</string>
-  <string name="revanced_hide_shopping_links_summary_off">I collegamenti commerciali sono mostrati</string>
+  <string name="revanced_hide_shopping_links_summary_on">La sezione Prodotti è nascosta</string>
+  <string name="revanced_hide_shopping_links_summary_off">La sezione Prodotti è visibile</string>
   <!-- 'Visit store' should be translated with the same localized wording that YouTube displays. -->
   <string name="revanced_hide_visit_store_button_title">Nascondi il pulsante \'Visita negozio\' nelle pagine del canale</string>
   <string name="revanced_hide_visit_store_button_summary_on">Il pulsante è nascosto</string>
   <string name="revanced_hide_visit_store_button_summary_off">Il pulsante è visibile</string>
   <string name="revanced_hide_web_search_results_title">Nascondi i risultati della ricerca web</string>
   <string name="revanced_hide_web_search_results_summary_on">I risultati della ricerca web sono nascosti</string>
-  <string name="revanced_hide_web_search_results_summary_off">I risultati della ricerca web sono mostrati</string>
+  <string name="revanced_hide_web_search_results_summary_off">I risultati della ricerca web sono visibili</string>
   <string name="revanced_hide_merchandise_banners_title">Nascondi i banner sul merchandising</string>
   <string name="revanced_hide_merchandise_banners_summary_on">I banner sul merchandising sono nascosti</string>
   <string name="revanced_hide_merchandise_banners_summary_off">I banner sul merchandising sono visibili</string>
@@ -350,7 +350,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_fullscreen_ads_feature_not_available_toast">Nascondi gli annunci a schermo intero funziona solo con dispositivi più vecchi</string>
   </patch>
   <patch id="ad.getpremium.hideGetPremiumPatch">
-  <string name="revanced_hide_get_premium_title">Nascondi le promozioni Premium di YouTube</string>
+  <string name="revanced_hide_get_premium_title">Nascondi la promozione di YouTube Premium</string>
   <string name="revanced_hide_get_premium_summary_on">Le promozioni di YouTube Premium sotto il video player sono nascoste</string>
   <string name="revanced_hide_get_premium_summary_off">Le promozioni di YouTube Premium sotto il lettore video sono mostrate</string>
   </patch>
@@ -362,10 +362,10 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <patch id="interaction.copyvideourl.copyVideoUrlResourcePatch">
   <string name="revanced_share_copy_url_success">URL copiato negli appunti</string>
   <string name="revanced_share_copy_url_timestamp_success">URL con timestamp copiato</string>
-  <string name="revanced_copy_video_url_title">Mostra il pulsante URL di copia video</string>
+  <string name="revanced_copy_video_url_title">Mostra il pulsante Copia URL Video</string>
   <string name="revanced_copy_video_url_summary_on">Il pulsante è visualizzato. Tocca per copiare l\'URL del video. Tocca e tieni premuto per copiare l\'URL del video con timestamp</string>
   <string name="revanced_copy_video_url_summary_off">Il pulsante non è visibile</string>
-  <string name="revanced_copy_video_url_timestamp_title">Mostra il pulsante URL timestamp copia</string>
+  <string name="revanced_copy_video_url_timestamp_title">Mostra il pulsante Copia URL Video con Timestamp</string>
   <string name="revanced_copy_video_url_timestamp_summary_on">Il pulsante è visualizzato. Tocca per copiare l\'URL del video con timestamp. Tocca e tieni premuto per copiare il video senza timestamp</string>
   <string name="revanced_copy_video_url_timestamp_summary_off">Il pulsante non è visibile</string>
   </patch>
@@ -462,11 +462,11 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_thanks_button_summary_off">Il pulsante Grazie è visibile</string>
   <!-- 'Clip' should be translated with the same localized wording that YouTube displays. -->
   <string name="revanced_hide_clip_button_title">Nascondi Clip</string>
-  <string name="revanced_hide_clip_button_summary_on">Il pulsante clip è nascosto</string>
+  <string name="revanced_hide_clip_button_summary_on">Il pulsante Clip è nascosto</string>
   <string name="revanced_hide_clip_button_summary_off">Il pulsante Clip è visibile</string>
   <!-- 'Save' should be translated with the same localized wording that YouTube displays. -->
   <string name="revanced_hide_playlist_button_title">Nascondi Salva nella playlist</string>
-  <string name="revanced_hide_playlist_button_summary_on">Il pulsante Salva nella playlist è nascosto</string>
+  <string name="revanced_hide_playlist_button_summary_on">Il pulsante Salva in una Playlist è nascosto</string>
   <string name="revanced_hide_playlist_button_summary_off">Il pulsante Salva nella playlist è visibile</string>
   </patch>
   <patch id="layout.buttons.navigation.navigationButtonsPatch">
@@ -497,7 +497,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_navigation_button_labels_summary_off">Le etichette sono visibili</string>
   </patch>
   <patch id="layout.hide.player.flyoutmenupanel.hidePlayerFlyoutMenuPatch">
-  <string name="revanced_hide_player_flyout_title">Flyout menu</string>
+  <string name="revanced_hide_player_flyout_title">Menù a comparsa</string>
   <string name="revanced_hide_player_flyout_summary">Mostra o nascondi le voci del menu di flyout del player</string>
   <!-- 'Captions' should be translated using the same localized wording YouTube displays for the menu item. -->
   <string name="revanced_hide_player_flyout_captions_title">Nascondi Sottotitoli</string>
@@ -833,7 +833,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_settings_ie">Importa/Esporta impostazioni</string>
   <string name="revanced_sb_settings_copy">Copia</string>
   <string name="revanced_sb_settings_ie_sum">La tua configurazione di SponsorBlock in JSON può essere importata/esportata su ReVanced ed altre piattaforme SponsorBlock</string>
-  <string name="revanced_sb_settings_ie_sum_warning">La tua configurazione di SponsorBlock JSON che può essere importata/esportata in piattaforme ReVanced e altre SponsorBlock. Questo include il tuo id utente privato. Assicurati di condividere questo saggiamente</string>
+  <string name="revanced_sb_settings_ie_sum_warning">La tua configurazione di SponsorBlock in JSON che può essere importata o esportata su ReVanced e su altre piattaforme SponsorBlock. Questo include il tuo ID utente univoco, quindi assicurati di condividerlo con saggezza</string>
   <string name="revanced_sb_settings_import_successful">Impostazioni importate con successo</string>
   <string name="revanced_sb_settings_import_failed">Importazione non riuscita: %s</string>
   <string name="revanced_sb_settings_export_failed">Esportazione non riuscita: %s</string>
@@ -942,7 +942,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_stats_submissions">Hai creato segmenti &lt;b&gt;%s&lt;/b&gt;</string>
   <string name="revanced_sb_stats_submissions_sum">Tocca qui per visualizzare i tuoi segmenti</string>
   <string name="revanced_sb_stats_saved_zero">Classifica di SponsorBlock</string>
-  <string name="revanced_sb_stats_saved">Hai salvato le persone dai segmenti &lt;b&gt;%s&lt;/b&gt;</string>
+  <string name="revanced_sb_stats_saved">Hai salvato le persone da &lt;b&gt;%s&lt;/b&gt; segmenti</string>
   <string name="revanced_sb_stats_saved_sum_zero">Tocca qui per vedere le statistiche globali e i migliori contributori</string>
   <string name="revanced_sb_stats_saved_sum">Questo è &lt;b&gt;%s&lt;/b&gt; della loro vita.&lt;br&gt;Tocca qui per vedere la classifica</string>
   <string name="revanced_sb_stats_self_saved">Hai saltato i segmenti &lt;b&gt;%s&lt;/b&gt;</string>
@@ -1013,7 +1013,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_tablet_layout_user_dialog_message">I post della comunità non vengono visualizzati sui layout dei tablet</string>
   </patch>
   <patch id="layout.miniplayer.miniplayerPatch">
-  <string name="revanced_miniplayer_screen_title">Miniplayer</string>
   <string name="revanced_miniplayer_screen_summary">Cambia lo stile del miniplayer nell\'app</string>
   <string name="revanced_miniplayer_type_title">Tipo di Miniplayer</string>
   <string name="revanced_miniplayer_type_entry_0">Disattivato</string>
@@ -1038,7 +1037,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_miniplayer_hide_expand_close_title">Nascondi pulsante di chiusura</string>
   <string name="revanced_miniplayer_hide_expand_close_summary_on">Il pulsante di chiusura è nascosto</string>
   <string name="revanced_miniplayer_hide_expand_close_summary_off">Il pulsante Chiudi è visibile</string>
-  <string name="revanced_miniplayer_hide_expand_close_legacy_title">Nascondi i pulsanti espandi e chiudi</string>
+  <string name="revanced_miniplayer_hide_expand_close_legacy_title">Nascondi i pulsanti Espandi e Chiudi</string>
   <string name="revanced_miniplayer_hide_expand_close_legacy_summary_on">I pulsanti sono nascosti Scorrimento\n\nper espandere o chiudere</string>
   <string name="revanced_miniplayer_hide_expand_close_legacy_summary_off">I pulsanti Espandi e chiudi sono visibili</string>
   <string name="revanced_miniplayer_hide_subtext_title">Nascondi sottotitoli</string>
@@ -1161,7 +1160,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_video_quality_default_wifi_title">Qualità video predefinita sulla rete Wi-Fi</string>
   <string name="revanced_video_quality_default_mobile_title">Qualità video predefinita sulla rete mobile</string>
   <string name="revanced_remember_video_quality_mobile">mobile</string>
-  <string name="revanced_remember_video_quality_wifi">wifi</string>
   <string name="revanced_remember_video_quality_toast">Modificato la qualità predefinita %1$s in: %2$s</string>
   </patch>
   <patch id="video.speed.button.playbackSpeedButtonPatch">
@@ -1244,7 +1242,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_language_MN">Mongolo</string>
   <string name="revanced_spoof_video_streams_language_MR">Marathi</string>
   <string name="revanced_spoof_video_streams_language_MS">Malese</string>
-  <string name="revanced_spoof_video_streams_language_MY">Burmese</string>
+  <string name="revanced_spoof_video_streams_language_MY">Birmano</string>
   <string name="revanced_spoof_video_streams_language_NL">Olandese</string>
   <string name="revanced_spoof_video_streams_language_OR">Odia</string>
   <string name="revanced_spoof_video_streams_language_PA">Punjabi</string>
@@ -1254,7 +1252,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_language_RO">Rumeno</string>
   <string name="revanced_spoof_video_streams_language_RU">Russo</string>
   <string name="revanced_spoof_video_streams_language_SK">Slovacco</string>
-  <string name="revanced_spoof_video_streams_language_SL">Slovene</string>
+  <string name="revanced_spoof_video_streams_language_SL">Sloveno</string>
   <string name="revanced_spoof_video_streams_language_SR">Serbo</string>
   <string name="revanced_spoof_video_streams_language_SV">Svedese</string>
   <string name="revanced_spoof_video_streams_language_SW">Swahili</string>
@@ -1264,7 +1262,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_language_TR">Turco</string>
   <string name="revanced_spoof_video_streams_language_UK">Ucraino</string>
   <string name="revanced_spoof_video_streams_language_UR">Urdu</string>
-  <string name="revanced_spoof_video_streams_language_VI">Vietnamese</string>
+  <string name="revanced_spoof_video_streams_language_VI">Vietnamita</string>
   <string name="revanced_spoof_video_streams_language_ZH">Cinese</string>
   </patch>
   </app>

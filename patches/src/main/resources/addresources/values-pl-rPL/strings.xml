@@ -44,7 +44,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_check_environment_not_near_patch_time_invalid">Data kompilacji APK jest uszkodzona</string>
   </patch>
   <patch id="misc.settings.settingsResourcePatch">
-  <string name="revanced_settings_title">ReVanced</string>
   <string name="revanced_settings_confirm_user_dialog_title">Czy chcesz kontynuować?</string>
   <string name="revanced_settings_reset">Zresetuj</string>
   <string name="revanced_settings_restart_title">Odśwież i uruchom ponownie</string>
@@ -419,7 +418,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_swipe_lowest_value_enable_auto_brightness_title">Gest automatycznej jasności</string>
   <string name="revanced_swipe_lowest_value_enable_auto_brightness_summary_on">Przesunięcie w dół do najniższej wartości gestu jasności włącza automatyczną jasność</string>
   <string name="revanced_swipe_lowest_value_enable_auto_brightness_summary_off">Przesunięcie w dół do najniższej wartości nie włącza automatycznej jasności</string>
-  <string name="revanced_swipe_lowest_value_enable_auto_brightness_overlay_text">Auto</string>
   <string name="revanced_swipe_overlay_timeout_title">Limit czasu widoczności nakładki</string>
   <string name="revanced_swipe_overlay_timeout_summary">Liczba milisekund, przez które nakładka jest widoczna</string>
   <string name="revanced_swipe_text_overlay_size_title">Rozmiar tekstu nakładki przesuwania</string>
@@ -1155,7 +1153,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   </patch>
   <patch id="video.quality.rememberVideoQualityPatch">
   <!-- Translations should use the same text as revanced_custom_playback_speeds_auto -->
-  <string name="revanced_video_quality_default_entry_1">Auto</string>
   <string name="revanced_remember_video_quality_last_selected_title">Zapamiętaj zmiany jakości filmu</string>
   <string name="revanced_remember_video_quality_last_selected_summary_on">Zmiany jakości dotyczą wszystkich filmów</string>
   <string name="revanced_remember_video_quality_last_selected_summary_off">Zmiany jakości dotyczą tylko bieżącego filmu</string>
@@ -1178,7 +1175,6 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_custom_playback_speeds_summary">Dodaj lub zmień niestandardowe prędkości odtwarzania</string>
   <string name="revanced_custom_playback_speeds_invalid">Prędkość niestandardowa musi być mniejsza niż %s. Użyto domyślnych.</string>
   <string name="revanced_custom_playback_speeds_parse_exception">Nieprawidłowe prędkości odtwarzania. Użyto domyślnych.</string>
-  <string name="revanced_custom_playback_speeds_auto">Auto</string>
   </patch>
   <patch id="video.speed.remember.rememberPlaybackSpeedPatch">
   <string name="revanced_remember_playback_speed_last_selected_title">Zapamiętuj zmiany prędkości odtwarzania</string>
@@ -1260,11 +1256,9 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_language_SV">szwedzki</string>
   <string name="revanced_spoof_video_streams_language_SW">suahilijski</string>
   <string name="revanced_spoof_video_streams_language_TA">tamilski</string>
-  <string name="revanced_spoof_video_streams_language_TE">Telugu</string>
   <string name="revanced_spoof_video_streams_language_TH">tajski</string>
   <string name="revanced_spoof_video_streams_language_TR">turecki</string>
   <string name="revanced_spoof_video_streams_language_UK">ukraiński</string>
-  <string name="revanced_spoof_video_streams_language_UR">Urdu</string>
   <string name="revanced_spoof_video_streams_language_VI">wietnamski</string>
   <string name="revanced_spoof_video_streams_language_ZH">chiński</string>
   </patch>

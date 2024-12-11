@@ -56,6 +56,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <patch id="misc.backgroundplayback.backgroundPlaybackPatch">
   </patch>
   <patch id="misc.debugging.enableDebuggingPatch">
+  <string name="revanced_debug_screen_title">பிழைதிருத்தம்</string>
   </patch>
   <patch id="layout.hide.general.hideLayoutComponentsPatch">
   <!-- 'Join' should be translated using the same localized wording YouTube displays.
@@ -172,6 +173,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <patch id="layout.sponsorblock.sponsorBlockResourcePatch">
   <string name="revanced_sb_appearance_category">தோற்றம்</string>
   <!-- Translations should use language similar to 'revanced_ryd_compact_layout_title' -->
+  <string name="revanced_sb_settings_copy">நகலெடு</string>
   <!-- Toast shown if network connection times out. Translations of this should not be longer than the original English or the text can be clipped and not entirely shown. -->
   <!-- Shown in the settings preferences, and translations can be any text length. -->
   <string name="revanced_sb_stats_loading">ஏற்றுகிறது...</string>
@@ -209,6 +211,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
   </patch>
   <patch id="misc.announcements.announcementsPatch">
+  <string name="revanced_announcements_dialog_dismiss">நிராகரிக்கவும்</string>
   </patch>
   <patch id="misc.dns.checkWatchHistoryDomainNameResolutionPatch">
   <string name="revanced_check_watch_history_domain_name_dialog_title">எச்சரிக்கை</string>
@@ -241,6 +244,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <patch id="interaction.seekbar.enableSlideToSeekPatch">
   </patch>
   <patch id="misc.fix.playback.spoofVideoStreamsPatch">
+  <string name="revanced_spoof_video_streams_language_EN">ஆங்கிலம்</string>
+  <string name="revanced_spoof_video_streams_language_FR">பிரெஞ்சு</string>
   </patch>
   </app>
   <app id="twitch">

@@ -33,6 +33,14 @@ This is because Crowdin requires temporarily flattening this file and removing t
 <resources>
   <app id="shared">
   <patch id="misc.checks.checkEnvironmentPatch">
+  <string name="revanced_check_environment_failed_title">\"Правядзенне праверкі асяроддзя не ўдалося\"</string>
+  <string name="revanced_check_environment_dialog_open_official_source_button">\"Адкрыць афіцыйны вэб-сайт\"</string>
+  <string name="revanced_check_environment_dialog_ignore_button">Ігнараваць</string>
+  <string name="revanced_check_environment_not_same_patching_device">Адкарэктавана на іншай прыладзе</string>
+  <string name="revanced_check_environment_manager_not_expected_installer">Не ўстаноўлена ReVanced Manager</string>
+  <string name="revanced_check_environment_not_near_patch_time">Адкарэктавана больш чым 10 хвілін таму</string>
+  <string name="revanced_check_environment_not_near_patch_time_days">Адкарэктавана %s дзён таму</string>
+  <string name="revanced_check_environment_not_near_patch_time_invalid">Дата стварэння APK пашкоджана</string>
   </patch>
   <patch id="misc.settings.settingsResourcePatch">
   <string name="revanced_settings_confirm_user_dialog_title">Вы хочаце працягнуць?</string>
@@ -78,6 +86,9 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_settings_screen_12_video_title">Відэа</string>
   </patch>
   <patch id="misc.backgroundplayback.backgroundPlaybackPatch">
+  <string name="revanced_shorts_disable_background_playback_title">Адключыць прайграванне Shorts у фонавым</string>
+  <string name="revanced_shorts_disable_background_playback_summary_on">Прайграванне Shorts у фонавым адключана</string>
+  <string name="revanced_shorts_disable_background_playback_summary_off">Фоновый плейлист Shorts включен</string>
   </patch>
   <patch id="misc.debugging.enableDebuggingPatch">
   <string name="revanced_debug_screen_title">Адладка</string>
@@ -246,6 +257,9 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_comments_section_title">Схаваць раздзел каментарыяў</string>
   <string name="revanced_hide_comments_section_summary_on">Раздзел каментарыяў схаваны</string>
   <string name="revanced_hide_comments_section_summary_off">Паказваецца раздзел каментарыяў</string>
+  <string name="revanced_hide_comments_create_a_short_button_title">Схаваць кнопку \"Створиць Short\"</string>
+  <string name="revanced_hide_comments_create_a_short_button_summary_on">Кнопка \"Створиць Short\" схавана</string>
+  <string name="revanced_hide_comments_create_a_short_button_summary_off">Кнопка \"Створиць Short\" паказана</string>
   <string name="revanced_hide_comments_preview_comment_title">Схаваць каментарый для папярэдняга прагляду</string>
   <string name="revanced_hide_comments_preview_comment_summary_on">Каментарый перад праглядам схаваны</string>
   <string name="revanced_hide_comments_preview_comment_summary_off">Паказваецца папярэдні прагляд каментарыя</string>
@@ -256,6 +270,9 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_comments_timestamp_and_emoji_buttons_summary_on">Кнопкі меткі часу і эмодзі схаваны</string>
   <string name="revanced_hide_comments_timestamp_and_emoji_buttons_summary_off">Паказваюцца кнопкі меткі часу і эмодзі</string>
   <!-- https://logos.fandom.com/wiki/YouTube/Yoodles -->
+  <string name="revanced_hide_doodles_title">Схаваць YouTube Doodles</string>
+  <string name="revanced_hide_doodles_summary_on">Doodles у панэлі пошуку схаваны</string>
+  <string name="revanced_hide_doodles_summary_off">Doodles у панэлі пошуку паказаны</string>
   <string name="revanced_custom_filter_screen_title">Карыстальніцкі фільтр</string>
   <string name="revanced_custom_filter_screen_summary">Схавайце кампаненты з дапамогай карыстацкіх фільтраў</string>
   <string name="revanced_custom_filter_title">Уключыць карыстальніцкі фільтр</string>
@@ -446,6 +463,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_hide_home_button_summary_on">Кнопка \"Дадому\" схавана</string>
   <string name="revanced_hide_home_button_summary_off">Паказана кнопка \"Дадому\".</string>
   <!-- 'Shorts' should be translated using the same localized wording YouTube displays the tab. -->
+  <string name="revanced_hide_shorts_button_summary_on">Кнопка Shorts схавана</string>
+  <string name="revanced_hide_shorts_button_summary_off">Кнопка shorts паказваецца</string>
   <!-- The Create button has no display name. Translate normally. -->
   <string name="revanced_hide_create_button_title">Схаваць Стварыць</string>
   <string name="revanced_hide_create_button_summary_on">Кнопка \"Стварыць\" схавана</string>
@@ -556,6 +575,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   </patch>
   <patch id="layout.hide.shorts.hideShortsComponentsResourcePatch">
   <!-- 'home' should be translated using the same localized wording YouTube displays for the home tab. -->
+  <string name="revanced_hide_shorts_home_title">Схаваць шорты ў хатняй стужцы</string>
   <!-- 'subscription' should be translated using the same localized wording YouTube displays for the subscription tab. -->
   <!-- 'join' should be translated using the same localized wording YouTube displays for the button. -->
   <string name="revanced_hide_shorts_join_button_title">Схаваць кнопку далучыцца</string>
@@ -1074,6 +1094,8 @@ This is because Crowdin requires temporarily flattening this file and removing t
   </patch>
   <patch id="misc.fix.playback.spoofVideoStreamsPatch">
   <string name="revanced_spoof_video_streams_user_dialog_message">Адключэнне гэтай налады можа выклікаць праблемы з прайграваннем відэа.</string>
+  <string name="revanced_spoof_video_streams_language_EN">Англійская</string>
+  <string name="revanced_spoof_video_streams_language_FR">Французская</string>
   </patch>
   </app>
   <app id="twitch">

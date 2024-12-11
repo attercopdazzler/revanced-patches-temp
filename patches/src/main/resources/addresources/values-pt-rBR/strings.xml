@@ -82,6 +82,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_settings_screen_03_feed_title">Feed</string>
   <string name="revanced_settings_screen_04_player_title">Reprodutor</string>
   <string name="revanced_settings_screen_05_general_title">Layout geral</string>
+  <string name="revanced_settings_screen_06_shorts_title">Shorts</string>
   <string name="revanced_settings_screen_07_seekbar_title">Barra de busca</string>
   <string name="revanced_settings_screen_08_swipe_controls_title">Controles deslizantes</string>
   <string name="revanced_settings_screen_11_misc_title">Outras configurações</string>
@@ -956,6 +957,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_sb_reset_color">Redefinir cor</string>
   <string name="revanced_sb_reset">Resetar</string>
   <string name="revanced_sb_about">Sobre</string>
+  <string name="revanced_sb_about_api">sponsor.ajay.app</string>
   <string name="revanced_sb_about_api_sum">Os dados são fornecidos pela API do SponsorBlock. Toque aqui para aprender mais e ver como baixar para outras plataformas</string>
   </patch>
   <patch id="layout.spoofappversion.spoofAppVersionPatch">
@@ -1083,6 +1085,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_alt_thumbnail_options_entry_2">DeArrow &amp; Miniaturas originais</string>
   <string name="revanced_alt_thumbnail_options_entry_3">DeArrow &amp; captura estática</string>
   <string name="revanced_alt_thumbnail_options_entry_4">Captura estática</string>
+  <string name="revanced_alt_thumbnail_dearrow_about_title">DeArrow</string>
   <string name="revanced_alt_thumbnail_dearrow_about_summary">DeArrow fornece miniaturas de forma coletivas para vídeos do YouTube. Estas miniaturas são frequentemente mais relevantes do que as fornecidas pelo YouTube\n\nSe ativado, URLs de vídeo serão enviadas para o servidor API e nenhum outro dado será enviado. Se um vídeo não tiver miniaturas DeArrow, então o original ou captura estática será mostrado\n\nToque aqui para saber mais sobre o DeArrow</string>
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_title">Exibir uma notificação flutuante se a API não estiver disponível</string>
   <string name="revanced_alt_thumbnail_dearrow_connection_toast_summary_on">Notificação flutuante será exibida se DeArrow não estiver disponível</string>
@@ -1206,6 +1209,7 @@ This is because Crowdin requires temporarily flattening this file and removing t
   <string name="revanced_spoof_video_streams_about_ios_title">Efeitos colaterais do spoofing de iOS</string>
   <string name="revanced_spoof_video_streams_about_android_vr_title">Efeitos colaterais do spoofing de Android VR</string>
   <string name="revanced_spoof_video_streams_language_EN">Inglês</string>
+  <string name="revanced_spoof_video_streams_language_FR">Francês</string>
   </patch>
   </app>
   <app id="twitch">
