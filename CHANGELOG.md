@@ -1,3 +1,20 @@
+# [5.4.0](https://github.com/attercopdazzler/revanced-patches-temp/compare/v5.3.0...v5.4.0) (2024-12-11)
+
+
+### Bug Fixes
+
+* **TikTok - Settings:** Use correct colors for dark mode ([#4087](https://github.com/attercopdazzler/revanced-patches-temp/issues/4087)) ([6bd22ff](https://github.com/attercopdazzler/revanced-patches-temp/commit/6bd22ffa7e8af4d8f5d2d3b1711bd92c44b4e4aa))
+* **TikTok - SIM Spoof:** Change patch to default off to fix login ([#4084](https://github.com/attercopdazzler/revanced-patches-temp/issues/4084)) ([f4659a3](https://github.com/attercopdazzler/revanced-patches-temp/commit/f4659a328eaf600e1e5f02a66fa2af4b6d8dc7c1))
+* **YouTube - Spoof video streams:** Fix error toast that is sometimes shown ([#4090](https://github.com/attercopdazzler/revanced-patches-temp/issues/4090)) ([4c46cb2](https://github.com/attercopdazzler/revanced-patches-temp/commit/4c46cb27a02c6f29626cd769b6a8e825645d5b16))
+* **YouTube - Spoof video streams:** Resolve playback of age restricted videos ([#4096](https://github.com/attercopdazzler/revanced-patches-temp/issues/4096)) ([839a404](https://github.com/attercopdazzler/revanced-patches-temp/commit/839a4045f1bb1759d89047834e0b7695781e82a3))
+
+
+### Features
+
+* Add Internal data documents provider patch ([#3830](https://github.com/attercopdazzler/revanced-patches-temp/issues/3830)) ([cb22f65](https://github.com/attercopdazzler/revanced-patches-temp/commit/cb22f652ed678d81ffda9ece659b3971225d6931))
+* **Change package name:** Add options to change provider and permission package names to handle installation conflicts ([75c740c](https://github.com/attercopdazzler/revanced-patches-temp/commit/75c740c6ba2e0c62e567f7dc90cdad368fc4f372))
+* **Twitch:** Make patches compatible with latest versions ([51b5105](https://github.com/attercopdazzler/revanced-patches-temp/commit/51b51055326798c0302d49570d1e25e1dc2b76b5))
+
 # [5.4.0-dev.5](https://github.com/ReVanced/revanced-patches/compare/v5.4.0-dev.4...v5.4.0-dev.5) (2024-12-10)
 
 
